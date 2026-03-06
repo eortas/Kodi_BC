@@ -11,7 +11,7 @@ base_url = sys.argv[0]
 addon_handle = int(sys.argv[1])
 args = urllib.parse.parse_qs(sys.argv[2][1:])
 
-JSON_URL = "URL_RAW_DE_TU_DATA_JSON"
+JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
 
 def get_remote_data():
     try:
