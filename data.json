@@ -1,14 +1,466 @@
 {
     "FUNDAMENTALS": [
         {
-            "title": "Módulo 0: Visual Studio, GitHub y Jupyter Notebook",
+            "title": "Variables, Operaciones Básicas y Flujos de control, Clase 15/04 Parte 1",
             "video_id": "zKB6Y56yPe8"
+        },
+        {
+            "title": "Variables, Operaciones Básicas y Flujos de control, Clase 15/04 Parte 2",
+            "video_id": "E7FM-tJj6sc"
+        },
+        {
+            "title": "Colecciones, Clase 16/04 Parte 1",
+            "video_id": "ZK9iCx6GXkw"
+        },
+        {
+            "title": "Colecciones, Clase 16/04 Parte 2",
+            "video_id": "ngZ3TRNs2Kg"
+        },
+        {
+            "title": "Visual Studio, GitHub y Jupyter Notebook, Clase 08/05, Parte 1",
+            "video_id": "-Xs4i9pbDq0"
+        },
+        {
+            "title": "Visual Studio, GitHub y Jupyter Notebook, Clase 08/05, Parte 2",
+            "video_id": "uwbbjHv6BdI"
         }
     ],
     "PROYECTO HUNDIR LA FLOTA": [
-        
+        {
+            "title": "Clase 09/05 Presentaciones Hundir la flota, Parte 1",
+            "video_id": "aJ1rJtqOJgw"
+        },
+        {
+            "title": "Clase 09/05 Presentaciones Hundir la flota, Parte 2",
+            "video_id": "IDzUzvqatSA"
+        }
     ],
     "NUMPY": [
-        
+         {
+            "title": "Clase 05/05, Numpy, Parte 1",
+            "video_id": "Dfo1W5rvdSQ"
+        },
+        {
+            "title": "Clase 05/05, Numpy, Parte 2",
+            "video_id": "zNTdYI1kMpc"
+        },
+        {
+            "title": "Clase 06/05, Numpy, Parte 1",
+            "video_id": "lPzoLBajRhI"
+        },
+        {
+            "title": "Clase 06/05, Numpy, Parte 2",
+            "video_id": "2VJHMi99bkU"
+        },
+        {
+            "title": "Clase 07/05, Numpy, Parte 1",
+            "video_id": "gTxyIy24c0A"
+        },
+        {
+            "title": "Clase 07/05, Numpy, Parte 2",
+            "video_id": "bGArBMMaCu8"
+        }
+    ],
+    "PANDAS": [
+        {
+            "title": "Clase 12/05, Pandas, Parte 1",
+            "video_id": "xPCSi7r1Vfk"
+        },
+        {
+            "title": "Clase 12/05, Pandas, Parte 2",
+            "video_id": "WlolLZuPYp8"
+        },
+        {
+            "title": "Clase 13/05, Pandas, Parte 1",
+            "video_id": "55Luty-3LgI"
+        },
+        {
+            "title": "Clase 13/05, Pandas, Parte 2",
+            "video_id": "enePB6lQM-M"
+        },
+        {
+            "title": "Clase 13/05, Pandas, Parte 3",
+            "video_id": "O2DhHBZAf1o"
+        },
+        {
+            "title": "Clase 14/05, Pandas, Parte 1",
+            "video_id": "43JfURpCoi0"
+        },
+        {
+            "title": "Clase 14/05, Pandas, Parte 2",
+            "video_id": "T3YpW3gLpD0"
+        },
+        {
+            "title": "Clase 15/05, Pandas, Parte 1",
+            "video_id": "CtwRZWB1XyI"
+        },
+        {
+            "title": "Clase 15/05, Pandas, Parte 2",
+            "video_id": "c9rkVKfk1HM"
+        },
+        {
+            "title": "Clase 16/05, Pandas, Parte 1",
+            "video_id": "_JSGTlQqQbY"
+        },
+        {
+            "title": "Clase 16/05, Pandas, Parte 2",
+            "video_id": "fEfTY9T3tVg"
+        }
+    ],
+    "FUENTES DE DATOS": [
+        {
+            "title": "Clase 19/05, Fuentes de Datos, Parte 1",
+            "video_id": "FH0a7OLxJiE"
+        },
+        {
+            "title": "Clase 19/05, Fuentes de Datos, Parte 2",
+            "video_id": "qazsLOITIKE"
+        },
+        {
+            "title": "Clase 20/05, Fuentes de Datos, Parte 1",
+            "video_id": "Qin2hknlZFI"
+        },
+        {
+            "title": "Clase 20/05, Fuentes de Datos, Parte 2",
+            "video_id": "liUB4xdr3YM"
+        },
+        {
+            "title": "Clase 21/05, Fuentes de Datos, Parte 1",
+            "video_id": "8EfxpQVHIo0"
+        },
+        {
+            "title": "Clase 21/05, Fuentes de Datos, Parte 2",
+            "video_id": "VrlZ3ab9mcc"
+        },
+        {
+            "title": "Clase 28/05, Fuentes de Datos, Parte 1",
+            "video_id": "G9dzxUXZCiQ"
+        },
+        {
+            "title": "Clase 28/05, Fuentes de Datos, Parte 2",
+            "video_id": "n8fl01c1SCo"
+        },
+        {
+            "title": "Clase 29/05, Fuentes de Datos, Parte 1",
+            "video_id": "VZD0PjGv7n8"
+        },
+        {
+            "title": "Clase 29/05, Fuentes de Datos, Parte 2",
+            "video_id": "d4LdRQdTItE"
+        }
+    ],
+    "VISUALIZACIÓN DE DATOS": [
+        {
+            "title": "Clase 22/05, Visualización de Datos, Parte 1",
+            "video_id": "s0z-Do9oOF0"
+        },
+        {
+            "title": "Clase 22/05, Visualización de Datos, Parte 2",
+            "video_id": "iAutvQZDeg4"
+        },
+        {
+            "title": "Clase 23/05, Visualización de Datos, Parte 1",
+            "video_id": "JvDNHRvORzk"
+        },
+        {
+            "title": "Clase 23/05, Visualización de Datos, Parte 2",
+            "video_id": "B7djYG488to"
+        },
+        {
+            "title": "Clase 26/05, Visualización de Datos, Parte 1",
+            "video_id": "CP5mASDYCBQ"
+        },
+        {
+            "title": "Clase 26/05, Visualización de Datos, Parte 2",
+            "video_id": "6hKXHlIWD2U"
+        },
+        {
+            "title": "Clase 27/05, Visualización de Datos, Parte 1",
+            "video_id": "rOQOqUH6XMY"
+        }
+    ],
+    "PROYECTO EDA": [
+        {
+            "title": "Clase 30/05, Proyecto EDA, Parte 1",
+            "video_id": "qnXMKgSK9v4"
+        },
+        {
+            "title": "Clase 30/05, Proyecto EDA, Parte 2",
+            "video_id": "-zKFPQ1jx0c"
+        }
+    ],
+    "BASES DE DATOS": [
+        {
+            "title": "Clase 02/06, Bases de Datos, Parte 1",
+            "video_id": "jD_XjNQ6G6s"
+        },
+        {
+            "title": "Clase 02/06, Bases de Datos, Parte 2",
+            "video_id": "_9c0dwybhec"
+        },
+        {
+            "title": "Clase 03/06, Bases de Datos, Parte 1",
+            "video_id": "izee___9I_w"
+        },
+        {
+            "title": "Clase 03/06, Bases de Datos, Parte 2",
+            "video_id": "4nQ9Gi9Flkg"
+        },
+        {
+            "title": "Clase 04/06, Bases de Datos, Parte 1",
+            "video_id": "VvVyzI5K5rE"
+        },
+        {
+            "title": "Clase 04/06, Bases de Datos, Parte 2",
+            "video_id": "LnB5CZHz2j4"
+        },
+        {
+            "title": "Clase 05/06, Bases de Datos, Parte 1",
+            "video_id": "zVzEDGRTZpY"
+        },
+        {
+            "title": "Clase 05/06, Bases de Datos, Parte 2",
+            "video_id": "7X_JLva5FUo"
+        },
+        {
+            "title": "Clase 05/06, Bases de Datos, Parte 3",
+            "video_id": "ceggVGtAd1M"
+        }
+    ],
+    "REGRESIÓN LINEAL": [
+        {
+            "title": "Clase 09/06, Regresión Lineal, Parte 1",
+            "video_id": "eH7Db_YT8so"
+        },
+        {
+            "title": "Clase 09/06, Regresión Lineal, Parte 2",
+            "video_id": "k1z2U3IJOC8"
+        }
+    ],
+    "REGRESIÓN POLINÓMICA": [
+        {
+            "title": "Clase 10/06, Regresión Polinómica, Parte 1",
+            "video_id": "51nZxw6c5P8"
+        },
+        {
+            "title": "Clase 10/06, Regresión Polinómica, Parte 2",
+            "video_id": "83MEvcFHVPg"
+        },
+        {
+            "title": "Clase 11/06, Regresión Polinómica, Parte 1",
+            "video_id": "PPOlMHP1Hbc"
+        },
+        {
+            "title": "Clase 11/06, Regresión Polinómica, Parte 2",
+            "video_id": "NxWbYLe75Z0"
+        },
+        {
+            "title": "Clase 12/06, Regresión Polinómica, Parte 1",
+            "video_id": "ysHLgXCHOB4"
+        },
+        {
+            "title": "Clase 12/06, Regresión Polinómica, Parte 2",
+            "video_id": "u9_HhTUSJGY"
+        },
+        {
+            "title": "Clase 13/06, Regresión Polinómica, Parte 1",
+            "video_id": "U4vc6u5Ofhg"
+        },
+        {
+            "title": "Clase 16/06, Regresión Polinómica, Parte 1",
+            "video_id": "SV-laSb14J0"
+        },
+        {
+            "title": "Clase 16/06, Regresión Polinómica, Parte 2",
+            "video_id": "2AW6bytPPcE"
+        }
+    ],
+    "CLASIFICACIÓN REGRESIÓN LOGÍSTICA": [
+        {
+            "title": "Clase 17/06, Clasificación Regresión Logística, Parte 1",
+            "video_id": "-gZbrBStFWU"
+        },
+        {
+            "title": "Clase 17/06, Clasificación Regresión Logística, Parte 2",
+            "video_id": "zx6rn2qtCjY"
+        }
+    ],
+    "ARBOLES DE DECISIÓN": [
+        {
+            "title": "Clase 18/06, Árboles de Decisión, Parte 1",
+            "video_id": "Q3vZdP-Svvk"
+        },
+        {
+            "title": "Clase 18/06, Árboles de Decisión, Parte 2",
+            "video_id": "wLir9gyf2Bg"
+        }
+    ],
+    "ENSAMBLES / BOOSTING": [
+        {
+            "title": "Clase 24/06, Ensambles / Boosting, Parte 1",
+            "video_id": "dTEbCVgIb0c"
+        },
+        {
+            "title": "Clase 24/06, Ensambles / Boosting, Parte 2",
+            "video_id": "LocqOM-u7Uw"
+        },
+        {
+            "title": "Clase 25/06, Ensambles / Boosting, Parte 1",
+            "video_id": "KkCPOkKxAF4"
+        },
+        {
+            "title": "Clase 25/06, Ensambles / Boosting, Parte 2",
+            "video_id": "9TVR6h2Y9lg"
+        },
+        {
+            "title": "Clase 26/06, Ensambles / Boosting, Parte 1",
+            "video_id": "IJoqzI1MZDU"
+        },
+        {
+            "title": "Clase 26/06, Ensambles / Boosting, Parte 2",
+            "video_id": "ShfaUfm-UYQ"
+        }
+    ],
+    "KNN - SVM": [
+        {
+            "title": "Clase 23/06, KNN - SVM, Parte 1",
+            "video_id": "IJqHm_7I95o"
+        },
+        {
+            "title": "Clase 23/06, KNN - SVM, Parte 2",
+            "video_id": "UUrULZoUZ3A"
+        }
+    ],
+    "NO SUPERVISADO - CLUSTERING KMEANS": [
+        {
+            "title": "Clase 30/06, No Supervisado - Clustering KMeans, Parte 1",
+            "video_id": "BnCK5PGLijg"
+        },
+        {
+            "title": "Clase 30/06, No Supervisado - Clustering KMeans, Parte 2",
+            "video_id": "--yNJ2n5oPE"
+        },
+        {
+            "title": "Clase 01/07, No Supervisado - Clustering KMeans, Parte 1",
+            "video_id": "G3xObv1qmZs"
+        },
+        {
+            "title": "Clase 01/07, No Supervisado - Clustering KMeans, Parte 2",
+            "video_id": "hyeChbAqkRQ"
+        }
+    ],
+    "NO SUPERVISADO - PCA / REDES NEURONALES": [
+        {
+            "title": "Clase 02/07, No Supervisado - PCA / Redes Neuronales, Parte 1",
+            "video_id": "rhYWTCnUDWg"
+        },
+        {
+            "title": "Clase 02/07, No Supervisado - PCA / Redes Neuronales, Parte 2",
+            "video_id": "mBZ1lrvYk1Q"
+        },
+        {
+            "title": "Clase 03/07, No Supervisado - PCA / Redes Neuronales, Parte 1",
+            "video_id": "GB0wBhBsSWE"
+        },
+        {
+            "title": "Clase 03/07, No Supervisado - PCA / Redes Neuronales, Parte 2",
+            "video_id": "U-t7a9dPw8g"
+        }
+    ],
+    "COMPUTER VISION": [
+        {
+            "title": "Clase 04/07, Computer Vision, Parte 1",
+            "video_id": "Kb4q3Gh1HxA"
+        }
+    ],
+    "APRENDIZAJE POR REFUERZO": [
+        {
+            "title": "Clase 08/07, Aprendizaje por Refuerzo, Parte 1",
+            "video_id": "VDI6XDtYdUk"
+        }
+    ],
+    "PROYECTO ML": [
+        {
+            "title": "Clase 20/06, Proyecto ML, Parte 1",
+            "video_id": "Vb2_AO_DMuc"
+        },
+        {
+            "title": "Clase 20/06, Proyecto ML, Parte 2",
+            "video_id": "1xsHaFnt74o"
+        },
+        {
+            "title": "Clase 27/06, Proyecto ML, Parte 1",
+            "video_id": "tWTPM1dC8Ps"
+        },
+        {
+            "title": "Clase 27/06, Proyecto ML, Parte 2",
+            "video_id": "IEudyy7uU2s"
+        },
+        {
+            "title": "Clase 04/07, Proyecto ML, Parte 1",
+            "video_id": "oXQERa_xB-A"
+        },
+        {
+            "title": "Clase 07/07, Proyecto ML, Parte 1",
+            "video_id": "uRHoTvPhhzo"
+        },
+        {
+            "title": "Clase 07/07, Proyecto ML, Parte 2",
+            "video_id": "ksCsIrqjIls"
+        },
+        {
+            "title": "Clase 08/07, Proyecto ML, Parte 1",
+            "video_id": "c1zXcSanVBw"
+        }
+    ],
+    "APIS DOCKER": [
+        {
+            "title": "Clase 09/07, APIs Docker, Parte 1",
+            "video_id": "fe6M0GteVRY"
+        },
+        {
+            "title": "Clase 09/07, APIs Docker, Parte 2",
+            "video_id": "IJROoFxNUeA"
+        },
+        {
+            "title": "Clase 10/07, APIs Docker, Parte 1",
+            "video_id": "Tq8lAqYUJK4"
+        },
+        {
+            "title": "Clase 10/07, APIs Docker, Parte 2",
+            "video_id": "ajcYTwVWuzs"
+        },
+        {
+            "title": "Clase 11/07, APIs Docker, Parte 1",
+            "video_id": "6WeLzw9-z-Y"
+        },
+        {
+            "title": "Clase 11/07, APIs Docker, Parte 2",
+            "video_id": "_PfDhYaX1oc"
+        },
+        {
+            "title": "Clase 11/07, APIs Docker, Parte 3",
+            "video_id": "lN5sTcNFV4E"
+        }
+    ],
+    "CLOUD COMPUTING AWS": [
+        {
+            "title": "Clase 14/07, Cloud Computing AWS, Parte 1",
+            "video_id": "aSYvQgDJVxU"
+        },
+        {
+            "title": "Clase 14/07, Cloud Computing AWS, Parte 2",
+            "video_id": "jmIpe4RvhpI"
+        }
+    ],
+    "PROYECTO LLM": [
+        {
+            "title": "Clase 15/07, Proyecto LLM, Parte 1",
+            "video_id": "6eMafHoVmQc"
+        },
+        {
+            "title": "Clase 15/07, Proyecto LLM, Parte 2",
+            "video_id": "51G-tsVn70Y"
+        }
     ]
 }
