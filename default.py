@@ -8,7 +8,7 @@ import xbmc
 addon_handle = int(sys.argv[1])
 
 # Sustituye esto por la URL directa a tu archivo JSON (ej. GitHub Raw)
-JSON_URL = "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/data.json"
+JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
 
 def get_remote_data():
     try:
