@@ -36,7 +36,7 @@ def router():
         return
 
     if mode is None:
-        # NIVEL 1: Mostrar los módulos
+        # NIVEL 1: Muestra los módulos
         for module in bootcamp_data.keys():
             url = build_url({'mode': 'list_videos', 'module': module})
             li = xbmcgui.ListItem(module)
@@ -44,18 +44,18 @@ def router():
         xbmcplugin.endOfDirectory(addon_handle)
 
     elif mode == 'list_videos':
-        # NIVEL 2: Mostrar los vídeos del módulo seleccionado
+        # NIVEL 2: Muestra los vídeos del módulo seleccionado
         module = args.get('module', [None])[0]
         
         if module in bootcamp_data:
             for video in bootcamp_data[module]:
-                # Endpoint de reproducción directa (suele evadir la API)
+                # Endpoint de reproducción directa
                 youtube_url = f"plugin://plugin.video.youtube/play/?video_id={video['video_id']}"
                 
                 li = xbmcgui.ListItem(video['title'])
                 li.setProperty('IsPlayable', 'true')
                 
-                # isFolder=False dispara el reproductor en lugar de abrir un submenú
+                # Agregamos el vídeo a la lista de reproducción
                 xbmcplugin.addDirectoryItem(handle=addon_handle, url=youtube_url, listitem=li, isFolder=False)
                 
         xbmcplugin.endOfDirectory(addon_handle)
