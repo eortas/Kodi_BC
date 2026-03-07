@@ -29,9 +29,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add addons.xml addons.xml.md5 \
-                  plugin.video.bootcamp_data_science/*.zip \
-                  repository.bootcamp_ds/ || true
+          git add -A
           git diff --cached --quiet || git commit -m "🏗️ Build repo Kodi $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
