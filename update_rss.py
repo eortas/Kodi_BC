@@ -2,15 +2,15 @@
 update_rss.py
 -------------
 Descarga los últimos vídeos de cada canal RSS definido en data.json,
-detecta Shorts y los marca con prefijo 📱 (SHORT),
+detecta Shorts via yt-dlp (duración <= 60s) y los marca con prefijo 📱 (SHORT),
 combina con el historial acumulado (sin duplicados) y guarda el resultado.
 
 Se ejecuta automáticamente via GitHub Actions cada 24 horas.
 """
 
 import json
+import subprocess
 import urllib.request
-import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -18,24 +18,26 @@ DATA_FILE = Path("data.json")
 MAX_VIDEOS_PER_CHANNEL = 500
 
 
-def is_short(video_id: str) -> bool:
-    """
-    Detecta si un vídeo es un Short comprobando si la URL /shorts/ devuelve 200.
-    Los Shorts responden 200, los vídeos normales redirigen (303/302).
-    """
-    url = f"https://www.youtube.com/shorts/{video_id}"
+def get_duration(video_id: str) -> int:
+    """Obtiene la duración en segundos via yt-dlp. Devuelve 999 si falla."""
     try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0"},
-            method="HEAD"
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                "--no-playlist",
+                "--print", "duration",
+                f"https://www.youtube.com/watch?v={video_id}"
+            ],
+            capture_output=True, text=True, timeout=20
         )
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            return resp.status == 200
-    except urllib.error.HTTPError:
-        return False
+        value = result.stdout.strip()
+        return int(value) if value.isdigit() else 999
     except Exception:
-        return False
+        return 999  # si falla, asumir que no es short
+
+
+def is_short(video_id: str) -> bool:
+    return get_duration(video_id) <= 60
 
 
 def fetch_rss(channel_id: str) -> list[dict]:
@@ -62,10 +64,12 @@ def fetch_rss(channel_id: str) -> list[dict]:
         thumbnail = entry.find("media:group/media:thumbnail", ns)
         thumb_url = thumbnail.attrib.get("url", "") if thumbnail is not None else ""
 
-        # Detectar shorts y añadir prefijo al título
+        # Detectar shorts via duración real
         if is_short(video_id):
             print(f"      📱 SHORT detectado: {title}")
             title = f"📱 (SHORT) {title}"
+        else:
+            print(f"      ▶️  Vídeo: {title[:60]}")
 
         videos.append({"video_id": video_id, "title": title, "thumbnail": thumb_url})
 
@@ -109,15 +113,11 @@ def main():
             channel_id = channel_info.get("channel_id", "")
             print(f"  📺 Canal: {channel_name} ({channel_id})")
 
-            # Vídeos ya guardados en el historial
-            existing = channel_info.get("videos", [])
-
-            # Últimos 15 del RSS
+            existing   = channel_info.get("videos", [])
             new_videos = fetch_rss(channel_id)
             if not new_videos:
                 continue
 
-            # Merge: nuevos primero, sin duplicados
             merged = merge_videos(new_videos, existing)
 
             if len(merged) != len(existing):
