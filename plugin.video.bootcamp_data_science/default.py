@@ -17,7 +17,7 @@ addon_handle = int(sys.argv[1])
 args         = urllib.parse.parse_qs(sys.argv[2][1:])
 
 JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
-# paste.rs no requiere API key
+# dpaste.com no requiere API key
 
 # Caché en sesión
 _data_cache = None
@@ -100,23 +100,28 @@ def read_favourites():
 
 
 def upload_to_paste(data):
-    """Sube los datos a paste.rs (sin API key) y devuelve la URL pública."""
+    """Sube los datos a dpaste.com (sin API key) y devuelve la URL pública."""
     try:
-        payload = json.dumps(data, ensure_ascii=False, indent=2).encode('utf-8')
+        content = json.dumps(data, ensure_ascii=False, indent=2)
+        form_data = urllib.parse.urlencode({
+            'content':   content,
+            'syntax':    'json',
+            'expiry_days': 7,
+        }).encode('utf-8')
         req = urllib.request.Request(
-            'https://paste.rs',
-            data=payload,
+            'https://dpaste.com/api/v2/',
+            data=form_data,
             headers={
-                'Content-Type': 'text/plain; charset=utf-8',
+                'Content-Type': 'application/x-www-form-urlencoded',
                 'User-Agent':   'Mozilla/5.0'
             },
             method='POST'
         )
         with urllib.request.urlopen(req, timeout=10) as response:
-            url = response.read().decode('utf-8').strip()
-            return url
+            url = response.read().decode('utf-8').strip().rstrip('/')
+            return url + '.txt'
     except Exception as e:
-        xbmc.log(f"Error subiendo a paste.rs: {e}", xbmc.LOGERROR)
+        xbmc.log(f"Error subiendo a dpaste.com: {e}", xbmc.LOGERROR)
         return None
 
 
@@ -162,8 +167,8 @@ def export_favourites():
     if not ok:
         return
 
-    # 3. Subir a paste.rs
-    xbmc.log("Subiendo favoritos a paste.rs...", xbmc.LOGINFO)
+    # 3. Subir a dpaste.com
+    xbmc.log("Subiendo favoritos a dpaste.com...", xbmc.LOGINFO)
     export_data = {
         'exported_from': 'Kodi Bootcamp DS Addon',
         'total':         len(favourites),
@@ -291,13 +296,13 @@ def router():
 
         # Botón exportar favoritos al final del menú principal
         url_export = build_url({'mode': 'export_favourites'})
-        li_export  = xbmcgui.ListItem('📱 Exportar favoritos (QR)')
+        li_export  = xbmcgui.ListItem('Exportar favoritos (QR)')
         li_export.setArt({'thumb': 'DefaultAddonRepository.png'})
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url_export, listitem=li_export, isFolder=False)
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 2 — Módulos o canales ─────────────────────────────────────── #
+    # ── NIVEL 2 — Módulos o canales #
     elif mode == 'list_modules':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
@@ -322,7 +327,7 @@ def router():
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 3 — Vídeos ────────────────────────────────────────────────── #
+    # ── NIVEL 3 — Vídeos #
     elif mode == 'list_videos':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
