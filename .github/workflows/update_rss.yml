@@ -1,0 +1,30 @@
+name: Actualizar RSS canales
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Cada día a las 6:00 UTC (8:00 hora España)
+  workflow_dispatch:        # Permite lanzarlo manualmente desde GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ejecutar script de actualización
+        run: python update_rss.py
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "🤖 Auto-update RSS canales $(date +'%Y-%m-%d')"
+          git push
