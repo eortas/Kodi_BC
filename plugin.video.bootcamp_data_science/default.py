@@ -78,7 +78,7 @@ def get_channel_videos_rss(channel_id):
 
 def read_favourites():
     """Lee los favoritos de Kodi desde favourites.xml."""
-    fav_path = xbmc.translatePath('special://userdata/favourites.xml')
+    fav_path = xbmcvfs.translatePath('special://userdata/favourites.xml')
     favourites = []
 
     if not xbmcvfs.exists(fav_path):
@@ -132,7 +132,7 @@ def download_qr_image(url):
             img_data = response.read()
 
         # Guardar en caché temporal de Kodi
-        cache_dir = xbmc.translatePath('special://temp/')
+        cache_dir = xbmcvfs.translatePath('special://temp/')
         qr_path   = os.path.join(cache_dir, 'kodi_favourites_qr.png')
         with xbmcvfs.File(qr_path, 'w') as f:
             f.write(bytearray(img_data))
