@@ -32,6 +32,6 @@ jobs:
           git add addons.xml addons.xml.md5 \
                   plugin.video.bootcamp_data_science/*.zip \
                   repository.bootcamp_ds/ || true
-          git diff --cached --quiet || git commit -m "🏗️ Build repo Kodi v$(python -c \"import xml.etree.ElementTree as ET; print(ET.parse('plugin.video.bootcamp_data_science/addon.xml').getroot().get('version'))\")"
+          git diff --cached --quiet || git commit -m "🏗️ Build repo Kodi $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
