@@ -17,7 +17,7 @@ addon_handle = int(sys.argv[1])
 args         = urllib.parse.parse_qs(sys.argv[2][1:])
 
 JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
-JSONBIN_API_KEY = "$2a$10$tuApiKeyAqui"  # ← reemplaza con tu API key de jsonbin.io
+# paste.rs no requiere API key
 
 # Caché en sesión
 _data_cache = None
@@ -99,27 +99,24 @@ def read_favourites():
     return favourites
 
 
-def upload_to_jsonbin(data):
-    """Sube los datos a jsonbin.io y devuelve la URL pública."""
+def upload_to_paste(data):
+    """Sube los datos a paste.rs (sin API key) y devuelve la URL pública."""
     try:
-        payload = json.dumps(data).encode('utf-8')
+        payload = json.dumps(data, ensure_ascii=False, indent=2).encode('utf-8')
         req = urllib.request.Request(
-            'https://api.jsonbin.io/v3/b',
+            'https://paste.rs',
             data=payload,
             headers={
-                'Content-Type':  'application/json',
-                'X-Bin-Private': 'false',
-                'X-Bin-Name':    'Kodi Favourites',
-                'User-Agent':    'Mozilla/5.0'
+                'Content-Type': 'text/plain; charset=utf-8',
+                'User-Agent':   'Mozilla/5.0'
             },
             method='POST'
         )
-        with urllib.request.urlopen(req) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            bin_id = result['metadata']['id']
-            return f"https://api.jsonbin.io/v3/b/{bin_id}/latest"
+        with urllib.request.urlopen(req, timeout=10) as response:
+            url = response.read().decode('utf-8').strip()
+            return url
     except Exception as e:
-        xbmc.log(f"Error subiendo a jsonbin.io: {e}", xbmc.LOGERROR)
+        xbmc.log(f"Error subiendo a paste.rs: {e}", xbmc.LOGERROR)
         return None
 
 
@@ -165,14 +162,14 @@ def export_favourites():
     if not ok:
         return
 
-    # 3. Subir a jsonbin.io
-    xbmc.log("Subiendo favoritos a jsonbin.io...", xbmc.LOGINFO)
+    # 3. Subir a paste.rs
+    xbmc.log("Subiendo favoritos a paste.rs...", xbmc.LOGINFO)
     export_data = {
         'exported_from': 'Kodi Bootcamp DS Addon',
         'total':         len(favourites),
         'favourites':    favourites
     }
-    url = upload_to_jsonbin(export_data)
+    url = upload_to_paste(export_data)
     if not url:
         dialog.notification(
             'Exportar favoritos',
