@@ -107,9 +107,11 @@ def router():
         cat_type      = category_data.get('type')
 
         if cat_type == 'static_collection':
-            for module_name in category_data['modules'].keys():
+            for module_name, module_data in category_data['modules'].items():
                 url = build_url({'mode': 'list_videos', 'category': cat, 'module': module_name})
                 li  = xbmcgui.ListItem(module_name)
+                if isinstance(module_data, dict) and module_data.get('thumbnail'):
+                    li.setArt({'thumb': module_data['thumbnail']})
                 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=True)
 
         elif cat_type == 'channel_collection':
@@ -132,9 +134,11 @@ def router():
         cat_type      = category_data.get('type')
 
         if cat_type == 'static_collection':
-            videos = category_data['modules'].get(mod, [])
+            module_data = category_data['modules'].get(mod, {})
+            videos = module_data.get('videos', []) if isinstance(module_data, dict) else module_data
+            thumb  = module_data.get('thumbnail', '') if isinstance(module_data, dict) else ''
             for video in videos:
-                add_youtube_item(video['video_id'], video['title'])
+                add_youtube_item(video['video_id'], video['title'], thumb)
 
         elif cat_type == 'channel_collection':
             channel_info = category_data['channels'].get(mod, {})
