@@ -2,14 +2,13 @@
 update_rss.py
 -------------
 Descarga los últimos vídeos de cada canal RSS definido en data.json,
-detecta Shorts via yt-dlp (duración <= 180s) y los marca con prefijo 📱 (SHORT),
+detecta Shorts via duración en el XML del RSS (media:content duration),
 combina con el historial acumulado (sin duplicados) y guarda el resultado.
 
 Se ejecuta automáticamente via GitHub Actions cada 24 horas.
 """
 
 import json
-import subprocess
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -17,35 +16,6 @@ from pathlib import Path
 DATA_FILE = Path("data.json")
 MAX_VIDEOS_PER_CHANNEL = 500
 SHORT_MAX_SECONDS = 180  # YouTube permite shorts de hasta 3 minutos
-
-
-def get_duration(video_id: str) -> int:
-    """Obtiene la duración en segundos via yt-dlp. Devuelve 999 si falla."""
-    try:
-        result = subprocess.run(
-            [
-                "yt-dlp",
-                "--no-playlist",
-                "--skip-download",
-                "--print", "%(duration)s",
-                f"https://www.youtube.com/watch?v={video_id}"
-            ],
-            capture_output=True, text=True, timeout=30
-        )
-        raw = result.stdout.strip()
-        print(f"        yt-dlp raw output: '{raw}'")
-
-        # Puede venir como int o como float (ej: "63.0")
-        return int(float(raw)) if raw and raw not in ("None", "NA", "") else 999
-    except Exception as e:
-        print(f"        yt-dlp error: {e}")
-        return 999
-
-
-def is_short(video_id: str) -> bool:
-    duration = get_duration(video_id)
-    print(f"        Duración: {duration}s — {'SHORT' if duration <= SHORT_MAX_SECONDS else 'VIDEO'}")
-    return duration <= SHORT_MAX_SECONDS
 
 
 def fetch_rss(channel_id: str) -> list[dict]:
@@ -72,19 +42,27 @@ def fetch_rss(channel_id: str) -> list[dict]:
         thumbnail = entry.find("media:group/media:thumbnail", ns)
         thumb_url = thumbnail.attrib.get("url", "") if thumbnail is not None else ""
 
-        print(f"      🔍 Comprobando: {title[:60]}")
-        if is_short(video_id):
-            print(f"      📱 SHORT: {title[:60]}")
-            title = f"📱 (SHORT) {title}"
-        else:
-            print(f"      ▶️  VIDEO: {title[:60]}")
+        # Leer duración directamente del XML del RSS (sin peticiones extra)
+        content   = entry.find("media:group/media:content", ns)
+        duration  = int(content.attrib.get("duration", 999)) if content is not None else 999
+        print(f"      🔍 {title[:55]} — {duration}s")
 
+        if duration <= SHORT_MAX_SECONDS:
+            print(f"      📱 SHORT detectado")
+            title = f"📱 (SHORT) {title}"
+        
         videos.append({"video_id": video_id, "title": title, "thumbnail": thumb_url})
 
     return videos
 
 
 def merge_videos(new: list[dict], existing: list[dict]) -> list[dict]:
+    """
+    Combina nuevos vídeos con el historial existente.
+    - Los vídeos nuevos van AL PRINCIPIO de la lista.
+    - Los duplicados (mismo video_id) se descartan.
+    - El orden del historial existente se preserva.
+    """
     existing_ids = {v["video_id"] for v in existing}
     truly_new    = [v for v in new if v["video_id"] not in existing_ids]
 

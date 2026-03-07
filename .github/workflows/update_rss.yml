@@ -18,9 +18,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalar yt-dlp
-        run: pip install yt-dlp
-
       - name: Ejecutar script de actualización
         run: python update_rss.py
 
