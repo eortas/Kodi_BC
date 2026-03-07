@@ -6,13 +6,13 @@ Genera los artefactos necesarios para un repositorio de Kodi:
   - repository.bootcamp_ds/repository.bootcamp_ds-1.0.0.zip
   - addons.xml  (índice del repositorio)
   - addons.xml.md5
+  - index.html  (enlaces para que Kodi encuentre los zips)
 
 Se ejecuta automáticamente via GitHub Actions al hacer push de cambios
 en plugin.video.bootcamp_data_science/.
 """
 
 import hashlib
-import shutil
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -22,6 +22,7 @@ ADDON_DIR   = Path("plugin.video.bootcamp_data_science")
 REPO_DIR    = Path("repository.bootcamp_ds")
 ADDONS_XML  = Path("addons.xml")
 ADDONS_MD5  = Path("addons.xml.md5")
+INDEX_HTML  = Path("index.html")
 
 # Archivos a excluir del zip del addon
 EXCLUDE = {".git", ".github", "__pycache__", "*.pyc", ".DS_Store"}
@@ -44,7 +45,6 @@ def zip_addon(source_dir: Path) -> Path:
 
     with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zf:
         for file in source_dir.rglob("*"):
-            # Excluir el propio zip y archivos no deseados
             if file.suffix == ".zip":
                 continue
             if any(file.match(pat) for pat in EXCLUDE):
@@ -79,6 +79,21 @@ def write_md5(content: str, path: Path) -> None:
     print(f"  🔑 MD5: {md5}")
 
 
+def build_index_html(*addon_dirs: Path) -> str:
+    """Genera index.html con enlaces a los zips para que Kodi los encuentre."""
+    links = []
+    for addon_dir in addon_dirs:
+        addon_id = addon_dir.name
+        version  = get_version(addon_dir / "addon.xml")
+        zip_path = f"{addon_dir}/{addon_id}-{version}.zip"
+        links.append(f'    <a href="{zip_path}">{addon_id}-{version}.zip</a>')
+
+    links.append('    <a href="addons.xml">addons.xml</a>')
+    links.append('    <a href="addons.xml.md5">addons.xml.md5</a>')
+
+    return "<html>\n<body>\n" + "\n".join(links) + "\n</body>\n</html>\n"
+
+
 def main():
     print("🏗️  Construyendo repositorio Kodi...\n")
 
@@ -99,9 +114,16 @@ def main():
     print("\n🔑 Generando addons.xml.md5:")
     write_md5(addons_xml_content, ADDONS_MD5)
 
+    # 5. index.html con enlaces para Kodi
+    print("\n🌐 Generando index.html:")
+    index_content = build_index_html(ADDON_DIR, REPO_DIR)
+    INDEX_HTML.write_text(index_content, encoding="utf-8")
+    print(f"  ✅ index.html generado")
+
     print("\n✅ Repositorio generado correctamente.")
     print(f"   → {ADDONS_XML}")
     print(f"   → {ADDONS_MD5}")
+    print(f"   → {INDEX_HTML}")
     print(f"   → {ADDON_DIR}/{ADDON_DIR.name}-*.zip")
     print(f"   → {REPO_DIR}/{REPO_DIR.name}-*.zip")
 
