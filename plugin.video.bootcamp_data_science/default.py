@@ -17,16 +17,15 @@ addon_handle = int(sys.argv[1])
 args         = urllib.parse.parse_qs(sys.argv[2][1:])
 
 JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
-# dpaste.com no requiere API key
 
 # Caché en sesión
 _data_cache = None
 _rss_cache  = {}
 
 
-# ═══════════════════════════════════════════════════════════════════════════ #
-# DATOS REMOTOS                                                               #
-# ═══════════════════════════════════════════════════════════════════════════ #
+
+# DATOS REMOTOS
+
 
 def get_remote_data():
     global _data_cache
@@ -72,9 +71,8 @@ def get_channel_videos_rss(channel_id):
         return []
 
 
-# ═══════════════════════════════════════════════════════════════════════════ #
-# EXPORTAR FAVORITOS CON QR                                                   #
-# ═══════════════════════════════════════════════════════════════════════════ #
+# EXPORTA FAVORITOS CON QR
+
 
 def extract_youtube_url(path):
     """Extrae la URL de YouTube desde el path de un favorito de Kodi."""
@@ -130,7 +128,7 @@ def upload_to_paste(data):
             url = response.read().decode('utf-8').strip().rstrip('/')
             return url + '.txt'
     except Exception as e:
-        xbmc.log(f"Error subiendo a dpaste.com: {e}", xbmc.LOGERROR)
+        xbmc.log(f"Error subiendo: {e}", xbmc.LOGERROR)
         return None
 
 
@@ -155,10 +153,10 @@ def download_qr_image(url):
 
 
 def export_favourites():
-    """Flujo completo: leer favoritos → subir → mostrar QR."""
+    """Flujo completo: lee favoritos → sube → muestra QR."""
     dialog = xbmcgui.Dialog()
 
-    # 1. Leer favoritos
+    # 1. Lee favoritos
     favourites = read_favourites()
     if not favourites:
         dialog.notification(
@@ -168,16 +166,16 @@ def export_favourites():
         )
         return
 
-    # 2. Confirmar
+    # 2. Confirmación para exportar
     ok = dialog.yesno(
         'Exportar favoritos',
-        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Los datos serán públicos temporalmente)'
+        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Escanea el QR con tu móvil para verlos en formato JSON)'
     )
     if not ok:
         return
 
-    # 3. Subir a dpaste.com
-    xbmc.log("Subiendo favoritos a dpaste.com...", xbmc.LOGINFO)
+    # 3. Sube el JSON
+    xbmc.log("Subiendo favoritos...", xbmc.LOGINFO)
     export_data = {
         'total':      len(favourites),
         'favourites': favourites
@@ -191,10 +189,10 @@ def export_favourites():
         )
         return
 
-    # 4. Generar y descargar QR
+    # 4. Genera el QR
     qr_path = download_qr_image(url)
     if not qr_path:
-        # Si falla el QR, mostrar la URL en texto
+        # Si falla el QR, muestra la URL en texto
         dialog.ok('Favoritos exportados', f'URL de tus favoritos:\n{url}')
         return
 
@@ -217,7 +215,7 @@ def show_qr_dialog(url, qr_path):
             # Título
             title = xbmcgui.ControlLabel(
                 sw // 2 - 400, sh // 2 - 280, 800, 60,
-                '📱 Escanea para ver tus favoritos',
+                'Escanea para ver tus favoritos en un JSON',
                 font='font20', alignment=6
             )
             self.addControl(title)
@@ -257,9 +255,9 @@ def show_qr_dialog(url, qr_path):
     del win
 
 
-# ═══════════════════════════════════════════════════════════════════════════ #
-# HELPERS                                                                     #
-# ═══════════════════════════════════════════════════════════════════════════ #
+
+# HELPERS
+
 
 def build_url(query):
     return base_url + '?' + urllib.parse.urlencode(query)
@@ -274,9 +272,9 @@ def add_youtube_item(video_id, title, thumbnail=''):
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
 
 
-# ═══════════════════════════════════════════════════════════════════════════ #
-# ROUTER                                                                      #
-# ═══════════════════════════════════════════════════════════════════════════ #
+
+# ROUTER
+
 
 def router():
     data = get_remote_data()
@@ -284,18 +282,18 @@ def router():
     cat  = args.get('category', [None])[0]
     mod  = args.get('module',   [None])[0]
 
-    # ── Acción especial: exportar favoritos ─────────────────────────────── #
+    # Acción especial: exportar favoritos
     if mode == 'export_favourites':
         export_favourites()
         return
 
     if not data:
-        li = xbmcgui.ListItem("⚠️ Error cargando datos remotos")
+        li = xbmcgui.ListItem("Error cargando datos remotos")
         xbmcplugin.addDirectoryItem(handle=addon_handle, url="", listitem=li, isFolder=False)
         xbmcplugin.endOfDirectory(addon_handle)
         return
 
-    # ── NIVEL 1 — Categorías + botón exportar ───────────────────────────── #
+    # ── NIVEL 1 — Categorías + botón exportar
     if mode is None:
         for category in data.keys():
             url = build_url({'mode': 'list_modules', 'category': category})
@@ -304,13 +302,13 @@ def router():
 
         # Botón exportar favoritos al final del menú principal
         url_export = build_url({'mode': 'export_favourites'})
-        li_export  = xbmcgui.ListItem('📱 Exportar favoritos (QR)')
+        li_export  = xbmcgui.ListItem('Exportar favoritos (QR)')
         li_export.setArt({'thumb': 'DefaultAddonRepository.png'})
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url_export, listitem=li_export, isFolder=False)
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 2 — Módulos o canales ─────────────────────────────────────── #
+    # ── NIVEL 2 — Módulos o canales
     elif mode == 'list_modules':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
@@ -335,7 +333,7 @@ def router():
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 3 — Vídeos ────────────────────────────────────────────────── #
+    # ── NIVEL 3 — Vídeos
     elif mode == 'list_videos':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
