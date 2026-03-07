@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bootcamp_data_science" name="Bootcamp Data Science 2025 Vitoria-Gasteiz" version="1.0.2" provider-name="Eduardo">
+<addon id="plugin.video.bootcamp_data_science" name="Bootcamp Data Science 2025 Vitoria-Gasteiz" version="1.0.4" provider-name="Eduardo">
     
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>

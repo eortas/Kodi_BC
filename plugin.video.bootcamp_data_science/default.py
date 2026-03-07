@@ -2,21 +2,31 @@ import sys
 import json
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 import xbmcgui
 import xbmcplugin
 import xbmc
+import xbmcaddon
+import xbmcvfs
+import os
 
 # Variables del sistema
-base_url = sys.argv[0]
+base_url     = sys.argv[0]
 addon_handle = int(sys.argv[1])
-args = urllib.parse.parse_qs(sys.argv[2][1:])
+args         = urllib.parse.parse_qs(sys.argv[2][1:])
 
 JSON_URL = "https://raw.githubusercontent.com/eortas/Kodi_BC/refs/heads/main/data.json"
+JSONBIN_API_KEY = "$2a$10$tuApiKeyAqui"  # ← reemplaza con tu API key de jsonbin.io
 
 # Caché en sesión
 _data_cache = None
-_rss_cache = {}
+_rss_cache  = {}
+
+
+# ═══════════════════════════════════════════════════════════════════════════ #
+# DATOS REMOTOS                                                               #
+# ═══════════════════════════════════════════════════════════════════════════ #
 
 def get_remote_data():
     global _data_cache
@@ -31,8 +41,8 @@ def get_remote_data():
         xbmc.log(f"Error cargando JSON remoto: {e}", xbmc.LOGERROR)
         return {}
 
+
 def get_channel_videos_rss(channel_id):
-    """Obtiene los últimos 15 vídeos de un canal via RSS (sin API key)."""
     if channel_id in _rss_cache:
         return _rss_cache[channel_id]
     try:
@@ -46,7 +56,7 @@ def get_channel_videos_rss(channel_id):
             'yt':    'http://www.youtube.com/xml/schemas/2015',
             'media': 'http://search.yahoo.com/mrss/'
         }
-        root = ET.fromstring(xml_data)
+        root   = ET.fromstring(xml_data)
         videos = []
         for entry in root.findall('atom:entry', ns):
             video_id  = entry.find('yt:videoId', ns).text
@@ -61,11 +71,191 @@ def get_channel_videos_rss(channel_id):
         xbmc.log(f"Error cargando RSS del canal {channel_id}: {e}", xbmc.LOGERROR)
         return []
 
+
+# ═══════════════════════════════════════════════════════════════════════════ #
+# EXPORTAR FAVORITOS CON QR                                                   #
+# ═══════════════════════════════════════════════════════════════════════════ #
+
+def read_favourites():
+    """Lee los favoritos de Kodi desde favourites.xml."""
+    fav_path = xbmc.translatePath('special://userdata/favourites.xml')
+    favourites = []
+
+    if not xbmcvfs.exists(fav_path):
+        return favourites
+
+    try:
+        with xbmcvfs.File(fav_path) as f:
+            xml_data = f.read()
+        root = ET.fromstring(xml_data)
+        for fav in root.findall('favourite'):
+            name  = fav.attrib.get('name', 'Sin nombre')
+            thumb = fav.attrib.get('thumb', '')
+            path  = fav.text or ''
+            favourites.append({'name': name, 'thumb': thumb, 'path': path})
+    except Exception as e:
+        xbmc.log(f"Error leyendo favourites.xml: {e}", xbmc.LOGERROR)
+
+    return favourites
+
+
+def upload_to_jsonbin(data):
+    """Sube los datos a jsonbin.io y devuelve la URL pública."""
+    try:
+        payload = json.dumps(data).encode('utf-8')
+        req = urllib.request.Request(
+            'https://api.jsonbin.io/v3/b',
+            data=payload,
+            headers={
+                'Content-Type':  'application/json',
+                'X-Bin-Private': 'false',
+                'X-Bin-Name':    'Kodi Favourites',
+                'User-Agent':    'Mozilla/5.0'
+            },
+            method='POST'
+        )
+        with urllib.request.urlopen(req) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            bin_id = result['metadata']['id']
+            return f"https://api.jsonbin.io/v3/b/{bin_id}/latest"
+    except Exception as e:
+        xbmc.log(f"Error subiendo a jsonbin.io: {e}", xbmc.LOGERROR)
+        return None
+
+
+def download_qr_image(url):
+    """Descarga la imagen QR y la guarda en la caché de Kodi."""
+    try:
+        qr_api = f"https://api.qrserver.com/v1/create-qr-code/?size=400x400&data={urllib.parse.quote(url)}"
+        req    = urllib.request.Request(qr_api, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            img_data = response.read()
+
+        # Guardar en caché temporal de Kodi
+        cache_dir = xbmc.translatePath('special://temp/')
+        qr_path   = os.path.join(cache_dir, 'kodi_favourites_qr.png')
+        with xbmcvfs.File(qr_path, 'w') as f:
+            f.write(bytearray(img_data))
+
+        return qr_path
+    except Exception as e:
+        xbmc.log(f"Error descargando QR: {e}", xbmc.LOGERROR)
+        return None
+
+
+def export_favourites():
+    """Flujo completo: leer favoritos → subir → mostrar QR."""
+    dialog = xbmcgui.Dialog()
+
+    # 1. Leer favoritos
+    favourites = read_favourites()
+    if not favourites:
+        dialog.notification(
+            'Exportar favoritos',
+            'No se encontraron favoritos en Kodi.',
+            xbmcgui.NOTIFICATION_WARNING
+        )
+        return
+
+    # 2. Confirmar
+    ok = dialog.yesno(
+        'Exportar favoritos',
+        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Los datos serán públicos temporalmente)'
+    )
+    if not ok:
+        return
+
+    # 3. Subir a jsonbin.io
+    xbmc.log("Subiendo favoritos a jsonbin.io...", xbmc.LOGINFO)
+    export_data = {
+        'exported_from': 'Kodi Bootcamp DS Addon',
+        'total':         len(favourites),
+        'favourites':    favourites
+    }
+    url = upload_to_jsonbin(export_data)
+    if not url:
+        dialog.notification(
+            'Exportar favoritos',
+            'Error al subir los datos. Comprueba tu conexión.',
+            xbmcgui.NOTIFICATION_ERROR
+        )
+        return
+
+    # 4. Generar y descargar QR
+    qr_path = download_qr_image(url)
+    if not qr_path:
+        # Si falla el QR, mostrar la URL en texto
+        dialog.ok('Favoritos exportados', f'URL de tus favoritos:\n{url}')
+        return
+
+    # 5. Mostrar QR en pantalla
+    dialog.show_qr(url, qr_path)
+
+
+def show_qr_dialog(url, qr_path):
+    """Muestra el QR en un diálogo personalizado con la URL debajo."""
+    class QRDialog(xbmcgui.WindowDialog):
+        def __init__(self, url, qr_path):
+            super().__init__()
+            sw = self.getWidth()
+            sh = self.getHeight()
+
+            # Fondo semitransparente
+            bg = xbmcgui.ControlImage(0, 0, sw, sh, '')
+            self.addControl(bg)
+
+            # Título
+            title = xbmcgui.ControlLabel(
+                sw // 2 - 400, sh // 2 - 280, 800, 60,
+                '📱 Escanea para ver tus favoritos',
+                font='font20', alignment=6
+            )
+            self.addControl(title)
+
+            # Imagen QR
+            qr_size = 400
+            qr = xbmcgui.ControlImage(
+                sw // 2 - qr_size // 2,
+                sh // 2 - qr_size // 2 - 20,
+                qr_size, qr_size, qr_path
+            )
+            self.addControl(qr)
+
+            # URL en texto
+            url_label = xbmcgui.ControlLabel(
+                sw // 2 - 500, sh // 2 + qr_size // 2,
+                1000, 50, url,
+                font='font14', alignment=6
+            )
+            self.addControl(url_label)
+
+            # Instrucción para cerrar
+            close_label = xbmcgui.ControlLabel(
+                sw // 2 - 300, sh // 2 + qr_size // 2 + 60,
+                600, 40,
+                'Pulsa ATRÁS para cerrar',
+                font='font14', alignment=6
+            )
+            self.addControl(close_label)
+
+        def onAction(self, action):
+            if action.getId() in (92, 10):  # BACK o B
+                self.close()
+
+    win = QRDialog(url, qr_path)
+    win.doModal()
+    del win
+
+
+# ═══════════════════════════════════════════════════════════════════════════ #
+# HELPERS                                                                     #
+# ═══════════════════════════════════════════════════════════════════════════ #
+
 def build_url(query):
     return base_url + '?' + urllib.parse.urlencode(query)
 
+
 def add_youtube_item(video_id, title, thumbnail=''):
-    """Añade un item de vídeo de YouTube a la lista."""
     url   = f"plugin://plugin.video.youtube/play/?video_id={video_id}"
     li    = xbmcgui.ListItem(title)
     thumb = thumbnail if thumbnail else f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
@@ -73,11 +263,21 @@ def add_youtube_item(video_id, title, thumbnail=''):
     li.setArt({'thumb': thumb})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
 
+
+# ═══════════════════════════════════════════════════════════════════════════ #
+# ROUTER                                                                      #
+# ═══════════════════════════════════════════════════════════════════════════ #
+
 def router():
     data = get_remote_data()
     mode = args.get('mode',     [None])[0]
     cat  = args.get('category', [None])[0]
     mod  = args.get('module',   [None])[0]
+
+    # ── Acción especial: exportar favoritos ─────────────────────────────── #
+    if mode == 'export_favourites':
+        export_favourites()
+        return
 
     if not data:
         li = xbmcgui.ListItem("⚠️ Error cargando datos remotos")
@@ -85,19 +285,22 @@ def router():
         xbmcplugin.endOfDirectory(addon_handle)
         return
 
-    # ------------------------------------------------------------------ #
-    # NIVEL 1 — Categorías principales                                     #
-    # ------------------------------------------------------------------ #
+    # ── NIVEL 1 — Categorías + botón exportar ───────────────────────────── #
     if mode is None:
         for category in data.keys():
             url = build_url({'mode': 'list_modules', 'category': category})
             li  = xbmcgui.ListItem(category)
             xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=True)
+
+        # Botón exportar favoritos al final del menú principal
+        url_export = build_url({'mode': 'export_favourites'})
+        li_export  = xbmcgui.ListItem('📱 Exportar favoritos (QR)')
+        li_export.setArt({'thumb': 'DefaultAddonRepository.png'})
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url_export, listitem=li_export, isFolder=False)
+
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ------------------------------------------------------------------ #
-    # NIVEL 2 — Módulos o canales dentro de una categoría                 #
-    # ------------------------------------------------------------------ #
+    # ── NIVEL 2 — Módulos o canales ─────────────────────────────────────── #
     elif mode == 'list_modules':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
@@ -122,9 +325,7 @@ def router():
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ------------------------------------------------------------------ #
-    # NIVEL 3 — Vídeos dentro de un módulo o canal                        #
-    # ------------------------------------------------------------------ #
+    # ── NIVEL 3 — Vídeos ────────────────────────────────────────────────── #
     elif mode == 'list_videos':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
@@ -143,11 +344,8 @@ def router():
         elif cat_type == 'channel_collection':
             channel_info = category_data['channels'].get(mod, {})
             channel_id   = channel_info.get('channel_id', '')
+            videos       = channel_info.get('videos', [])
 
-            # Primero intentamos el historial acumulado (actualizado por GitHub Actions)
-            videos = channel_info.get('videos', [])
-
-            # Fallback: si el historial está vacío, tiramos del RSS en tiempo real
             if not videos:
                 xbmc.log(f"Historial vacío para {mod}, usando RSS en tiempo real", xbmc.LOGINFO)
                 videos = get_channel_videos_rss(channel_id)
@@ -160,6 +358,7 @@ def router():
                 add_youtube_item(video['video_id'], video['title'], video.get('thumbnail', ''))
 
         xbmcplugin.endOfDirectory(addon_handle)
+
 
 if __name__ == '__main__':
     router()
