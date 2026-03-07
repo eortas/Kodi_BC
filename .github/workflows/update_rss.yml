@@ -27,4 +27,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           git diff --cached --quiet || git commit -m "🤖 Auto-update RSS canales $(date +'%Y-%m-%d')"
+          git pull --rebase
           git push

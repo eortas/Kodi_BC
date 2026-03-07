@@ -538,11 +538,11 @@
         "type": "channel_collection",
         "channels": {
             "DotCSV": {
-                "channel_id": "UCy5znSnfMsDwaLlj9jXmB4g",
+                "channel_id": "UCy5znSnfMsDwaLlROnZ7Qbg",
                 "videos": []
             },
             "MiduDev": {
-                "channel_id": "UC8LeXCZOAl5OGmoZBvHRLnQ",
+                "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": []
             },
             "MoureDev": {
@@ -711,7 +711,7 @@
                 ]
             },
             "Andrej Karpathy": {
-                "channel_id": "UCnxMaGMkrOeM4kkKDEENAnA",
+                "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
                 "videos": []
             },
             "Sentdex": {
