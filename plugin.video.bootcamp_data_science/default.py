@@ -76,9 +76,18 @@ def get_channel_videos_rss(channel_id):
 # EXPORTAR FAVORITOS CON QR                                                   #
 # ═══════════════════════════════════════════════════════════════════════════ #
 
+def extract_youtube_url(path):
+    """Extrae la URL de YouTube desde el path de un favorito de Kodi."""
+    import re
+    match = re.search(r'video_id=([a-zA-Z0-9_-]+)', path)
+    if match:
+        return f"https://www.youtube.com/watch?v={match.group(1)}"
+    return path
+
+
 def read_favourites():
-    """Lee los favoritos de Kodi desde favourites.xml."""
-    fav_path = xbmcvfs.translatePath('special://userdata/favourites.xml')
+    """Lee los favoritos de Kodi y devuelve solo título y URL de YouTube."""
+    fav_path   = xbmcvfs.translatePath('special://userdata/favourites.xml')
     favourites = []
 
     if not xbmcvfs.exists(fav_path):
@@ -89,10 +98,10 @@ def read_favourites():
             xml_data = f.read()
         root = ET.fromstring(xml_data)
         for fav in root.findall('favourite'):
-            name  = fav.attrib.get('name', 'Sin nombre')
-            thumb = fav.attrib.get('thumb', '')
-            path  = fav.text or ''
-            favourites.append({'name': name, 'thumb': thumb, 'path': path})
+            name = fav.attrib.get('name', 'Sin nombre')
+            path = fav.text or ''
+            url  = extract_youtube_url(path)
+            favourites.append({'title': name, 'url': url})
     except Exception as e:
         xbmc.log(f"Error leyendo favourites.xml: {e}", xbmc.LOGERROR)
 
@@ -162,17 +171,16 @@ def export_favourites():
     # 2. Confirmar
     ok = dialog.yesno(
         'Exportar favoritos',
-        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Escanea el QR con tu móvil para acceder a ellos desde cualquier navegador)'
+        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Los datos serán públicos temporalmente)'
     )
     if not ok:
         return
 
     # 3. Subir a dpaste.com
-    xbmc.log("Subiendo favoritos...", xbmc.LOGINFO)
+    xbmc.log("Subiendo favoritos a dpaste.com...", xbmc.LOGINFO)
     export_data = {
-        'exported_from': 'Kodi Bootcamp DS Addon',
-        'total':         len(favourites),
-        'favourites':    favourites
+        'total':      len(favourites),
+        'favourites': favourites
     }
     url = upload_to_paste(export_data)
     if not url:
@@ -209,7 +217,7 @@ def show_qr_dialog(url, qr_path):
             # Título
             title = xbmcgui.ControlLabel(
                 sw // 2 - 400, sh // 2 - 280, 800, 60,
-                'Escanea para ver tus favoritos',
+                '📱 Escanea para ver tus favoritos',
                 font='font20', alignment=6
             )
             self.addControl(title)
@@ -282,7 +290,7 @@ def router():
         return
 
     if not data:
-        li = xbmcgui.ListItem("Error cargando datos remotos")
+        li = xbmcgui.ListItem("⚠️ Error cargando datos remotos")
         xbmcplugin.addDirectoryItem(handle=addon_handle, url="", listitem=li, isFolder=False)
         xbmcplugin.endOfDirectory(addon_handle)
         return
@@ -296,7 +304,7 @@ def router():
 
         # Botón exportar favoritos al final del menú principal
         url_export = build_url({'mode': 'export_favourites'})
-        li_export  = xbmcgui.ListItem('Exportar favoritos (QR)')
+        li_export  = xbmcgui.ListItem('📱 Exportar favoritos (QR)')
         li_export.setArt({'thumb': 'DefaultAddonRepository.png'})
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url_export, listitem=li_export, isFolder=False)
 
