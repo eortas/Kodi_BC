@@ -1,5 +1,5 @@
 {
-    "📚 Bootcamp Data Science": {
+    "Bootcamp Data Science": {
         "type": "static_collection",
         "modules": {
             "FUNDAMENTALS": {
@@ -534,7 +534,7 @@
             }
         }
     },
-    "🇪🇸 Recursos en Castellano": {
+    "Recursos en Castellano": {
         "type": "channel_collection",
         "channels": {
             "DotCSV": {
@@ -551,7 +551,7 @@
             }
         }
     },
-    "🇬🇧 Recursos en Inglés": {
+    "Recursos en Inglés": {
         "type": "channel_collection",
         "channels": {
             "3Blue1Brown": {
