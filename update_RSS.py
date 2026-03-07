@@ -46,8 +46,8 @@ def fetch_rss(channel_id: str) -> list[dict]:
 
 def merge_videos(new: list[dict], existing: list[dict]) -> list[dict]:
     """
-    Combina nuevos vídeos con el historial existente.
-    - Los vídeos nuevos van AL PRINCIPIO de la lista.
+    Combina nuevos vídeos con el historial existente
+    - Los vídeos nuevos van AL PRINCIPIO de la lista
     - Los duplicados (mismo video_id) se descartan.
     - El orden del historial existente se preserva.
     """
@@ -89,7 +89,7 @@ def main():
             if not new_videos:
                 continue
 
-            # Merge: nuevos primero, sin duplicados
+            # Merge: nuevos primero sin duplicados
             merged = merge_videos(new_videos, existing)
 
             if len(merged) != len(existing):
@@ -108,3 +108,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
