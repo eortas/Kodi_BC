@@ -2,18 +2,40 @@
 update_rss.py
 -------------
 Descarga los últimos vídeos de cada canal RSS definido en data.json,
-los combina con el historial acumulado (sin duplicados) y guarda el resultado.
+detecta Shorts y los marca con prefijo 📱 (SHORT),
+combina con el historial acumulado (sin duplicados) y guarda el resultado.
 
 Se ejecuta automáticamente via GitHub Actions cada 24 horas.
 """
 
 import json
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 DATA_FILE = Path("data.json")
 MAX_VIDEOS_PER_CHANNEL = 500
+
+
+def is_short(video_id: str) -> bool:
+    """
+    Detecta si un vídeo es un Short comprobando si la URL /shorts/ devuelve 200.
+    Los Shorts responden 200, los vídeos normales redirigen (303/302).
+    """
+    url = f"https://www.youtube.com/shorts/{video_id}"
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            method="HEAD"
+        )
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            return resp.status == 200
+    except urllib.error.HTTPError:
+        return False
+    except Exception:
+        return False
 
 
 def fetch_rss(channel_id: str) -> list[dict]:
@@ -39,6 +61,12 @@ def fetch_rss(channel_id: str) -> list[dict]:
         title     = entry.find("atom:title", ns).text
         thumbnail = entry.find("media:group/media:thumbnail", ns)
         thumb_url = thumbnail.attrib.get("url", "") if thumbnail is not None else ""
+
+        # Detectar shorts y añadir prefijo al título
+        if is_short(video_id):
+            print(f"      📱 SHORT detectado: {title}")
+            title = f"📱 (SHORT) {title}"
+
         videos.append({"video_id": video_id, "title": title, "thumbnail": thumb_url})
 
     return videos
@@ -46,8 +74,8 @@ def fetch_rss(channel_id: str) -> list[dict]:
 
 def merge_videos(new: list[dict], existing: list[dict]) -> list[dict]:
     """
-    Combina nuevos vídeos con el historial existente
-    - Los vídeos nuevos van AL PRINCIPIO de la lista
+    Combina nuevos vídeos con el historial existente.
+    - Los vídeos nuevos van AL PRINCIPIO de la lista.
     - Los duplicados (mismo video_id) se descartan.
     - El orden del historial existente se preserva.
     """
@@ -89,7 +117,7 @@ def main():
             if not new_videos:
                 continue
 
-            # Merge: nuevos primero sin duplicados
+            # Merge: nuevos primero, sin duplicados
             merged = merge_videos(new_videos, existing)
 
             if len(merged) != len(existing):
@@ -108,4 +136,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
