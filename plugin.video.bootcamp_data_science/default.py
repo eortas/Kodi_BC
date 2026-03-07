@@ -162,13 +162,13 @@ def export_favourites():
     # 2. Confirmar
     ok = dialog.yesno(
         'Exportar favoritos',
-        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Los datos serán públicos temporalmente)'
+        f'Se encontraron {len(favourites)} favoritos.\n¿Subir y generar código QR?\n\n(Escanea el QR con tu móvil para acceder a ellos desde cualquier navegador)'
     )
     if not ok:
         return
 
     # 3. Subir a dpaste.com
-    xbmc.log("Subiendo favoritos a dpaste.com...", xbmc.LOGINFO)
+    xbmc.log("Subiendo favoritos...", xbmc.LOGINFO)
     export_data = {
         'exported_from': 'Kodi Bootcamp DS Addon',
         'total':         len(favourites),
@@ -191,7 +191,7 @@ def export_favourites():
         return
 
     # 5. Mostrar QR en pantalla
-    dialog.show_qr(url, qr_path)
+    show_qr_dialog(url, qr_path)
 
 
 def show_qr_dialog(url, qr_path):
@@ -209,7 +209,7 @@ def show_qr_dialog(url, qr_path):
             # Título
             title = xbmcgui.ControlLabel(
                 sw // 2 - 400, sh // 2 - 280, 800, 60,
-                '📱 Escanea para ver tus favoritos',
+                'Escanea para ver tus favoritos',
                 font='font20', alignment=6
             )
             self.addControl(title)
@@ -282,7 +282,7 @@ def router():
         return
 
     if not data:
-        li = xbmcgui.ListItem("⚠️ Error cargando datos remotos")
+        li = xbmcgui.ListItem("Error cargando datos remotos")
         xbmcplugin.addDirectoryItem(handle=addon_handle, url="", listitem=li, isFolder=False)
         xbmcplugin.endOfDirectory(addon_handle)
         return
@@ -302,7 +302,7 @@ def router():
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 2 — Módulos o canales #
+    # ── NIVEL 2 — Módulos o canales ─────────────────────────────────────── #
     elif mode == 'list_modules':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
@@ -327,7 +327,7 @@ def router():
 
         xbmcplugin.endOfDirectory(addon_handle)
 
-    # ── NIVEL 3 — Vídeos #
+    # ── NIVEL 3 — Vídeos ────────────────────────────────────────────────── #
     elif mode == 'list_videos':
         if cat not in data:
             xbmcplugin.endOfDirectory(addon_handle)
