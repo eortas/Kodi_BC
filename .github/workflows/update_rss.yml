@@ -2,8 +2,11 @@ name: Actualizar RSS canales
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # Cada día a las 6:00 UTC (8:00 hora España)
-  workflow_dispatch:        # Permite lanzarlo manualmente desde GitHub
+    - cron: '0 6 * * *'   # Cada día a las 6:00 UTC
+  workflow_dispatch:      # Permite lanzarlo manualmente desde GitHub
+
+permissions:
+  contents: write         # Otorga permisos al bot para hacer push al repositorio
 
 jobs:
   update:
@@ -21,11 +24,17 @@ jobs:
       - name: Ejecutar script de actualización
         run: python update_rss.py
 
-      - name: Commit y push si hay cambios
+      - name: Commit y push de los cambios
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
+          
+          # Si no hay cambios en el stage, el script termina el paso con éxito. 
+          # Si los hay, hace el commit.
           git diff --cached --quiet || git commit -m "🤖 Auto-update RSS canales $(date +'%Y-%m-%d')"
-          git pull --rebase
+          
+          # Trae posibles cambios del repositorio antes de subir para evitar conflictos
+          git pull --rebase origin main
           git push
+          
