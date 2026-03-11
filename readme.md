@@ -1,36 +1,72 @@
 # Addon Kodi: Bootcamp Data Science
 
-Un addon de vídeo personalizado para Kodi diseñado para acceder de forma estructurada, rápida y directa a las grabaciones de las clases del Bootcamp de Data Science & Machine Learning (The Bridge, Vitoria-Gasteiz - Abril 2025).
-
-## Características Principales
-
-* **Estructura Dinámica:** El menú del addon se construye en tiempo real consumiendo un archivo `data.json` remoto. Esto permite actualizar el contenido y añadir nuevos contenidos sin que los usuarios tengan que reinstalar o actualizar el addon en sus dispositivos.
-* **Reproducción Directa:** Configurado para extraer los IDs únicos de cada vídeo y enviarlos directamente al reproductor interno de Kodi. Esto evita el error de cuota de la API de Google Cloud y no requiere que el usuario configure credenciales propias.
-* **Interfaz Personalizada:** Incluye *screenshots* personalizados integrados.
-
-## Tecnologías y Lenguajes
-
-* **Python 3:** Lógica principal de enrutamiento y consumo HTTP (`urllib.request`).
-* **JSON:** Estructuración de datos (módulos, títulos y URL videos).
-
-
-## Instalación Directa en Kodi
-
-El addon está alojado mediante GitHub Pages para permitir su descarga directa desde el gestor de archivos de Kodi.
-
-1. Abre Kodi y ve a **Ajustes** (el icono del engranaje) > **Gestor de archivos**.
-2. Haz clic en **Añadir fuente**.
-3. En la ruta (donde pone `<Ninguno>`), introduce exactamente esta URL:
-   `https://eortas.github.io/Kodi_BC/`
-4. Ponle un nombre a la fuente (por ejemplo, "Repo Bootcamp" o déjalo por defecto) y dale a **OK**.
-5. Vuelve al menú principal de Kodi y entra en **Add-ons**.
-6. Haz clic en el icono de la caja abierta (arriba a la izquierda) > **Instalar desde un archivo .zip**.
-7. Selecciona la fuente que creaste ("Repo Bootcamp").
-8. Haz clic en `plugin.video.bootcamp_data_science.zip` para instalarlo.
-
-*Nota: Para volver atrás en Kodi mantén pulsada la tecla de borrar **Backspace**, para seleccionar algo puedes hacerlo con **Intro** o con el ratón. Mantener pulsado **Intro** te mostrará sus ajustes (por si quieres desinstarlo)*
-
-
+Un complemento (addon) para el centro multimedia Kodi que te permite acceder de forma rápida, estructurada y directa a las grabaciones de las clases del Bootcamp de Data Science & Machine Learning (The Bridge, Vitoria-Gasteiz - Abril 2025).
 
 ---
-*Desarrollado para optimizar el acceso al material de estudio del stack tecnológico (Python, Pandas, Machine Learning, AWS, Docker, etc).*
+
+## 🛠️ Configuración inicial de Kodi (Obligatorio)
+
+Si eres nuevo en Kodi o acabas de instalarlo, primero debes configurar unos ajustes básicos para que puedas instalar el addon y escuchar los vídeos correctamente en español.
+
+### 1. Permitir "Orígenes desconocidos" y repositorios no oficiales
+Esto es necesario para que Kodi te permita instalar addons que no vienen por defecto de fábrica en la plataforma.
+
+1. Abre Kodi.
+2. Arriba a la izquierda, pulsa en el icono de **Ajustes** (tiene forma de engranaje ⚙️).
+3. Abajo a la derecha, entra en **Sistema**.
+4. En el menú de la izquierda, baja hasta la sección **Add-ons**.
+5. En la parte derecha, busca **Orígenes desconocidos** y actívalo. Te saldrá un mensaje de advertencia, dile que **Sí**.
+6. En esa misma pantalla, busca la opción que habla sobre actualizar addons (dependiendo de tu versión puede llamarse de forma algo diferente) y asegúrate de elegir **Cualquier repositorio** para permitir que se actualicen plugins de repos no oficiales.
+
+### 2. Poner el audio en Castellano por defecto
+Para asegurar que los vídeos se escuchen en castellano automáticamente:
+
+1. Vuelve a la pantalla principal de **Ajustes** (pulsando la tecla `Retroceso` `<-` o la tecla Atrás de tu mando).
+2. Entra en **Reproductor**.
+3. En el menú de la izquierda, colócate sobre la sección de **Idioma**.
+4. En la parte derecha, busca **Idioma de audio preferido** y cámbialo a **Spanish**.
+
+---
+
+## 📥 Instalación del Addon del Bootcamp
+
+Ahora que Kodi está configurado, podemos instalar el addon de las clases directamente desde internet.
+
+### Paso 1: Añadir la fuente (El enlace de descarga)
+1. Vuelve al menú principal de Kodi y pulsa de nuevo en **Ajustes** (icono del engranaje ⚙️).
+2. Entra en el **Gestor de archivos** (tiene el icono de una carpeta).
+3. Haz clic en **Añadir fuente** (puede que necesites hacer doble clic con el ratón).
+4. Haz clic donde pone `<Ninguno>`.
+5. Escribe EXACTAMENTE esta dirección de internet (sin dejar espacios al final y respetando mayúsculas y minúsculas) y pulsa OK:
+   `https://eortas.github.io/Kodi_BC/`
+6. Abajo, donde dice "Introduzca un nombre para esta fuente de medios", escribe un nombre fácil para que lo reconozcas después, por ejemplo: **Bootcamp repo** o deja el que viene por defecto y pulsa **OK**.
+
+### Paso 2: Instalar el Repositorio
+1. Vuelve al menú principal de Kodi (pulsa Atrás o Retroceso varias veces).
+2. En el menú principal de la izquierda, pulsa sobre **Add-ons**.
+3. Pulsa en el icono de la **cajita abierta** (arriba a la izquierda de la pantalla).
+4. Selecciona **Instalar desde un archivo .zip**. (Si te vuelve a salir algún aviso sobre orígenes desconocidos, acéptalo).
+5. Busca en la lista el nombre que pusiste en el paso anterior (**Bootcamp repo**) y haz clic en él.
+6. Finalmente, haz clic en el archivo `.zip` correspondiente al repositorio (suele empezar por `repository.`).
+7. Espera unos segundos sin hacer nada; pronto verás aparecer una pequeña notificación arriba a la derecha avisando que el repositorio se ha instalado correctamente.
+
+### Paso 3: Instalar el Addon desde el Repositorio
+Al instalarlo a través del repositorio, **el addon se actualizará automáticamente** cuando haya nuevas versiones.
+
+1. Sin salir de esa misma pantalla de la cajita abierta, pulsa ahora en **Instalar desde repositorio**.
+2. Busca en la lista el repositorio que acabas de instalar (normalmente tendrá un nombre como **Eortas Repo** o similar) y haz clic en él.
+3. Entra en la categoría **Add-ons de vídeo**.
+4. Selecciona el addon del Bootcamp y pulsa en el botón **Instalar** (suele estar abajo a la derecha de la pantalla).
+5. Si te pregunta si quieres instalar también algunas dependencias o plugins adicionales, pulsa en **OK**.
+6. Espera unos instantes hasta que veas la notificación de que el addon se ha instalado con éxito.
+
+¡Ya está todo listo! 🎉
+Para ver las clases, desde el menú principal de Kodi ve a **Add-ons** > **Add-ons de vídeo** y ahí tendrás listo para usar el addon del Bootcamp Data Science. Todo el contenido se actualizará solo de manera automática a medida que avance el curso.
+
+---
+
+## 💡 Consejos útiles de navegación en Kodi
+Si es tu primera vez usando este programa, estos controles te ayudarán mucho:
+* **Para volver hacia atrás:** Usa la tecla **Retroceso** (Backspace `<-`) de tu teclado, o el botón de regresar de tu ratón/mando.
+* **Para seleccionar / entrar:** Haz clic izquierdo con tu ratón o pulsa la tecla **Intro** (Enter).
+* **Para ver opciones avanzadas:** Si quieres desinstalar o ver las propiedades de un vídeo, mantén pulsada la tecla **Intro**, o haz clic con el botón **derecho** del ratón sobre él.
