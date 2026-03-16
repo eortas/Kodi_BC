@@ -621,6 +621,36 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "eCQnmHQh4-8",
+                        "title": "La IA le quitó el arte a la programación",
+                        "thumbnail": "https://i2.ytimg.com/vi/eCQnmHQh4-8/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "i4e3icOYQBY",
+                        "title": "El gran problema de la IA de Google en el navegador",
+                        "thumbnail": "https://i2.ytimg.com/vi/i4e3icOYQBY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "_fEqQp75zic",
+                        "title": "¿Qué modelos de IA funcionan en tu PC?",
+                        "thumbnail": "https://i4.ytimg.com/vi/_fEqQp75zic/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "yShputBbVv4",
+                        "title": "¡Microsoft se alía con Anthropic! Y han sacado Copilot Cowork, que se integrará con Word, Excel, Out",
+                        "thumbnail": "https://i2.ytimg.com/vi/yShputBbVv4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "l3FO1jn1-2A",
+                        "title": "“No saber programación es una ventaja” mi opinión",
+                        "thumbnail": "https://i1.ytimg.com/vi/l3FO1jn1-2A/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "8BRbFrWuCCk",
+                        "title": "Claude Code puede hacer una demo que parezca un clon de Airbnb.\n\nPero una demo no es un producto.\n\nE",
+                        "thumbnail": "https://i1.ytimg.com/vi/8BRbFrWuCCk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "YIEvtupNSS0",
                         "title": "Los programadores se están volviendo locos con esta herramienta",
                         "thumbnail": "https://i2.ytimg.com/vi/YIEvtupNSS0/hqdefault.jpg"
@@ -710,6 +740,21 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "0DhghJpWwVQ",
+                        "title": "Curso de Desarrollo con IA 2026 - Día 3 - Despliega software de manera rápida y segura con IA",
+                        "thumbnail": "https://i1.ytimg.com/vi/0DhghJpWwVQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "V-eiE0M-mWM",
+                        "title": "Curso de Desarrollo con IA 2026 - Día 2 - Descubre cómo desarrollar proyectos reales con IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/V-eiE0M-mWM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "uRzoVP63RiI",
+                        "title": "Curso de Desarrollo con IA 2026 - Día 1 - Aprende a usar la IA como un programador profesional",
+                        "thumbnail": "https://i2.ytimg.com/vi/uRzoVP63RiI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "pD46iUTHUZI",
                         "title": "Aprende a controlar la IA (no al revés)",
