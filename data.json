@@ -621,6 +621,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "bnnIP0eigDg",
+                        "title": "Me ha escrito NVIDIA + Oferta para juniors + Vite 8 + ¡Competencia de Vercel! + Pokémon te robó",
+                        "thumbnail": "https://i3.ytimg.com/vi/bnnIP0eigDg/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "V4PzBrzhILM",
+                        "title": "Busco a 2 programadores para la web de La Velada VI",
+                        "thumbnail": "https://i3.ytimg.com/vi/V4PzBrzhILM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "eCQnmHQh4-8",
                         "title": "La IA le quitó el arte a la programación",
                         "thumbnail": "https://i2.ytimg.com/vi/eCQnmHQh4-8/hqdefault.jpg"
@@ -740,6 +750,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "UFHkWa3A4w4",
+                        "title": "¿Quieres construir agentes de IA? Google tiene la solución perfecta",
+                        "thumbnail": "https://i2.ytimg.com/vi/UFHkWa3A4w4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "0DhghJpWwVQ",
                         "title": "Curso de Desarrollo con IA 2026 - Día 3 - Despliega software de manera rápida y segura con IA",
