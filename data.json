@@ -621,6 +621,31 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "3iLxvp0NNI0",
+                        "title": "Vercel está furioso con Cloudflare",
+                        "thumbnail": "https://i4.ytimg.com/vi/3iLxvp0NNI0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "5_f6FdjkYgU",
+                        "title": "Oferta de trabajo para programadores Junior",
+                        "thumbnail": "https://i2.ytimg.com/vi/5_f6FdjkYgU/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "8xniE5TEFvI",
+                        "title": "Esto ya se salió de control",
+                        "thumbnail": "https://i1.ytimg.com/vi/8xniE5TEFvI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "-bdp04ENBuM",
+                        "title": "¡Curso oficial con certificado final de Claude Code!\n15 lecciones y 1 hora de vídeo. De 0 hasta MCPs",
+                        "thumbnail": "https://i2.ytimg.com/vi/-bdp04ENBuM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "A0QAVidne7c",
+                        "title": "Vite 8.0 es...",
+                        "thumbnail": "https://i2.ytimg.com/vi/A0QAVidne7c/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "bnnIP0eigDg",
                         "title": "Me ha escrito NVIDIA + Oferta para juniors + Vite 8 + ¡Competencia de Vercel! + Pokémon te robó",
                         "thumbnail": "https://i3.ytimg.com/vi/bnnIP0eigDg/hqdefault.jpg"
@@ -750,6 +775,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "Gao3Abj-JNY",
+                        "title": "Resuelve tus dudas sobre el Máster de Desarrollo con IA",
+                        "thumbnail": "https://i4.ytimg.com/vi/Gao3Abj-JNY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "BNwnYICdxng",
+                        "title": "¿Conoces la academia oficial de Claude Code?",
+                        "thumbnail": "https://i3.ytimg.com/vi/BNwnYICdxng/hqdefault.jpg"
+                    },
                     {
                         "video_id": "UFHkWa3A4w4",
                         "title": "¿Quieres construir agentes de IA? Google tiene la solución perfecta",
