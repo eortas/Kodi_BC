@@ -621,6 +621,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "T0VlcnJ9r5A",
+                        "title": "Aprende a integrar IA a tu Aplicación Web (con modelos GRATIS)",
+                        "thumbnail": "https://i1.ytimg.com/vi/T0VlcnJ9r5A/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "LPrqEQvaQbQ",
+                        "title": "¿Crees que aprender programación es difícil?\nPiensa cómo aprendieron los que vinieron antes.\n\nSin Ch",
+                        "thumbnail": "https://i1.ytimg.com/vi/LPrqEQvaQbQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "TpiNiICroMA",
+                        "title": "Crea una API de IA Gratis desde cero + Deploy a VPS con Dokploy + Hackathon con premios",
+                        "thumbnail": "https://i1.ytimg.com/vi/TpiNiICroMA/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "3iLxvp0NNI0",
                         "title": "Vercel está furioso con Cloudflare",
                         "thumbnail": "https://i4.ytimg.com/vi/3iLxvp0NNI0/hqdefault.jpg"
@@ -890,6 +905,16 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "ldxFjLJ3rVY",
+                        "title": "This picture broke my brain",
+                        "thumbnail": "https://i1.ytimg.com/vi/ldxFjLJ3rVY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Qoes9bTJtn0",
+                        "title": "Bacteria Grid Puzzle Solution",
+                        "thumbnail": "https://i2.ytimg.com/vi/Qoes9bTJtn0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "fsLh-NYhOoU",
                         "title": "The most beautiful formula not enough people understand",
