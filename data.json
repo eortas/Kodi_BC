@@ -621,6 +621,36 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "kCB_bnz5txQ",
+                        "title": "El nuevo modelo de Cursor no es lo que parece",
+                        "thumbnail": "https://i4.ytimg.com/vi/kCB_bnz5txQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "xrms_JDYnx4",
+                        "title": "Así te descartan en pruebas técnicas en segundos.\nEl 50% de los candidatos lo resuelven mal.\n¿Y tú?",
+                        "thumbnail": "https://i1.ytimg.com/vi/xrms_JDYnx4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ikdCG4goKIE",
+                        "title": "Me hackearon",
+                        "thumbnail": "https://i2.ytimg.com/vi/ikdCG4goKIE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "u8ffYWVMAes",
+                        "title": "El día que Claude AI controló mi ordenador desde el móvil",
+                        "thumbnail": "https://i2.ytimg.com/vi/u8ffYWVMAes/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "8a7ao73aJhE",
+                        "title": "La universidad de Stanford abre su curso de Python con certificado final a todo el mundo y sin coste",
+                        "thumbnail": "https://i1.ytimg.com/vi/8a7ao73aJhE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "b3Nkhx9P0aE",
+                        "title": "¡No sufras maquetando emails nunca más! Deja de usar tablas gracias a React Email.\n\nUn catálogo de c",
+                        "thumbnail": "https://i3.ytimg.com/vi/b3Nkhx9P0aE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "T0VlcnJ9r5A",
                         "title": "Aprende a integrar IA a tu Aplicación Web (con modelos GRATIS)",
                         "thumbnail": "https://i1.ytimg.com/vi/T0VlcnJ9r5A/hqdefault.jpg"
@@ -791,6 +821,16 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "HsiTAA2rU9c",
+                        "title": "¿Quieres estudiar Ciberseguridad y Hacking ético gratis?",
+                        "thumbnail": "https://i1.ytimg.com/vi/HsiTAA2rU9c/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "EQ51e-aKVHs",
+                        "title": "Esto es todo lo que necesita OpenClaw",
+                        "thumbnail": "https://i2.ytimg.com/vi/EQ51e-aKVHs/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Gao3Abj-JNY",
                         "title": "Resuelve tus dudas sobre el Máster de Desarrollo con IA",
                         "thumbnail": "https://i4.ytimg.com/vi/Gao3Abj-JNY/hqdefault.jpg"
@@ -905,6 +945,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "4h5BEALuh44",
+                        "title": "The subset sum puzzle",
+                        "thumbnail": "https://i1.ytimg.com/vi/4h5BEALuh44/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ldxFjLJ3rVY",
                         "title": "This picture broke my brain",
