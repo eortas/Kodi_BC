@@ -621,6 +621,81 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "hUNJL06Z318",
+                        "title": "Refactoring & Testing (TBD) con Carlos Blé & Jorge Aguiar. Workshop #JSCONF2026",
+                        "thumbnail": "https://i1.ytimg.com/vi/hUNJL06Z318/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "eHsBTiRdxSc",
+                        "title": "Live coding: desarrollar una app fullStack sin salir del IDE con Windsurf AI. Workshop #JSCONF2026",
+                        "thumbnail": "https://i2.ytimg.com/vi/eHsBTiRdxSc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "LXPIz6-FEyg",
+                        "title": "Astro y Headless CMS: La combinación perfecta. Workshop #JSCONF2026",
+                        "thumbnail": "https://i1.ytimg.com/vi/LXPIz6-FEyg/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "VYV36ANCc2w",
+                        "title": "De Vibe Coding a Dev con IA: Arquitectura de Agentes para Proyectos Escalables. Workshop #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/VYV36ANCc2w/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "h0ktgs_OG_4",
+                        "title": "Accesibilidad web: Guía para un apocalipsis zombie con Mia Salazar #JSCONF2026",
+                        "thumbnail": "https://i1.ytimg.com/vi/h0ktgs_OG_4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "myLojJcq-8U",
+                        "title": "Framework Fatigue: ¿cómo elegir (y abandonar) un framework? con Fernando Herrera #JSCONF2026",
+                        "thumbnail": "https://i2.ytimg.com/vi/myLojJcq-8U/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ozRfe57liMw",
+                        "title": "Soluciones de IA: Lecciones y aprendizajes con Anna Vía #JSCONF2026",
+                        "thumbnail": "https://i4.ytimg.com/vi/ozRfe57liMw/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "rUoErA8rXAI",
+                        "title": "Web AI Más Allá del Chat: Algoritmos Genéticos, RL y Transformers.js en el Edge - Erick #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/rUoErA8rXAI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ybOmL7sBAO0",
+                        "title": "Programando como Rambo: del Vietnam de los frameworks a la web nativa con Jaime Gómez #JSCONF2026",
+                        "thumbnail": "https://i2.ytimg.com/vi/ybOmL7sBAO0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "6HvLFmTH1mI",
+                        "title": "React Compiler: el fin de los renders innecesarios con Ilda Neta #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/6HvLFmTH1mI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "9Z7uwo8SI_A",
+                        "title": "Node.js por dentro: entendiendo el runtime en producción con Estefany Aguilar #JSCONF2026",
+                        "thumbnail": "https://i2.ytimg.com/vi/9Z7uwo8SI_A/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "NRKmzyo2-Vw",
+                        "title": "Pair Programming con Agente: Cómo construí un RPG complejo sin perder la cabeza - Jorge #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/NRKmzyo2-Vw/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "X_v1cjA35D0",
+                        "title": "Code Mode: let the code do the talking con Sunil Pai #JSCONF2026",
+                        "thumbnail": "https://i1.ytimg.com/vi/X_v1cjA35D0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "j6ZkkDmjp_Q",
+                        "title": "JavaScript en la era de los agentes: del código al Agentic DevOps con  Gisela Torres #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/j6ZkkDmjp_Q/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "jPd-qj7Thss",
+                        "title": "Programar en 2026: the human-in-the-loop con Javi Velasco #JSCONF2026",
+                        "thumbnail": "https://i3.ytimg.com/vi/jPd-qj7Thss/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "kCB_bnz5txQ",
                         "title": "El nuevo modelo de Cursor no es lo que parece",
                         "thumbnail": "https://i4.ytimg.com/vi/kCB_bnz5txQ/hqdefault.jpg"
@@ -950,6 +1025,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "Y7ImxZ_YhJk",
+                        "title": "Escher's most mind-bending piece",
+                        "thumbnail": "https://i2.ytimg.com/vi/Y7ImxZ_YhJk/hqdefault.jpg"
+                    },
                     {
                         "video_id": "4h5BEALuh44",
                         "title": "The subset sum puzzle",
