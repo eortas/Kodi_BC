@@ -621,6 +621,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "phDBHfhMyEA",
+                        "title": "Un cambio de juego en el Desarrollo web",
+                        "thumbnail": "https://i1.ytimg.com/vi/phDBHfhMyEA/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Kt4j9Hvx0ik",
+                        "title": "¡Ojo con esto si usas GitHub Copilot!\n\nA partir del 24 de abril tus prompts, respuestas, código y co",
+                        "thumbnail": "https://i4.ytimg.com/vi/Kt4j9Hvx0ik/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "hUNJL06Z318",
                         "title": "Refactoring & Testing (TBD) con Carlos Blé & Jorge Aguiar. Workshop #JSCONF2026",
                         "thumbnail": "https://i1.ytimg.com/vi/hUNJL06Z318/hqdefault.jpg"
