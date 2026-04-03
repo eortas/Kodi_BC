@@ -621,6 +621,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "PFJd_RE_fAs",
+                        "title": "Axios acaba de ser hackeado (y es peor de lo que crees)",
+                        "thumbnail": "https://i1.ytimg.com/vi/PFJd_RE_fAs/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "66QiqAb-Th8",
                         "title": "¡Brutal lo nuevo de Google! Si el diseño se te atraganta al crear una web o app, Stitch te va a salv",
                         "thumbnail": "https://i3.ytimg.com/vi/66QiqAb-Th8/hqdefault.jpg"
@@ -930,6 +935,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "bt0JKhHcvn4",
+                        "title": "Taller de Obsidian desde cero: Tu ideas, apuntes y proyectos en un solo lugar",
+                        "thumbnail": "https://i3.ytimg.com/vi/bt0JKhHcvn4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ml0KTYj5KkA",
                         "title": "No es tu código... es ESTO",
