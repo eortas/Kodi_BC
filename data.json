@@ -621,6 +621,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "CEUiv2E8iEs",
+                        "title": "¡Guía para entrevistas técnicas de programación!\n\n✓ Patrones de diseño\n✓ Arquitectura de software\n✓",
+                        "thumbnail": "https://i4.ytimg.com/vi/CEUiv2E8iEs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "MFXhkwjKHA4",
+                        "title": "Es más grave de lo que parece...",
+                        "thumbnail": "https://i2.ytimg.com/vi/MFXhkwjKHA4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "PFJd_RE_fAs",
                         "title": "Axios acaba de ser hackeado (y es peor de lo que crees)",
                         "thumbnail": "https://i1.ytimg.com/vi/PFJd_RE_fAs/hqdefault.jpg"
@@ -935,6 +945,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "v0qe5-osFFI",
+                        "title": "¿El sucesor de WordPress?",
+                        "thumbnail": "https://i3.ytimg.com/vi/v0qe5-osFFI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "bt0JKhHcvn4",
                         "title": "Taller de Obsidian desde cero: Tu ideas, apuntes y proyectos en un solo lugar",
