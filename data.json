@@ -534,6 +534,328 @@
             }
         }
     },
+    "Curso Power BI": {
+        "type": "static_collection",
+        "modules": {
+            "CURSO COMPLETO": {
+                "thumbnail": "https://raw.githubusercontent.com/eortas/Kodi_BC/main/plugin.video.bootcamp_data_science/thumbnails/powerbi.jpg",
+                "videos": [
+                    {
+                        "title": "00 - RECURSOS DEL CURSO (Google Drive)",
+                        "video_id": "https://drive.google.com/drive/folders/1OAMRIwaA4gYl2CmI72dZgQ56rR9NVpgY?usp=drive_link"
+                    },
+                    {
+                        "title": "001   Qué es Power BI",
+                        "video_id": "oqDl-nPqcQ0"
+                    },
+                    {
+                        "title": "002   Descarga de Power BI Desktop Gratis",
+                        "video_id": "meo9qORwuXA"
+                    },
+                    {
+                        "title": "003   Interfaz de Power BI Desktop",
+                        "video_id": "WIQvzaMalEM"
+                    },
+                    {
+                        "title": "004   Fases de Power BI",
+                        "video_id": "regsNLpN29U"
+                    },
+                    {
+                        "title": "005   Práctica Introductoria a Power BI",
+                        "video_id": "mkZgRmREDS0"
+                    },
+                    {
+                        "title": "006   Conectar y Actualizar Datos",
+                        "video_id": "8Pr9qx4KIQQ"
+                    },
+                    {
+                        "title": "007   Conociendo Power Query",
+                        "video_id": "aMH4ABo_a40"
+                    },
+                    {
+                        "title": "008   Transformación de datos",
+                        "video_id": "AIRHVqGrFwI"
+                    },
+                    {
+                        "title": "009   Relaciones de tablas",
+                        "video_id": "0fFKd4glOJI"
+                    },
+                    {
+                        "title": "010   Introducción a DAX",
+                        "video_id": "mZ4nRpeomI0"
+                    },
+                    {
+                        "title": "011   Visualización de datos",
+                        "video_id": "tljoLkMVy98"
+                    },
+                    {
+                        "title": "012   Interacciones y Filtros",
+                        "video_id": "OHvPQYDXo_E"
+                    },
+                    {
+                        "title": "013   Formato de Visualizaciones",
+                        "video_id": "-1ax95kb2Y0"
+                    },
+                    {
+                        "title": "015   Botones y Marcadores",
+                        "video_id": "AwkMVKC_v-A"
+                    },
+                    {
+                        "title": "016   Ver y Publicar Reporte en Línea",
+                        "video_id": "mQT7MCsIv-U"
+                    },
+                    {
+                        "title": "014   Formato de Reporte",
+                        "video_id": "nAUDyrmLAso"
+                    },
+                    {
+                        "title": "017   Descripción de Proyecto",
+                        "video_id": "v6sW6cqvEk4"
+                    },
+                    {
+                        "title": "018   Agregar múltiples archivos desde carpeta",
+                        "video_id": "n-5kSYXMUek"
+                    },
+                    {
+                        "title": "019   Transformaciones y Limpieza de datos con Query Editor",
+                        "video_id": "W67nxnpia_4"
+                    },
+                    {
+                        "title": "020   Anexar tablas de distintas pestañas de Excel",
+                        "video_id": "k77FwlC4jL0"
+                    },
+                    {
+                        "title": "021   Unir tablas Similar a BUSCARV",
+                        "video_id": "Vj41T7yqPGM"
+                    },
+                    {
+                        "title": "022   Tabla Calendario con M Power Query",
+                        "video_id": "YwMubXuqTRE"
+                    },
+                    {
+                        "title": "023   Modelado de datos   Esquema de Estrella",
+                        "video_id": "6XZHQ7EN8og"
+                    },
+                    {
+                        "title": "024   Ajustes a columnas y condicionales",
+                        "video_id": "qHgClbxJKZQ"
+                    },
+                    {
+                        "title": "025   Condicionales con DAX",
+                        "video_id": "lgdcRVb5x1s"
+                    },
+                    {
+                        "title": "026   Optimización con Tablas Dim",
+                        "video_id": "Tny-LmF_gfw"
+                    },
+                    {
+                        "title": "027   Consideraciones con funciones de COUNT",
+                        "video_id": "9PPhzUBldtk"
+                    },
+                    {
+                        "title": "028   Medidas básicas con DAX",
+                        "video_id": "xLmED5-gHQM"
+                    },
+                    {
+                        "title": "029   Introducción a función CALCULATE",
+                        "video_id": "4tSuNci1yCI"
+                    },
+                    {
+                        "title": "030   Interacciones y ajustes a slicers",
+                        "video_id": "7I3nMl5PS8A"
+                    },
+                    {
+                        "title": "031   Formato de Reporte",
+                        "video_id": "Ogl30myGBGY"
+                    },
+                    {
+                        "title": "032   Cambiar tema con Bookmarks",
+                        "video_id": "CK35VQmRjHg"
+                    },
+                    {
+                        "title": "033   Más interacciones y acciones con Bookmarks",
+                        "video_id": "yBZxWsKUfAg"
+                    },
+                    {
+                        "title": "034   Revisión reporte en Web",
+                        "video_id": "2-9V_QU9M3Y"
+                    },
+                    {
+                        "title": "035   Escenario 1",
+                        "video_id": "UDdYsGFmb78"
+                    },
+                    {
+                        "title": "036   ALL vs ALLSELECTED",
+                        "video_id": "rxjcvQly2P8"
+                    },
+                    {
+                        "title": "037   Escenario 2",
+                        "video_id": "ydE-W3kZsKU"
+                    },
+                    {
+                        "title": "038   RANKX",
+                        "video_id": "CJ8eH6Xxh2g"
+                    },
+                    {
+                        "title": "039   Escenario 3",
+                        "video_id": "HQ3pD34xxtM"
+                    },
+                    {
+                        "title": "040   Conexión a Google Sheets, Dropbox, OneDrive",
+                        "video_id": "CM0a4WjX0x4"
+                    },
+                    {
+                        "title": "041   Categorías de URL Imagen y Web",
+                        "video_id": "HpwxaVBPQ5c"
+                    },
+                    {
+                        "title": "042   Modificar y Ajustar Imágenes",
+                        "video_id": "a71aB4yHjVA"
+                    },
+                    {
+                        "title": "043   Panel de Filtros",
+                        "video_id": "B2qRwvmtR2s"
+                    },
+                    {
+                        "title": "044   Drill through",
+                        "video_id": "VJHnnkcQE2o"
+                    },
+                    {
+                        "title": "045   Report Page Tooltips",
+                        "video_id": "FOXFIpo5u9M"
+                    },
+                    {
+                        "title": "046   Creación de Reporte de Ranking",
+                        "video_id": "luSdmjBIk38"
+                    },
+                    {
+                        "title": "047   Filtros e Interacciones",
+                        "video_id": "0-i1TD_z2u4"
+                    },
+                    {
+                        "title": "048   Opciones de Bookmarks",
+                        "video_id": "KFGh1S2SwLE"
+                    },
+                    {
+                        "title": "049   Publicación de Reporte",
+                        "video_id": "vVyRR3yIBkk"
+                    },
+                    {
+                        "title": "050   Base de datos con millones de filas",
+                        "video_id": "C1uvDK_49zo"
+                    },
+                    {
+                        "title": "051   Normalización de base de datos",
+                        "video_id": "CAWvJiwzdMQ"
+                    },
+                    {
+                        "title": "052   Limpieza de datos y Opciones de Columna Perfil, Calidad, Distribución",
+                        "video_id": "e_xYh7_7Nxg"
+                    },
+                    {
+                        "title": "053   ETL Workaround",
+                        "video_id": "U7s9SUCVfYs"
+                    },
+                    {
+                        "title": "054   Carga de datos completa",
+                        "video_id": "WKwA7mBr3_k"
+                    },
+                    {
+                        "title": "055   Exportar e importar modelo normalizado",
+                        "video_id": "oS8snBytyKY"
+                    },
+                    {
+                        "title": "056   Más formas de ETL",
+                        "video_id": "16acrpwxXc4"
+                    },
+                    {
+                        "title": "057   Parámetros",
+                        "video_id": "JEq6CCj4d30"
+                    },
+                    {
+                        "title": "058   Data Gateway y actualizaciones automáticas",
+                        "video_id": "5G5sxaW7064"
+                    },
+                    {
+                        "title": "059   Incremental Refresh",
+                        "video_id": "nTlFdns8W1o"
+                    },
+                    {
+                        "title": "060   Row Level Security RLS",
+                        "video_id": "CPQ0rZYKeEk"
+                    },
+                    {
+                        "title": "061   Dimensión de Fecha",
+                        "video_id": "Ev12BHxYpmE"
+                    },
+                    {
+                        "title": "062   BONUS 1   ETL para normalizar BD de prueba y algunos tips más",
+                        "video_id": "CLKIJr5GI-U"
+                    },
+                    {
+                        "title": "063   BONUS 2   Incremental Refresh con BD SQL Server",
+                        "video_id": "Sn0YlR3OHcQ"
+                    },
+                    {
+                        "title": "064   Tips y consideraciones DAX",
+                        "video_id": "PjepUuzLXB0"
+                    },
+                    {
+                        "title": "065   Modificando detalles de granularidad y Medidas para Contar",
+                        "video_id": "vbfrPdDv09w"
+                    },
+                    {
+                        "title": "066   Tablas DAX  FILTER   VALUES   ALL",
+                        "video_id": "p8HGp70fwJc"
+                    },
+                    {
+                        "title": "067   CALCULATE   KEEPFILTERS   REMOVEFILTERS",
+                        "video_id": "RjuQTpcH0eA"
+                    },
+                    {
+                        "title": "068   Variables",
+                        "video_id": "Az0HdNt46BM"
+                    },
+                    {
+                        "title": "069   ALL   ALLSELECTED   ALLEXCEPT",
+                        "video_id": "Tkmk2-Qdi_s"
+                    },
+                    {
+                        "title": "070   IF   IFERROR   ISERROR   ISBLANK   COALESCE",
+                        "video_id": "IdYGlCLw9oQ"
+                    },
+                    {
+                        "title": "071   COALESCE   SWITCH   FORMAT",
+                        "video_id": "rhzUT6mJm2Q"
+                    },
+                    {
+                        "title": "072   Funciones de iteración  SUMX   AVERAGEX   MAXX   CONCATENATEX",
+                        "video_id": "w0jJq8M9QYE"
+                    },
+                    {
+                        "title": "073   RANKX   TOPN   ISINSCOPE",
+                        "video_id": "Dpw7aQHjz30"
+                    },
+                    {
+                        "title": "074   Histograma y Diagrama de Pareto con DAX",
+                        "video_id": "sMIRhWGlknI"
+                    },
+                    {
+                        "title": "075   3 Ejemplos con SELECTEDVALUE e ISINSCOPE",
+                        "video_id": "gy_EUJrmK8Y"
+                    },
+                    {
+                        "title": "076   Time Intelligence 1",
+                        "video_id": "yGcc0lhXqa8"
+                    },
+                    {
+                        "title": "077   Time Intelligence 2",
+                        "video_id": "Avpb1UBWHeM"
+                    }
+                ]
+            }
+        }
+    },
     "Recursos en Castellano": {
         "type": "channel_collection",
         "channels": {

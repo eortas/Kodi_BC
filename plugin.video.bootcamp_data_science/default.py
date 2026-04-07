@@ -197,13 +197,13 @@ def export_favourites():
         return
 
     # 5. Mostrar QR en pantalla
-    show_qr_dialog(url, qr_path)
+    show_qr_dialog(url, qr_path, 'Escanea para ver tus favoritos en un JSON')
 
 
-def show_qr_dialog(url, qr_path):
+def show_qr_dialog(url, qr_path, title_text='Escanea el código QR'):
     """Muestra el QR en un diálogo personalizado con la URL debajo."""
     class QRDialog(xbmcgui.WindowDialog):
-        def __init__(self, url, qr_path):
+        def __init__(self, url, qr_path, title_text):
             super().__init__()
             sw = self.getWidth()
             sh = self.getHeight()
@@ -215,7 +215,7 @@ def show_qr_dialog(url, qr_path):
             # Título
             title = xbmcgui.ControlLabel(
                 sw // 2 - 400, sh // 2 - 280, 800, 60,
-                'Escanea para ver tus favoritos en un JSON',
+                title_text,
                 font='font20', alignment=6
             )
             self.addControl(title)
@@ -250,7 +250,7 @@ def show_qr_dialog(url, qr_path):
             if action.getId() in (92, 10):  # BACK o B
                 self.close()
 
-    win = QRDialog(url, qr_path)
+    win = QRDialog(url, qr_path, title_text)
     win.doModal()
     del win
 
@@ -263,13 +263,21 @@ def build_url(query):
     return base_url + '?' + urllib.parse.urlencode(query)
 
 
-def add_youtube_item(video_id, title, thumbnail=''):
-    url   = f"plugin://plugin.video.youtube/play/?video_id={video_id}"
-    li    = xbmcgui.ListItem(title)
-    thumb = thumbnail if thumbnail else f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
-    li.setProperty('IsPlayable', 'true')
-    li.setArt({'thumb': thumb})
-    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
+def add_item(video_id, title, thumbnail=''):
+    if video_id.startswith('http'):
+        # Recurso externo (Drive, Web, etc)
+        url = build_url({'mode': 'show_resource', 'url': video_id, 'title': title})
+        li  = xbmcgui.ListItem(title)
+        li.setArt({'thumb': 'DefaultAddonsUpdates.png'})
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
+    else:
+        # Vídeo de YouTube
+        url   = f"plugin://plugin.video.youtube/play/?video_id={video_id}"
+        li    = xbmcgui.ListItem(title)
+        thumb = thumbnail if thumbnail else f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
+        li.setProperty('IsPlayable', 'true')
+        li.setArt({'thumb': thumb})
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
 
 
 
@@ -285,6 +293,17 @@ def router():
     # Acción especial: exportar favoritos
     if mode == 'export_favourites':
         export_favourites()
+        return
+
+    # Mostrar recurso externo (QR)
+    if mode == 'show_resource':
+        url_res   = args.get('url',   [None])[0]
+        title_res = args.get('title', ['Recurso'])[0]
+        qr_path   = download_qr_image(url_res)
+        if qr_path:
+            show_qr_dialog(url_res, qr_path, title_res)
+        else:
+            xbmcgui.Dialog().ok(title_res, f'URL:\n{url_res}')
         return
 
     if not data:
@@ -347,7 +366,7 @@ def router():
             videos = module_data.get('videos', []) if isinstance(module_data, dict) else module_data
             thumb  = module_data.get('thumbnail', '') if isinstance(module_data, dict) else ''
             for video in videos:
-                add_youtube_item(video['video_id'], video['title'], thumb)
+                add_item(video['video_id'], video['title'], thumb)
 
         elif cat_type == 'channel_collection':
             channel_info = category_data['channels'].get(mod, {})
@@ -363,7 +382,7 @@ def router():
                     mod, 'No se pudieron cargar los vídeos.', xbmcgui.NOTIFICATION_WARNING
                 )
             for video in videos:
-                add_youtube_item(video['video_id'], video['title'], video.get('thumbnail', ''))
+                add_item(video['video_id'], video['title'], video.get('thumbnail', ''))
 
         xbmcplugin.endOfDirectory(addon_handle)
 
