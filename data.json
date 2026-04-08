@@ -948,6 +948,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "MHurl__dTYk",
+                        "title": "Esto es malo para Node.js",
+                        "thumbnail": "https://i2.ytimg.com/vi/MHurl__dTYk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "jZ1hvbCgfO4",
+                        "title": "¡Comparte tus proyectos en local con cualquiera usando Visual Studio Code!\n\nEsta nueva funcionalidad",
+                        "thumbnail": "https://i3.ytimg.com/vi/jZ1hvbCgfO4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "1VaSXlQnHfA",
+                        "title": "Claude... ¿Esto es una broma?",
+                        "thumbnail": "https://i2.ytimg.com/vi/1VaSXlQnHfA/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "1NJuxiovJ7E",
                         "title": "Trucazo de GitHub que poca gente conoce.\n\nCrea mejores READMEs para tus proyectos o tu perfil.\n\nSon",
                         "thumbnail": "https://i2.ytimg.com/vi/1NJuxiovJ7E/hqdefault.jpg"
@@ -1277,6 +1292,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "WwdGAuKrwz0",
+                        "title": "Mi tier list de IA para Programadores",
+                        "thumbnail": "https://i4.ytimg.com/vi/WwdGAuKrwz0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "v0qe5-osFFI",
                         "title": "¿El sucesor de WordPress?",
