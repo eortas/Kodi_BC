@@ -948,6 +948,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "4zcIpvCkEyU",
+                        "title": "Claude no quiere trabajar",
+                        "thumbnail": "https://i1.ytimg.com/vi/4zcIpvCkEyU/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "QxsaZFfVexI",
                         "title": "La IA se está volviendo carísima",
                         "thumbnail": "https://i2.ytimg.com/vi/QxsaZFfVexI/hqdefault.jpg"
@@ -1342,6 +1347,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "Ota_t3Q-QeY",
+                        "title": "Taller de Google Antigravity desde cero",
+                        "thumbnail": "https://i4.ytimg.com/vi/Ota_t3Q-QeY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "SJZnqtTbNe8",
                         "title": "¿Por qué los programadores necesitan esta web?",
