@@ -856,6 +856,1784 @@
             }
         }
     },
+    "Curso AWS": {
+        "type": "static_collection",
+        "modules": {
+            "CURSO COMPLETO": {
+                "thumbnail": "https://raw.githubusercontent.com/eortas/Kodi_BC/main/plugin.video.bootcamp_data_science/thumbnails/AWS.jpg",
+                "videos": [
+                    {
+                        "title": "00 - RECURSOS DEL CURSO (Google Drive)",
+                        "video_id": "https://drive.google.com/drive/folders/1h3EWlT8iE8R8y1pClSgh4EMO8Kn5xJz3?usp=drive_link"
+                    },
+                    {
+                        "title": "001   Introducción al curso",
+                        "video_id": "CiuCarwzOx0"
+                    },
+                    {
+                        "title": "004   Hablemos de las Certificaciones",
+                        "video_id": "vn4LWNqwOb0"
+                    },
+                    {
+                        "title": "005   Introducción al Cloud Computing Parte 1",
+                        "video_id": "_se4zaux5UA"
+                    },
+                    {
+                        "title": "006   Introducción al Cloud Computing Parte 2",
+                        "video_id": "oFPQ2pZf4hg"
+                    },
+                    {
+                        "title": "007   Proveedores Cloud",
+                        "video_id": "7Q-KAYbq60M"
+                    },
+                    {
+                        "title": "008   Ventajas de pasar a la nube",
+                        "video_id": "HE3PLhIsbDg"
+                    },
+                    {
+                        "title": "010   Capa gratuita de AWS Cambios desde 15 de Julio de 2025",
+                        "video_id": "IYMTOpTnxiE"
+                    },
+                    {
+                        "title": "011   Crear una cuenta de Amazon AWS",
+                        "video_id": "BjiMEjsPCdg"
+                    },
+                    {
+                        "title": "012   Infraestructura Global  Regiones",
+                        "video_id": "5xueQHecxns"
+                    },
+                    {
+                        "title": "013   Infraestructura Global  AZ, Zonas locales, Outpost",
+                        "video_id": "Jq656eyVdRA"
+                    },
+                    {
+                        "title": "015   ¿Por qué seleccionar una determinada región",
+                        "video_id": "zNj0_2ZAcfw"
+                    },
+                    {
+                        "title": "016   Repaso de la consola Parte 1",
+                        "video_id": "LA8Xp7A1B_Q"
+                    },
+                    {
+                        "title": "017   Repaso de la consola parte 2",
+                        "video_id": "E04_1r5cq7I"
+                    },
+                    {
+                        "title": "018   Nueva Consola Home",
+                        "video_id": "onRjCkLeaGs"
+                    },
+                    {
+                        "title": "019   Como comprobar el gasto que estamos haciendo en AWS",
+                        "video_id": "wgAE1BBeCrw"
+                    },
+                    {
+                        "title": "022   Crear una alarma de facturación",
+                        "video_id": "_8qHyp5zrVE"
+                    },
+                    {
+                        "title": "023   Trucos para gastar lo menos posible durante el curso",
+                        "video_id": "rOhwlTXNgQw"
+                    },
+                    {
+                        "title": "024   ¿Cúanto me he gastado en este curso",
+                        "video_id": "hS--H7ohFS4"
+                    },
+                    {
+                        "title": "025   Health Dashboard",
+                        "video_id": "FD-XQtLcY_c"
+                    },
+                    {
+                        "title": "026   Trusted Advisor",
+                        "video_id": "mkINqhEAhVU"
+                    },
+                    {
+                        "title": "027   Tipos de Soporte de AWS",
+                        "video_id": "-Vs0_-citgY"
+                    },
+                    {
+                        "title": "028   Introducción y Arquitectura",
+                        "video_id": "a9OAIQ9tFYo"
+                    },
+                    {
+                        "title": "029   VCP  DashBoard  Visión general de nuestro Networking",
+                        "video_id": "iCf9hDeTmXk"
+                    },
+                    {
+                        "title": "030   Bloques CIDR",
+                        "video_id": "PkKgPMM762I"
+                    },
+                    {
+                        "title": "031   Crear una VPC",
+                        "video_id": "6Q5wUisusfg"
+                    },
+                    {
+                        "title": "032   Propiedades de una VPC",
+                        "video_id": "XUHEejJNU5M"
+                    },
+                    {
+                        "title": "033   Tablas de rutas  Introducción",
+                        "video_id": "7e8vp8-DLvY"
+                    },
+                    {
+                        "title": "034   ACLs  Introducción",
+                        "video_id": "AIpYaIfaTJM"
+                    },
+                    {
+                        "title": "035   Crear una Subred",
+                        "video_id": "TdZugnAXGF8"
+                    },
+                    {
+                        "title": "036   Propiedades de las subredes",
+                        "video_id": "YpRflpgiPHY"
+                    },
+                    {
+                        "title": "037   Subredes públicas  Introducción  Internet Gateway",
+                        "video_id": "xvHtWyNgsHU"
+                    },
+                    {
+                        "title": "038   Crear una subred publica",
+                        "video_id": "txi2gS4-tvo"
+                    },
+                    {
+                        "title": "039   Otras propiedades para las subredes públicas",
+                        "video_id": "j0mAHiqyWjk"
+                    },
+                    {
+                        "title": "041   Propiedades para la VPC",
+                        "video_id": "kNTXP77c0kA"
+                    },
+                    {
+                        "title": "042   Asistente de VPC",
+                        "video_id": "MthEQids-kU"
+                    },
+                    {
+                        "title": "043   Borrar una VPC",
+                        "video_id": "W2wqnI0NXkY"
+                    },
+                    {
+                        "title": "044   Introducción a EC2",
+                        "video_id": "LeBwCmeLpY8"
+                    },
+                    {
+                        "title": "045   Tipos de instancia  Parte 1",
+                        "video_id": "MohkiILcuXk"
+                    },
+                    {
+                        "title": "046   Tipos de instancia  Parte 2",
+                        "video_id": "sbO5krUCZPE"
+                    },
+                    {
+                        "title": "047   Tipos de instancia  Buscador",
+                        "video_id": "CtSWwR23ndU"
+                    },
+                    {
+                        "title": "048   Nitro System",
+                        "video_id": "ddavy4Cfw7E"
+                    },
+                    {
+                        "title": "049   EC2 DashBoard",
+                        "video_id": "OAgczUoCPaQ"
+                    },
+                    {
+                        "title": "050   Crear una instancia  Parte 1  Nombre y Tags",
+                        "video_id": "vls79XiWXzE"
+                    },
+                    {
+                        "title": "051   Crear una instancia Parte 2  AMIs  Plantillas de Sistemas Operativos",
+                        "video_id": "Zci-MhauqDs"
+                    },
+                    {
+                        "title": "052   Crear una instancia Parte 3  Seleccionar tipo de máquina",
+                        "video_id": "LXNGASSIMwA"
+                    },
+                    {
+                        "title": "053   Crear una instancia Parte 4  Key Pais  Claves para conectarse en remoto",
+                        "video_id": "B9R8G1NzFxw"
+                    },
+                    {
+                        "title": "054   Crear una instancia Parte 5  Configuración de red",
+                        "video_id": "CvmwkNLjZkw"
+                    },
+                    {
+                        "title": "055   Crear una instancia Parte 6  Almacenamiento",
+                        "video_id": "z6v6FR0Ul08"
+                    },
+                    {
+                        "title": "056   Crear una instancia Parte 7  Opciones avanzadas",
+                        "video_id": "rcqGh9wnVNM"
+                    },
+                    {
+                        "title": "057   Ver las propiedades de una instancia",
+                        "video_id": "S0YEgoBGihk"
+                    },
+                    {
+                        "title": "058   Estados de las instancias",
+                        "video_id": "9HAh9jzBPW4"
+                    },
+                    {
+                        "title": "059   Conectarnos a una instancia con EC2 Instance Connect",
+                        "video_id": "j9QglpJhUEE"
+                    },
+                    {
+                        "title": "060   Conectar mediante SSH desde Windows Parte 1",
+                        "video_id": "ZUw0B3_Hkzw"
+                    },
+                    {
+                        "title": "061   Conectar mediante SSH desde Windows Parte",
+                        "video_id": "eO9ZYVQtpzE"
+                    },
+                    {
+                        "title": "062   Conectar mediante SSH desde Linux",
+                        "video_id": "mRrkZg7M-zQ"
+                    },
+                    {
+                        "title": "063   Crear una instancia Windows",
+                        "video_id": "LlM-TfmxY3s"
+                    },
+                    {
+                        "title": "064   Conectarnos a una instancia Windows",
+                        "video_id": "MZ1k-Q5Rn7o"
+                    },
+                    {
+                        "title": "065   Ejemplo  Montar un servidor Apache y modificar el grupo de seguridad",
+                        "video_id": "7aU_SaCxdz4"
+                    },
+                    {
+                        "title": "066   NAT Gateway  Conectar una red privada a Internet",
+                        "video_id": "wqZ5y1QDHzA"
+                    },
+                    {
+                        "title": "067   IPs Elásticas",
+                        "video_id": "wYgb-EugU84"
+                    },
+                    {
+                        "title": "068   Servidor de Pasarela entre red publica y privada",
+                        "video_id": "NHeb02WnZCc"
+                    },
+                    {
+                        "title": "069   NAT Gateway  Ejemplo",
+                        "video_id": "YeZ2LIjXtyc"
+                    },
+                    {
+                        "title": "070   Asociar una IP elástica a una instancia",
+                        "video_id": "nvPkhnTIDMs"
+                    },
+                    {
+                        "title": "071   Network Interfaces  Creación y asociación",
+                        "video_id": "kLxZlaHexv8"
+                    },
+                    {
+                        "title": "072   Asignar IPs privadas a un Network Interfaces  Desasociar la tarjeta",
+                        "video_id": "5nRe3bMhPVc"
+                    },
+                    {
+                        "title": "073   Asignar IPs públicas a un Network Interface",
+                        "video_id": "XczcOEcIovI"
+                    },
+                    {
+                        "title": "074   Plantillas  Launch Templates",
+                        "video_id": "VBLrXutGE8A"
+                    },
+                    {
+                        "title": "075   Crear una instancia desde Plantilla",
+                        "video_id": "qiV2MVoDwd8"
+                    },
+                    {
+                        "title": "076   Versionado de plantillas",
+                        "video_id": "Q_X-ci4JmuE"
+                    },
+                    {
+                        "title": "077   Opciones avanzadas de plantillas",
+                        "video_id": "E27yLk6kp9w"
+                    },
+                    {
+                        "title": "078   Instancias de tipo SPOT",
+                        "video_id": "JgJ6x9mBL4Y"
+                    },
+                    {
+                        "title": "079   Crear una instancia de tipo Spot",
+                        "video_id": "LJnjzmaajkY"
+                    },
+                    {
+                        "title": "080   Crear varias instancias de tipo Spot",
+                        "video_id": "01qfTnkHMh8"
+                    },
+                    {
+                        "title": "081   Propiedades de un Spot Request  Informe de Ahorros",
+                        "video_id": "HkUjLfndM2o"
+                    },
+                    {
+                        "title": "082   Modos de terminación de una instancia Spot",
+                        "video_id": "wGe7abIQfno"
+                    },
+                    {
+                        "title": "083   Configurar precios para instancia SPOT",
+                        "video_id": "fC_HzUHnCek"
+                    },
+                    {
+                        "title": "084   Crear una instancia SPOT desde plantillas",
+                        "video_id": "q6PUizlzj-M"
+                    },
+                    {
+                        "title": "085   Saving Plans Parte 1",
+                        "video_id": "HhvVNpqasF8"
+                    },
+                    {
+                        "title": "086   Saving Plans  Ejemplo",
+                        "video_id": "ZBEq931C-Oo"
+                    },
+                    {
+                        "title": "087   Instancias Reservadas",
+                        "video_id": "CHdtICqMcvM"
+                    },
+                    {
+                        "title": "088   Hosts dedicados  Introducción",
+                        "video_id": "n65aZTkvILo"
+                    },
+                    {
+                        "title": "089   Hosts dedicados  Cálculo de precios",
+                        "video_id": "jJ8qCtC38Rg"
+                    },
+                    {
+                        "title": "090   Hosts dedicados  Límites",
+                        "video_id": "MT9b2TeFnC0"
+                    },
+                    {
+                        "title": "091   Hosts dedicados  Ejemplo y Tracking de Licenciaz",
+                        "video_id": "Hh5NeuHKmgc"
+                    },
+                    {
+                        "title": "092   Scheduled instances",
+                        "video_id": "cjB2QGL4W3Y"
+                    },
+                    {
+                        "title": "093   Capacity Reservations  Introducción",
+                        "video_id": "dasibfAiUaI"
+                    },
+                    {
+                        "title": "094   Capacity Reservations  Crear una reserva",
+                        "video_id": "brOZmuvbYzQ"
+                    },
+                    {
+                        "title": "095   Capacity Reservation  Crear instancias en una reserva",
+                        "video_id": "sYHY8hhk92Q"
+                    },
+                    {
+                        "title": "096   Introducción a AWS CLI",
+                        "video_id": "TUbDhpeam_U"
+                    },
+                    {
+                        "title": "097   Instalar AWS CLI en Windows",
+                        "video_id": "_JWu_8DoWrA"
+                    },
+                    {
+                        "title": "098   Instalar AWS en Linux",
+                        "video_id": "AZEKq9oODNY"
+                    },
+                    {
+                        "title": "099   Guía de referencia de AWS CLI",
+                        "video_id": "7NNzMQvuKtg"
+                    },
+                    {
+                        "title": "100   Access Key ID  Como autenticarnos en AWS CLI",
+                        "video_id": "rlLCRVdV9XM"
+                    },
+                    {
+                        "title": "101   Configurar AWS CLI para conectarnos",
+                        "video_id": "rYydRjfFYH8"
+                    },
+                    {
+                        "title": "102   Ejemplo  Comprobar las VPCS disponibles",
+                        "video_id": "lCL-AWNkqTU"
+                    },
+                    {
+                        "title": "103   Formatos de Salida",
+                        "video_id": "ppKsLHEQ0mc"
+                    },
+                    {
+                        "title": "104   Filtros de filas en las consultas",
+                        "video_id": "BQ4OsNZm3ck"
+                    },
+                    {
+                        "title": "105   Filtros de columnas  Opción Query Parte 1",
+                        "video_id": "zUUjhBcnsLE"
+                    },
+                    {
+                        "title": "106   Filtros de columnas  Opción Query Parte 2",
+                        "video_id": "dP0fRp8fHQY"
+                    },
+                    {
+                        "title": "107   Filtros de columnas  Opción Query Parte 3",
+                        "video_id": "GwR-HmJdR1o"
+                    },
+                    {
+                        "title": "108   Creandos objetos  Crear una instancia EC2",
+                        "video_id": "UShw4nVo2SU"
+                    },
+                    {
+                        "title": "109   Comprobando la instancia desde EC2",
+                        "video_id": "9oN6DnjVCYM"
+                    },
+                    {
+                        "title": "110   Parar, arrancar y terminar una instancia EC2",
+                        "video_id": "uTXGbfjWTsc"
+                    },
+                    {
+                        "title": "111   CloudShell",
+                        "video_id": "OJBNGC6z-5A"
+                    },
+                    {
+                        "title": "112   Catálogo de AMIs",
+                        "video_id": "4uqHysVdC9M"
+                    },
+                    {
+                        "title": "113   Crear una instancia y una plantilla desde el catalogo de AMIs",
+                        "video_id": "85l3pVuTUo4"
+                    },
+                    {
+                        "title": "114   Crear una AMI personalizada desde una instancia  Preparar el servidor",
+                        "video_id": "SUHfkO0gSRs"
+                    },
+                    {
+                        "title": "115   Crear una AMI personalizada desde una instancia  Crear el AMI",
+                        "video_id": "UbWrhS6tgWo"
+                    },
+                    {
+                        "title": "116   Algunos ejemplos con AWS CLI",
+                        "video_id": "neuRKXglTUU"
+                    },
+                    {
+                        "title": "117   MarketPlace de AMIs",
+                        "video_id": "a-nNCY1ugpE"
+                    },
+                    {
+                        "title": "118   Introducción a los volúmenes EBS",
+                        "video_id": "zGPbZcJ84eA"
+                    },
+                    {
+                        "title": "119   Tipos de volúmenes EBS",
+                        "video_id": "Ma-nlncFWfI"
+                    },
+                    {
+                        "title": "120   Crear un volumen EBS y asociarlo a una instancia",
+                        "video_id": "03hEUifhvrw"
+                    },
+                    {
+                        "title": "121   Particionar, formatear y montar el volumen EBS en la instancia",
+                        "video_id": "pLYOzsB0CNs"
+                    },
+                    {
+                        "title": "122   Crear un volumen EBS para Windows",
+                        "video_id": "IU7gU9etl4g"
+                    },
+                    {
+                        "title": "123   Crear un snapshot de un volumen EBS",
+                        "video_id": "YVHqW66paJo"
+                    },
+                    {
+                        "title": "124   Crear un volumen desde un Snapshot y asociarlo a una nueva instancia",
+                        "video_id": "0Vp7VqMB6MY"
+                    },
+                    {
+                        "title": "125   Borrar un volumen y un snapshot",
+                        "video_id": "hSGAzdvFB5o"
+                    },
+                    {
+                        "title": "126   AWS CLI y volúmenes  Ver volúmenes",
+                        "video_id": "yBv2B22j8Qc"
+                    },
+                    {
+                        "title": "127   AWS CLI y volúmenes  Crear, asociar y desasociar",
+                        "video_id": "4zqTRCmwu2M"
+                    },
+                    {
+                        "title": "128   Introducción a EFS",
+                        "video_id": "d11gH68GtxE"
+                    },
+                    {
+                        "title": "129   Grupo de Seguridad",
+                        "video_id": "CHoIYQwZfFs"
+                    },
+                    {
+                        "title": "130   Crear un sistema de ficheros EFS",
+                        "video_id": "VR4AYQ2jYXk"
+                    },
+                    {
+                        "title": "131   Montar un sistema EFS en las instancias",
+                        "video_id": "l7VdQBWHwCI"
+                    },
+                    {
+                        "title": "132   Crear un sistema de ficheros EFS  Opciones avanzadas",
+                        "video_id": "sVpJbEAXzaw"
+                    },
+                    {
+                        "title": "133   Introducción a FSx",
+                        "video_id": "n3VlWmShfWI"
+                    },
+                    {
+                        "title": "134   Crear un sistema FSx para Lustre",
+                        "video_id": "g1g6enAOQ7w"
+                    },
+                    {
+                        "title": "135   Montar un Filesystem Lustre",
+                        "video_id": "l7qwcyVTMEA"
+                    },
+                    {
+                        "title": "136   AWS CLI  Ejemplo con FSX  Crear un backup",
+                        "video_id": "X4escpxjkig"
+                    },
+                    {
+                        "title": "137   Introducción a los Load Balancers",
+                        "video_id": "l6MSEO4PVgk"
+                    },
+                    {
+                        "title": "138   Preparar el entorno de ejemplo subredes",
+                        "video_id": "VsT5W2S6COc"
+                    },
+                    {
+                        "title": "139   Preparar el entorno de ejemplo Convertir la subred en pública",
+                        "video_id": "47YWIIKT3ow"
+                    },
+                    {
+                        "title": "140   Preparar el entorno de ejemplo servidores  para el ejemplo",
+                        "video_id": "l_uzSucdQmY"
+                    },
+                    {
+                        "title": "141   Crear un Target Group",
+                        "video_id": "4DZUi6bEauM"
+                    },
+                    {
+                        "title": "142   Crear un ALB Application Load Balancer",
+                        "video_id": "Om0equh7ZdA"
+                    },
+                    {
+                        "title": "143   Probar el ALB",
+                        "video_id": "atGUHKH5MsQ"
+                    },
+                    {
+                        "title": "144   Reglas para los ALB",
+                        "video_id": "jjKB1BUN0c8"
+                    },
+                    {
+                        "title": "145   AWS CLI Ejemplo con ALBs",
+                        "video_id": "MwpB9RQbbKc"
+                    },
+                    {
+                        "title": "146   NLB Network Load Balancer  Ejemplo  Preparar mysql para la prueba",
+                        "video_id": "Rx_ownXu5xg"
+                    },
+                    {
+                        "title": "147   NLB Network Load Balancer  Ejemplo  Crear Targets Groups",
+                        "video_id": "k7AdYBLKfZQ"
+                    },
+                    {
+                        "title": "148   Crear el NLB",
+                        "video_id": "Yv52veU6T5s"
+                    },
+                    {
+                        "title": "149   Probar el NLB",
+                        "video_id": "OmFbPX951kk"
+                    },
+                    {
+                        "title": "150   AWS CLI Ejemplo con NLB",
+                        "video_id": "w1MbZMQkUnY"
+                    },
+                    {
+                        "title": "151   Introducción a los Grupos de Autoescalado",
+                        "video_id": "-ZsYyf5J6e0"
+                    },
+                    {
+                        "title": "152   Diferencias entre Launch Templates y Launch Configurations",
+                        "video_id": "9TNGB7yQeYs"
+                    },
+                    {
+                        "title": "153   Crear una Launch Configuration",
+                        "video_id": "uf3R46n9Fak"
+                    },
+                    {
+                        "title": "154   Crear una Launch Template",
+                        "video_id": "DtuOFDTSlO4"
+                    },
+                    {
+                        "title": "155   Crear un grupo de autoescalada Parte 1",
+                        "video_id": "Y5LZ5yHL3uM"
+                    },
+                    {
+                        "title": "156   Crear un grupo de autoescalada Parte 2",
+                        "video_id": "yeanDN1J_Uo"
+                    },
+                    {
+                        "title": "157   Propiedades del Grupo de Autoescalada",
+                        "video_id": "Ye_2mDGTrCc"
+                    },
+                    {
+                        "title": "158   Probar el grupo de autoescalada",
+                        "video_id": "gNBVJYOl-bQ"
+                    },
+                    {
+                        "title": "159   Grupo de autoescalada  Opciones avanzadas",
+                        "video_id": "pSFs5HDcZ5E"
+                    },
+                    {
+                        "title": "160   Políticas de Escalado SIMPLE y STEP",
+                        "video_id": "KQIoYnkYTbw"
+                    },
+                    {
+                        "title": "161   Introducción a S3",
+                        "video_id": "Ih9G63jnwmY"
+                    },
+                    {
+                        "title": "162   Crear un Bucket Parte 1",
+                        "video_id": "B9X8hAovf9c"
+                    },
+                    {
+                        "title": "163   Crear un Bucket Parte 2",
+                        "video_id": "dVCKWqIByhc"
+                    },
+                    {
+                        "title": "164   Repaso propiedades Bucket",
+                        "video_id": "9B5j-ernXms"
+                    },
+                    {
+                        "title": "165   Crear estructura de carpetas y subir contenido a un bucket",
+                        "video_id": "FQXkk5-qKjw"
+                    },
+                    {
+                        "title": "166   Objetos  Key ID y propiedades",
+                        "video_id": "FfzK-F8GrQ4"
+                    },
+                    {
+                        "title": "167   Acciones sobre los objeto  Metadatos",
+                        "video_id": "0t1a9t10FM4"
+                    },
+                    {
+                        "title": "168   Clases de almacenamiento  Donde guardar los objetos",
+                        "video_id": "pVnh_ZOca2Q"
+                    },
+                    {
+                        "title": "169   Cambiar la clase de almacenamiento",
+                        "video_id": "3ztmITVOjtk"
+                    },
+                    {
+                        "title": "170   Intelligent Tiering  Como funciona",
+                        "video_id": "qc8Yt2p8-3g"
+                    },
+                    {
+                        "title": "171   Configurar Intelligent Tiering",
+                        "video_id": "g5weE1Ao-yA"
+                    },
+                    {
+                        "title": "172   Configurar Versionado",
+                        "video_id": "DD3Py0TX10I"
+                    },
+                    {
+                        "title": "173   Trabajar con versiones",
+                        "video_id": "CeEev5X9vMQ"
+                    },
+                    {
+                        "title": "174   Recuperar una versión antigua",
+                        "video_id": "Cd4KynLv8Sc"
+                    },
+                    {
+                        "title": "175   Borrado de versiones",
+                        "video_id": "E2Vs5-s58ro"
+                    },
+                    {
+                        "title": "176   Ciclo de vida de un contenido",
+                        "video_id": "E4FrAuv5ZSY"
+                    },
+                    {
+                        "title": "177   Replica de Contenido",
+                        "video_id": "jpWJhV6mH7I"
+                    },
+                    {
+                        "title": "178   Acceso público a un bucket Parte 1",
+                        "video_id": "F-TKx6u48wE"
+                    },
+                    {
+                        "title": "179   Acceso público a un bucket Parte 2",
+                        "video_id": "AaJOWxrLeeQ"
+                    },
+                    {
+                        "title": "180   Politicas de seguridad  Descripción",
+                        "video_id": "I3LUnM4Kt6Q"
+                    },
+                    {
+                        "title": "181   Ejemplo de Acceso con Bucket Policy",
+                        "video_id": "xMYN53u-OA4"
+                    },
+                    {
+                        "title": "182   Ejemplo de Acceso con ACLs",
+                        "video_id": "yJJPlHsGhgs"
+                    },
+                    {
+                        "title": "183   Bloqueo de Objetos  Legal hold",
+                        "video_id": "rJiwjtluT3Y"
+                    },
+                    {
+                        "title": "184   Bloqueo de Objetos  Lock Retention",
+                        "video_id": "0MqYenAN9Dw"
+                    },
+                    {
+                        "title": "185   S3Browser  Una herramienta para acceder a S3",
+                        "video_id": "LFJrxOPaYrc"
+                    },
+                    {
+                        "title": "186   Crear un WebSite estático en S3",
+                        "video_id": "6DfVfwl8F-M"
+                    },
+                    {
+                        "title": "187   Crear un inventario de los objetos de un Bucker",
+                        "video_id": "lw43qvmUBsw"
+                    },
+                    {
+                        "title": "188   AWS CLI y S3  Parte 1",
+                        "video_id": "m0Rchh9zVF8"
+                    },
+                    {
+                        "title": "189   AWS CLI y S3  Parte 2  S3Api",
+                        "video_id": "UaHMCZm8hHs"
+                    },
+                    {
+                        "title": "190   Introducción a las Bases de Datos en Amazon AWS",
+                        "video_id": "LtpN3x4mO2I"
+                    },
+                    {
+                        "title": "191   Introducción a RDS",
+                        "video_id": "b0X5G7UXBy0"
+                    },
+                    {
+                        "title": "192   RDS como PaSS Platform As A Service",
+                        "video_id": "58YVpfOOqGc"
+                    },
+                    {
+                        "title": "193   Crear una Base de datos Parte 1",
+                        "video_id": "euq4YAUhgYQ"
+                    },
+                    {
+                        "title": "194   Crear una Base de Datos Parte 2",
+                        "video_id": "kS_IE_bOC6Q"
+                    },
+                    {
+                        "title": "195   Crear una Base de Datos Parte 3",
+                        "video_id": "0BD7k6Hutfw"
+                    },
+                    {
+                        "title": "196   Repaso de las propiedades de Base de Datos",
+                        "video_id": "CUu7nb56qo4"
+                    },
+                    {
+                        "title": "197   Probar la conexión",
+                        "video_id": "m3L8IyxzvWg"
+                    },
+                    {
+                        "title": "198   Crear una Base de Datos de forma Easy",
+                        "video_id": "Z9TU8Cc7Ag0"
+                    },
+                    {
+                        "title": "199   Gestionar y modificar  una Base de Datos RDS",
+                        "video_id": "G8ssIi-BSGA"
+                    },
+                    {
+                        "title": "200   Borrar una Base de Datos",
+                        "video_id": "C7uGsQjZiJ8"
+                    },
+                    {
+                        "title": "201   Subnet Groups",
+                        "video_id": "X0QVWyqjGFQ"
+                    },
+                    {
+                        "title": "202   Parameter Groups",
+                        "video_id": "_SzEAhWPP1M"
+                    },
+                    {
+                        "title": "203   Option Groups",
+                        "video_id": "n2T-k3xOqSk"
+                    },
+                    {
+                        "title": "204   Propiedades de MariaDB",
+                        "video_id": "k396s14Vc1o"
+                    },
+                    {
+                        "title": "205   Propiedades de MySQL",
+                        "video_id": "qrsqiHCWGDQ"
+                    },
+                    {
+                        "title": "206   Propiedades de PostgreSQL",
+                        "video_id": "_etRazJz6ZU"
+                    },
+                    {
+                        "title": "207   Propiedades de Oracle",
+                        "video_id": "fSEuUiqAFrw"
+                    },
+                    {
+                        "title": "208   Propiedades de Sql Server",
+                        "video_id": "HpJTyjGhDIQ"
+                    },
+                    {
+                        "title": "209   Read Replicas  Replicas de solo lectura  Introduccion",
+                        "video_id": "lP8TpeMP-YI"
+                    },
+                    {
+                        "title": "210   Crear una Read Replica",
+                        "video_id": "jIgsVz7QCq4"
+                    },
+                    {
+                        "title": "211   Probar una read replica",
+                        "video_id": "at9N61N-7VI"
+                    },
+                    {
+                        "title": "212   Promover una Read Replica",
+                        "video_id": "GDeeaVQjR_Y"
+                    },
+                    {
+                        "title": "213   Instancias  RDS Reservadas",
+                        "video_id": "XH7tGNo1Qbg"
+                    },
+                    {
+                        "title": "215   Introduccion a Aurora",
+                        "video_id": "ZAO1wJbJB1Y"
+                    },
+                    {
+                        "title": "216   Crear una Base de datos Aurora Single Master",
+                        "video_id": "RwrNHF43mG0"
+                    },
+                    {
+                        "title": "217   Repaso a las características de un Cluster Aurora",
+                        "video_id": "8l7CcmJ1aW4"
+                    },
+                    {
+                        "title": "218   Añadir una réplica de Lectura",
+                        "video_id": "zjJCnpgYi_c"
+                    },
+                    {
+                        "title": "219   Crear un endpoint personalizado",
+                        "video_id": "5GOFXvTDPOc"
+                    },
+                    {
+                        "title": "220   Hacer un Failover",
+                        "video_id": "YDNrSd4spCU"
+                    },
+                    {
+                        "title": "221   Réplicas AutoScaling",
+                        "video_id": "SqBAz6YFrdQ"
+                    },
+                    {
+                        "title": "222   Replicar el cluster a otra region",
+                        "video_id": "oIjAchlK0SI"
+                    },
+                    {
+                        "title": "223   Crear una Base de datos Global",
+                        "video_id": "17N6iTlL5FY"
+                    },
+                    {
+                        "title": "224   Clonar el cluster",
+                        "video_id": "Zcd67YzsggQ"
+                    },
+                    {
+                        "title": "225   Parar, Borrar instancias y Borrar el cluster",
+                        "video_id": "awZpMYLsqgE"
+                    },
+                    {
+                        "title": "226   Crear un cluster Multi Master",
+                        "video_id": "UMalA_e-vNU"
+                    },
+                    {
+                        "title": "227   Crear un cluster Serverless",
+                        "video_id": "-4blK93dfq0"
+                    },
+                    {
+                        "title": "228   Propiedades Serverless",
+                        "video_id": "wM_1JVPgtO8"
+                    },
+                    {
+                        "title": "229   Query Editor",
+                        "video_id": "5bomgsa1ptY"
+                    },
+                    {
+                        "title": "230   Backup y Snaphots",
+                        "video_id": "g8HW2bz4qSk"
+                    },
+                    {
+                        "title": "231   Tomar un Snapshot",
+                        "video_id": "43AfUmuP3JA"
+                    },
+                    {
+                        "title": "232   Trabajar con Snapshots",
+                        "video_id": "P-nwX3az_t8"
+                    },
+                    {
+                        "title": "233   Recuperar de un snapshot",
+                        "video_id": "QktbEZHV-HI"
+                    },
+                    {
+                        "title": "234   Recuperar hasta un momento en el tiempo",
+                        "video_id": "ZEU3ZK_yjYM"
+                    },
+                    {
+                        "title": "235   Mantenimiento de la Base de Datos",
+                        "video_id": "ffVxyP5ITEY"
+                    },
+                    {
+                        "title": "236   Introducción a la migración de Bases de Datos",
+                        "video_id": "epMWXIMBeNY"
+                    },
+                    {
+                        "title": "237   Creación de la instancia de replicación",
+                        "video_id": "ZiSoikmnLJw"
+                    },
+                    {
+                        "title": "238   Preparar el entorno para el ejemplo de réplica",
+                        "video_id": "Zrs9dnAQ9Bk"
+                    },
+                    {
+                        "title": "239   Crear un usuario de migración en la Base de Datos origen",
+                        "video_id": "OF3goTdvW8A"
+                    },
+                    {
+                        "title": "240   Crear el endpoint destino Target",
+                        "video_id": "xD1HTyzEnH8"
+                    },
+                    {
+                        "title": "241   Crear el endpoint origen Source",
+                        "video_id": "kKyGsJxqnxY"
+                    },
+                    {
+                        "title": "242   Crear la tarea de réplica parte 1  Migrar MariaDB local a RDS",
+                        "video_id": "ArpRwKfaVTU"
+                    },
+                    {
+                        "title": "243   Crear la tarea de réplica parte 2",
+                        "video_id": "LPqbQE6hTl0"
+                    },
+                    {
+                        "title": "244   Ejemplo  Migrar de MariaDB a PostgreSQL",
+                        "video_id": "1EO5OEjYO9o"
+                    },
+                    {
+                        "title": "245   SCT  Schema Conversion Tool  Parte 1",
+                        "video_id": "2Qo52gfvLWM"
+                    },
+                    {
+                        "title": "246   SCT  Schema Conversion Tool  Parte 2",
+                        "video_id": "D0DbGOfdqTI"
+                    },
+                    {
+                        "title": "247   Borrado de componentes",
+                        "video_id": "evOtDc_5Q1U"
+                    },
+                    {
+                        "title": "248   Calculadora de Precios",
+                        "video_id": "-TCY_xpKdw8"
+                    },
+                    {
+                        "title": "249   Calculadora de Precios  Parte 2",
+                        "video_id": "2CefGuUb3wc"
+                    },
+                    {
+                        "title": "250   Introducción a SNS",
+                        "video_id": "u2kLMUjB4eo"
+                    },
+                    {
+                        "title": "251   Repaso de los Servidores de Mensaje",
+                        "video_id": "73GTrXPsph0"
+                    },
+                    {
+                        "title": "252   Crear un topic y mandar un mensaje de prueba",
+                        "video_id": "VfRJXob1kp8"
+                    },
+                    {
+                        "title": "253   Crear una suscripcion",
+                        "video_id": "tcphPGfdv2c"
+                    },
+                    {
+                        "title": "254   RDS  Mandar una notificación al cambiar el estado de una BBDD",
+                        "video_id": "8YIBZ6Q7Zf4"
+                    },
+                    {
+                        "title": "255   S3 Mandar una notificación al crear un objeto  Parte 1",
+                        "video_id": "8wIWczQeqJ8"
+                    },
+                    {
+                        "title": "256   S3 Mandar una notificación al crear un objeto  Parte 2",
+                        "video_id": "Wv9uPm6Felo"
+                    },
+                    {
+                        "title": "257   EC2 Grupo de autoescalada  Mandar un mensaje",
+                        "video_id": "MArxt8MS_kM"
+                    },
+                    {
+                        "title": "258   AWS CLI  Ejemplo con SNS",
+                        "video_id": "s3JVfJ8fGq8"
+                    },
+                    {
+                        "title": "259   Introducción",
+                        "video_id": "gpPOJxbiW4A"
+                    },
+                    {
+                        "title": "260   Tag Editor  Editor de Etiquetas masivo",
+                        "video_id": "zvQ-wa3QVsY"
+                    },
+                    {
+                        "title": "261   Resource Groups  Agrupar recursos por etiquetas",
+                        "video_id": "VpfjHNU-gO0"
+                    },
+                    {
+                        "title": "262   Introducción a CloudWatch",
+                        "video_id": "5qP9LoxEboU"
+                    },
+                    {
+                        "title": "263   Conceptos de CloudWatch",
+                        "video_id": "jHA5srTv7wA"
+                    },
+                    {
+                        "title": "264   Repaso de la consola de CloudWatch",
+                        "video_id": "KU1A3wMmP0s"
+                    },
+                    {
+                        "title": "265   Introducción a los DashBoards",
+                        "video_id": "s9tfbUEeeS4"
+                    },
+                    {
+                        "title": "266   Widgets",
+                        "video_id": "foLfSP6ZuUc"
+                    },
+                    {
+                        "title": "267   Métricas  Búsquedas",
+                        "video_id": "-HduDM6okgM"
+                    },
+                    {
+                        "title": "268   Crear un widget a partir de una metrica Parte 1",
+                        "video_id": "svG8-2z-LHg"
+                    },
+                    {
+                        "title": "269   Crear un widget a partir de una metrica Parte 2",
+                        "video_id": "ze4UQPJr8xU"
+                    },
+                    {
+                        "title": "270   Añadir un nuevo tipo de Widget",
+                        "video_id": "x1oZoneM5uE"
+                    },
+                    {
+                        "title": "271   Explorador de metricas",
+                        "video_id": "D8DR7setFgs"
+                    },
+                    {
+                        "title": "272   Instalar un Agente CloudWatch en un EC2  Parte 1",
+                        "video_id": "sf9-Mv0FeiM"
+                    },
+                    {
+                        "title": "273   Instalar un Agente CloudWatch en una instancia EC2  Configurarlo",
+                        "video_id": "i7TcxBiDPyI"
+                    },
+                    {
+                        "title": "274   Instalar un Agente CloudWatch en una instancia EC2  Crear un rol",
+                        "video_id": "82O-4MNmHaw"
+                    },
+                    {
+                        "title": "275   Instalar un Agente CloudWatch en una instancia EC2  Arrancar, parar y probar",
+                        "video_id": "fIFtZVllnzo"
+                    },
+                    {
+                        "title": "276   Alarmas  Introducción",
+                        "video_id": "Q13iMBMhkZ4"
+                    },
+                    {
+                        "title": "277   Crear una alarma",
+                        "video_id": "HvfkvdUj1f4"
+                    },
+                    {
+                        "title": "278   Ejemplo Activar la alarma de CPU",
+                        "video_id": "K6NsDmZkqPk"
+                    },
+                    {
+                        "title": "279   Configurar SNS para recibir mensajes de CloudWatch",
+                        "video_id": "Y2vOTrjnX7k"
+                    },
+                    {
+                        "title": "280   Acciones  Añadir una acción EC2",
+                        "video_id": "4ScegVEm970"
+                    },
+                    {
+                        "title": "281   Acciones Ejemplo de alarma con RDS y grupo de Autoescalada",
+                        "video_id": "G6-y4woQ734"
+                    },
+                    {
+                        "title": "282   Introducción a CloudWatch Logs",
+                        "video_id": "GLMKzJtPjtY"
+                    },
+                    {
+                        "title": "283   Repaso consola  Crear Log Groups, Log Streams y Log Events",
+                        "video_id": "3mm5iq2Ip_c"
+                    },
+                    {
+                        "title": "284   Ejemplo  Generar logs desde RDS",
+                        "video_id": "HLIQRJ4uY3E"
+                    },
+                    {
+                        "title": "285   VPC Flow Logs  CapturarTrafico de red de acceso a las VPC",
+                        "video_id": "7YvglWxrma8"
+                    },
+                    {
+                        "title": "286   VPC Flow Logs  Probar el tráfico de red",
+                        "video_id": "fc6kUMKEA_A"
+                    },
+                    {
+                        "title": "287   Metric Filters",
+                        "video_id": "ucXQJrys30g"
+                    },
+                    {
+                        "title": "288   Logs Insights",
+                        "video_id": "fepTFPa8gjo"
+                    },
+                    {
+                        "title": "289   Agente CloudWatch  Configurando instancias EC2 para recoger datos de LOGS",
+                        "video_id": "s0m8uQvHLOY"
+                    },
+                    {
+                        "title": "291   Introducción a IAM Parte 1",
+                        "video_id": "4PV4T7ILP8c"
+                    },
+                    {
+                        "title": "292   Introducción a IAM Parte 2",
+                        "video_id": "hNpt9lElyl0"
+                    },
+                    {
+                        "title": "293   IAM DashBoard",
+                        "video_id": "PLQMHDVDx-c"
+                    },
+                    {
+                        "title": "294   Crear un Grupo",
+                        "video_id": "bcnK8T6tKe4"
+                    },
+                    {
+                        "title": "296   Crear un usuario IAM",
+                        "video_id": "jWw1NTTped0"
+                    },
+                    {
+                        "title": "297   Acceder como usuario IAM y comprobar permisos",
+                        "video_id": "ExMTKz5vZoc"
+                    },
+                    {
+                        "title": "298   Dar un permiso directamente y probarlo",
+                        "video_id": "q7l6YtQrAhc"
+                    },
+                    {
+                        "title": "299   Access Advisor",
+                        "video_id": "aTzUAM3HLow"
+                    },
+                    {
+                        "title": "300   Crear un Role",
+                        "video_id": "gXVzPfB2wFE"
+                    },
+                    {
+                        "title": "301   Repaso políticas de Seguridad",
+                        "video_id": "mpkr8xG3EuE"
+                    },
+                    {
+                        "title": "302   Crear una Managed Policy",
+                        "video_id": "o2TPXMpctSc"
+                    },
+                    {
+                        "title": "303   Modificar una Managed Policy  Versiones",
+                        "video_id": "1bOJzT6qmxk"
+                    },
+                    {
+                        "title": "304   Asignar políticas a grupos o usuarios",
+                        "video_id": "5ETA6ECj8fc"
+                    },
+                    {
+                        "title": "305   Crear una política inline",
+                        "video_id": "Ff2g8XJNbSE"
+                    },
+                    {
+                        "title": "306   Crear una Resource Policy",
+                        "video_id": "jcrPO4zBWy0"
+                    },
+                    {
+                        "title": "307   Policy Simulator",
+                        "video_id": "kzLxvfnchqk"
+                    },
+                    {
+                        "title": "308   Informes Credential Report, Actividad de la Organización, SCPs",
+                        "video_id": "c6rzo653ziU"
+                    },
+                    {
+                        "title": "309   Access Analyzer",
+                        "video_id": "gD7m8XYkHo8"
+                    },
+                    {
+                        "title": "310   S3 Storage Lens Ejemplo de permisos IAM  Crear un DashBoard",
+                        "video_id": "e4MiSTOISQU"
+                    },
+                    {
+                        "title": "311   S3 Storage Lens Ejemplo de permisos IAM  Crear un usuario y probar el acceso",
+                        "video_id": "4j16IbokqpY"
+                    },
+                    {
+                        "title": "312   S3 Storage Lens Ejemplo de permisos IAM  Revisión de las métricas",
+                        "video_id": "5KlPefgGRDQ"
+                    },
+                    {
+                        "title": "313   Herramienta de Generador de políticas",
+                        "video_id": "lK7nk3bP3tc"
+                    },
+                    {
+                        "title": "314   AWS CLI Ejemplos con IAM Parte 1",
+                        "video_id": "rxigu-qoBT8"
+                    },
+                    {
+                        "title": "315   AWS CLI Ejemplos con IAM Parte 2",
+                        "video_id": "ZmA_RDN2vgU"
+                    },
+                    {
+                        "title": "316   Introducción",
+                        "video_id": "HcSEs50TigM"
+                    },
+                    {
+                        "title": "317   Ver los eventos generados por defecto",
+                        "video_id": "z2B_TgMzYMw"
+                    },
+                    {
+                        "title": "318   Crear un trail con eventos de Administración",
+                        "video_id": "wjWZLk3SaBc"
+                    },
+                    {
+                        "title": "319   Ver el resultado generado en el Trail",
+                        "video_id": "DVZabCue_Qc"
+                    },
+                    {
+                        "title": "320   Crear un trail con eventos de datos",
+                        "video_id": "1NDBDH3G2_E"
+                    },
+                    {
+                        "title": "321   Comprobar el resultado genero en el Trail de datos",
+                        "video_id": "i3yztMJwihw"
+                    },
+                    {
+                        "title": "322   Modificar un trail y añadir condiciones para los trails de datos",
+                        "video_id": "QqEmAbSsW4I"
+                    },
+                    {
+                        "title": "323   Mirar los logs de Cloudtrail en CLoudwatch logs",
+                        "video_id": "LSFvk19oL6Y"
+                    },
+                    {
+                        "title": "324   Crear un trail Insights  Actividad sospechosa",
+                        "video_id": "eH0MbHpf46g"
+                    },
+                    {
+                        "title": "325   Cloudtrail Lake",
+                        "video_id": "g1OtEkWr88g"
+                    },
+                    {
+                        "title": "326   AWS CLI y Cloudtrail",
+                        "video_id": "xHHYFWL90H8"
+                    },
+                    {
+                        "title": "328   Introducción",
+                        "video_id": "J9Nt_vteQEk"
+                    },
+                    {
+                        "title": "329   Crear un entorno Cloud9",
+                        "video_id": "DcGrCx_9luY"
+                    },
+                    {
+                        "title": "330   Repaso IDE Cloud 9",
+                        "video_id": "1WfZZZxZj8E"
+                    },
+                    {
+                        "title": "331   Probar AWS CLI y otros comandos",
+                        "video_id": "ay2CfSJ81R4"
+                    },
+                    {
+                        "title": "332   Introducción a los SDK de AWS",
+                        "video_id": "z6So_6xaiLg"
+                    },
+                    {
+                        "title": "333   Ejemplo de SDK con Python y S3  Parte 1",
+                        "video_id": "pgUS8jRFx2k"
+                    },
+                    {
+                        "title": "334   Ejemplo de SDK con Python y S3  Parte 2",
+                        "video_id": "r1XLotvY4Qo"
+                    },
+                    {
+                        "title": "335   Introducción a DocumentDB",
+                        "video_id": "6fUFcFgrHYY"
+                    },
+                    {
+                        "title": "336   Arquitectura de MongoDB",
+                        "video_id": "Mttpd8ILPtw"
+                    },
+                    {
+                        "title": "337   Repaso Consola DocumentDB",
+                        "video_id": "sxJk2OhOQjU"
+                    },
+                    {
+                        "title": "338   Crear un Cluster DocumentDB",
+                        "video_id": "ReZWLc8u9zw"
+                    },
+                    {
+                        "title": "339   Repaso de los componentes creados en el cluster",
+                        "video_id": "MUk2K0Yyby8"
+                    },
+                    {
+                        "title": "340   Conectarnos al Cluster",
+                        "video_id": "QWIneADuE0I"
+                    },
+                    {
+                        "title": "341   Probar algunos comandos",
+                        "video_id": "_lq2m3KhXWI"
+                    },
+                    {
+                        "title": "342   Añadir una réplica y hacer un Failover",
+                        "video_id": "NgCGzGQ22vk"
+                    },
+                    {
+                        "title": "343   Hacer un Backup y un restore",
+                        "video_id": "_Yv_enZ1LBI"
+                    },
+                    {
+                        "title": "344   Introducción a CloudFormation",
+                        "video_id": "IhXbONCteqo"
+                    },
+                    {
+                        "title": "345   Stacks de CloudFormation",
+                        "video_id": "HV8W8woF8WE"
+                    },
+                    {
+                        "title": "346   Crear un stack con una plantilla de ejemplo",
+                        "video_id": "gCpTy66JS7c"
+                    },
+                    {
+                        "title": "347   Componentes creados por el Stack",
+                        "video_id": "gkKZZLhQHiI"
+                    },
+                    {
+                        "title": "348   Borrar un  Stack",
+                        "video_id": "2MQi5Dn8za4"
+                    },
+                    {
+                        "title": "349   Designer  Introducción",
+                        "video_id": "BK6C6y3StMI"
+                    },
+                    {
+                        "title": "350   Designer  Crear una plantilla",
+                        "video_id": "9YI3CzreMv4"
+                    },
+                    {
+                        "title": "351   Designer  Crear un stack con nuestra plantilla",
+                        "video_id": "Bzpb0PGEUsU"
+                    },
+                    {
+                        "title": "352   Designer  Añadir otros componentes",
+                        "video_id": "G01MlEfzM6o"
+                    },
+                    {
+                        "title": "353   Designer  Añadir parámetros",
+                        "video_id": "RO0JdKp3-Tk"
+                    },
+                    {
+                        "title": "354   ¿Donde  deja CloudFormation las plantillas",
+                        "video_id": "wXqXbRH3-Hw"
+                    },
+                    {
+                        "title": "355   Fichero de Plantilla",
+                        "video_id": "TUfL3LK0g_8"
+                    },
+                    {
+                        "title": "356   Drifts  Detectar cambios en los componentes después de crearlos",
+                        "video_id": "SznCjMZmnXE"
+                    },
+                    {
+                        "title": "357   Introducción",
+                        "video_id": "0q56Uj77R9I"
+                    },
+                    {
+                        "title": "358   Lightsail Introducción a Lightsail  Crear una instancia",
+                        "video_id": "7efdC5endO4"
+                    },
+                    {
+                        "title": "359   Lightsail Propiedades de las instancias",
+                        "video_id": "2A8pdZFSGso"
+                    },
+                    {
+                        "title": "360   LightSail Crear un servicio de contenedor",
+                        "video_id": "i7Nbq2uOKDw"
+                    },
+                    {
+                        "title": "361   Lightsail Comprobar el contenedor",
+                        "video_id": "9fBt3cEHgbs"
+                    },
+                    {
+                        "title": "362   Lightsail Crear una imagen nuestra Parte 1",
+                        "video_id": "uQWAUz7pj_4"
+                    },
+                    {
+                        "title": "363   Lightsail Crear una imagen nuestra Parte 2",
+                        "video_id": "Yci9DilM66w"
+                    },
+                    {
+                        "title": "364   Lightsail Crear una Base de Datos",
+                        "video_id": "8cCiCATOuZA"
+                    },
+                    {
+                        "title": "365   Lightsail networking",
+                        "video_id": "EZx4MnD00jE"
+                    },
+                    {
+                        "title": "366   Lightsail Almacenamiento y Snapshots",
+                        "video_id": "6B8sBrYpzXI"
+                    },
+                    {
+                        "title": "368   Introducción",
+                        "video_id": "f_5ARynAOJc"
+                    },
+                    {
+                        "title": "369   Beanstalk Crear una aplicación en un entorno con Tomcat",
+                        "video_id": "wX2O9whj7Tg"
+                    },
+                    {
+                        "title": "370   Beanstalk Propiedades de un environment",
+                        "video_id": "Dit6UKHSRDE"
+                    },
+                    {
+                        "title": "371   Beanstalk Desplegar nuestra propia aplicación y configuración",
+                        "video_id": "MVBouUPgNEM"
+                    },
+                    {
+                        "title": "372   Beanstalk Cambiar de un entorno single instance a multi instance",
+                        "video_id": "6Qzsv5kA1pc"
+                    },
+                    {
+                        "title": "373   Beanstalk Tipos de actualización",
+                        "video_id": "N2kN3D9bxVc"
+                    },
+                    {
+                        "title": "374   Beanstalk Actualizar la aplicación",
+                        "video_id": "MM1zTu5bNOs"
+                    },
+                    {
+                        "title": "375   Beanstalk Otras acciones de los entornos",
+                        "video_id": "HI7wNbQdB-Y"
+                    },
+                    {
+                        "title": "376   Beanstsalk Acceder a una instancia",
+                        "video_id": "p00qUVXTGjU"
+                    },
+                    {
+                        "title": "377   Lambda Introducción",
+                        "video_id": "1J3dNPRsKcI"
+                    },
+                    {
+                        "title": "378   Crear una función Lambda desde Cero",
+                        "video_id": "urbsFcKRh3M"
+                    },
+                    {
+                        "title": "379   Repaso de la consola de Lambda",
+                        "video_id": "2TRY9TiE970"
+                    },
+                    {
+                        "title": "380   Probar una función Lambda con  con eventos de prueba",
+                        "video_id": "qwDVRW-Cj-g"
+                    },
+                    {
+                        "title": "381   Crear una lambda en otro lenguaje  Python",
+                        "video_id": "a50pccrAqFE"
+                    },
+                    {
+                        "title": "382   Comprender los conceptos de Handler, Evento y Contexto",
+                        "video_id": "yJTaFt6qIzc"
+                    },
+                    {
+                        "title": "383   Como acceder a los datos del evento",
+                        "video_id": "89xzKJdUPzU"
+                    },
+                    {
+                        "title": "384   Crear un Trigger",
+                        "video_id": "5mmZLHmcAc0"
+                    },
+                    {
+                        "title": "385   Crear un destino",
+                        "video_id": "alCAcDkdb64"
+                    },
+                    {
+                        "title": "386   Ejemplo con S3  Recuperar el nombre y el tamaño de un fichero subido a S3",
+                        "video_id": "W34UexDJNNA"
+                    },
+                    {
+                        "title": "387   Ejemplo con S3  Parte 2  Triggers, destinos y topics",
+                        "video_id": "EgqkYaCFwO0"
+                    },
+                    {
+                        "title": "388   Ejemplo con S3  Probarlo",
+                        "video_id": "EZ5zidpf4To"
+                    },
+                    {
+                        "title": "389   Ver los logs en CloudWatch Logs",
+                        "video_id": "ElnZ_MIik_g"
+                    },
+                    {
+                        "title": "390   Introducción a SQS",
+                        "video_id": "mjBXxOnZz8s"
+                    },
+                    {
+                        "title": "391   Conceptos SQS  Diferencias con SNS, Funcionamiento básico y Tipos de Colas",
+                        "video_id": "mgFVyi_8Wx4"
+                    },
+                    {
+                        "title": "392   Crear una cola de tipo estándar",
+                        "video_id": "_LuHJoT4qaY"
+                    },
+                    {
+                        "title": "393   Probar a mandar y recibir un mensaje",
+                        "video_id": "3_mAsiFJjKA"
+                    },
+                    {
+                        "title": "394   Ejemplo  Mandar un mensaje desde SNS",
+                        "video_id": "y4UTU9MEAww"
+                    },
+                    {
+                        "title": "395   Ejemplo  Mandar un mensaje desde una función Lambda",
+                        "video_id": "iYMnhPwoePo"
+                    },
+                    {
+                        "title": "396   Crear una cola de tipo FIFO",
+                        "video_id": "jlLtkjHOcns"
+                    },
+                    {
+                        "title": "397   Enviar y recibir mensajes en una cola FIFO",
+                        "video_id": "7lhMZPCUQXc"
+                    },
+                    {
+                        "title": "398   DQL Dead Letter Queues",
+                        "video_id": "S_uOMyqODSI"
+                    },
+                    {
+                        "title": "399   PRACTICA Python SDK  Mandar mensaje",
+                        "video_id": "ukTdYLCrMlM"
+                    },
+                    {
+                        "title": "400   PRACTICA Python SDK  Recibir mensaje",
+                        "video_id": "YesSxgVzPmA"
+                    },
+                    {
+                        "title": "401   Introducción a EKS",
+                        "video_id": "nVkOXtEvVA0"
+                    },
+                    {
+                        "title": "402   Tipos de VPC para EKS",
+                        "video_id": "nqxyXLEAH3k"
+                    },
+                    {
+                        "title": "403   Crear la red para EKS",
+                        "video_id": "nmgPmn3E2zs"
+                    },
+                    {
+                        "title": "404   Crear el Cluster EKS",
+                        "video_id": "B2mXSd6GG_E"
+                    },
+                    {
+                        "title": "405   Repaso de las propiedades del Cluster",
+                        "video_id": "mGydIajCCL4"
+                    },
+                    {
+                        "title": "406   Crear servidores esclavos Parte 1",
+                        "video_id": "ThCMQCVIQ2c"
+                    },
+                    {
+                        "title": "407   Crear servidores esclavos Parte 2",
+                        "video_id": "hJCjRUwMOJE"
+                    },
+                    {
+                        "title": "408   Usar AWS CLi con EKS",
+                        "video_id": "2HNivBA7Nuc"
+                    },
+                    {
+                        "title": "409   Descargar e instalar Kubectl para trabajar con el cluster",
+                        "video_id": "mBSxhI6gxDs"
+                    },
+                    {
+                        "title": "410   Configurar el cluster",
+                        "video_id": "9DspfSa7_GY"
+                    },
+                    {
+                        "title": "411   Crear un deployment",
+                        "video_id": "WRweKEnCTOI"
+                    },
+                    {
+                        "title": "412   Crear un servicio y probar el despliegue",
+                        "video_id": "zxXU2ZWfqsg"
+                    },
+                    {
+                        "title": "413   Borrar el cluster",
+                        "video_id": "L5J-R4trMNU"
+                    },
+                    {
+                        "title": "414   Introducción a ECS Elastic Container Services",
+                        "video_id": "XA5iDEcjHRE"
+                    },
+                    {
+                        "title": "415   Crear un cluster ECS",
+                        "video_id": "V8NMdkYoTFw"
+                    },
+                    {
+                        "title": "416   Repaso de las propiedades de un cluster ECS",
+                        "video_id": "ELkwsxg8pIU"
+                    },
+                    {
+                        "title": "417   Crear una Task Definition Parte 1",
+                        "video_id": "4meoeFiHZh4"
+                    },
+                    {
+                        "title": "418   Crear una Task Definition Parte 2",
+                        "video_id": "8_C4hwsV7n8"
+                    },
+                    {
+                        "title": "419   Lanzar una tarea",
+                        "video_id": "fMapKSIrXEc"
+                    },
+                    {
+                        "title": "420   Otra forma de ejecutar tareas",
+                        "video_id": "OmtQRyUTp5Y"
+                    },
+                    {
+                        "title": "421   Parar tareas",
+                        "video_id": "hyUVICVZjXg"
+                    },
+                    {
+                        "title": "422   Crear un servicio parte 1",
+                        "video_id": "zPbCqaZyhtM"
+                    },
+                    {
+                        "title": "423   Crear un servicio Parte 2",
+                        "video_id": "2if732HMkAw"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "33Nv6xv9QDo"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "547nIDA3IA0"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "5a9Ub9wxbK4"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "6NZnJl02R0Q"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "6UDqbmyd6hw"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "8dNux1BZ-lI"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "8tlMD5Qgcz0"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "9a2CReaxUb4"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "AkSCYuzBlDI"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "FBoMBUPwJJ4"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "GGgKmz1m-84"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "IdNFmueiXaU"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "NA-AD3Qijds"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "RBjZbfpMSLI"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "SWXDbvl9teA"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "Sc3UWtdg9b8"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "XYQ9gUpUG5s"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "ZPyeoEy49n8"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "bJUomWNuDW0"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "e8_HazjIZKk"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "fKJQyy5s4hE"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "fcHBg7NU0iA"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "hr8jQN52ZpQ"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "j-LhbBq_rvU"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "q7KS34ubFaY"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "tlRG3PrL8Pk"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "vqiocFEdzu4"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "wVgBD_logbA"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "xUCTgUPtyJs"
+                    },
+                    {
+                        "title": "[Private video]",
+                        "video_id": "z9fPQJ8CZXk"
+                    }
+                ]
+            }
+        }
+    },
     "Recursos en Castellano": {
         "type": "channel_collection",
         "channels": {
