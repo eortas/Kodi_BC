@@ -1,6 +1,9 @@
 # Addon Kodi: Bootcamp Data Science
 
 Un complemento (addon) para el centro multimedia Kodi que te permite acceder de forma rápida, estructurada y directa a las grabaciones de las clases del Bootcamp de Data Science & Machine Learning (The Bridge, Vitoria-Gasteiz - Abril 2025).
+Como mejoras se han añadido cursos que no se pudieron llevar a cabo durante el bootcamp o que no se profundizaron los suficiente como un curso completo de PowerBI, un curso 
+de SQL o un curso de SQL.
+
 
 ---
 
