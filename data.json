@@ -856,6 +856,296 @@
             }
         }
     },
+    "Curso SQL": {
+        "type": "static_collection",
+        "modules": {
+            "CURSO COMPLETO": {
+                "thumbnail": "https://raw.githubusercontent.com/eortas/Kodi_BC/main/plugin.video.bootcamp_data_science/thumbnails/BBDD.jpg",
+                "videos": [
+                    {
+                        "title": "00 - RECURSOS DEL CURSO (Google Drive)",
+                        "video_id": "https://drive.google.com/drive/folders/1c54tCI160J8WMjxmZiWHw5v9xiulnDop?usp=drive_link"
+                    },
+                    {
+                        "title": "002   Introduction",
+                        "video_id": "qribFp49rno"
+                    },
+                    {
+                        "title": "003   Course Curriculum Overview",
+                        "video_id": "kanuQgXb854"
+                    },
+                    {
+                        "title": "004   Overview of Databases",
+                        "video_id": "YcCAgeR9OcU"
+                    },
+                    {
+                        "title": "006   Windows Installation   PostGreSQL and PgAdmin with Database Setup",
+                        "video_id": "8IrUFXc3Yjk"
+                    },
+                    {
+                        "title": "007   MacOS Installation   PostgreSQL and PgAdmin with First Query",
+                        "video_id": "P4VssKaDOlw"
+                    },
+                    {
+                        "title": "008   pgAdmin Overview",
+                        "video_id": "ldA-oO1fF5o"
+                    },
+                    {
+                        "title": "009   Overview of Challenges!",
+                        "video_id": "WXuouzOmPg0"
+                    },
+                    {
+                        "title": "011   SQL Statement Fundamentals",
+                        "video_id": "3OuEpOweiLU"
+                    },
+                    {
+                        "title": "012   SELECT Statement",
+                        "video_id": "L_0AC86oJ_8"
+                    },
+                    {
+                        "title": "013   Challenge SELECT",
+                        "video_id": "ndZ4mU0IyaE"
+                    },
+                    {
+                        "title": "014   SELECT DISTINCT",
+                        "video_id": "hApb6e7VFDM"
+                    },
+                    {
+                        "title": "015   Challenge SELECT DISTINCT",
+                        "video_id": "TIx8KdC_YT8"
+                    },
+                    {
+                        "title": "016   COUNT",
+                        "video_id": "ln39rdbA11U"
+                    },
+                    {
+                        "title": "017   SELECT WHERE   Part One",
+                        "video_id": "YJC3h6ONKVw"
+                    },
+                    {
+                        "title": "018   SELECT WHERE   Part Two",
+                        "video_id": "rrvn-0UzQJE"
+                    },
+                    {
+                        "title": "019   Challenge SELECT WHERE",
+                        "video_id": "y56j7aNLLY0"
+                    },
+                    {
+                        "title": "020   ORDER BY",
+                        "video_id": "VvWQws3vnX4"
+                    },
+                    {
+                        "title": "021   LIMIT",
+                        "video_id": "-JYuHEIwmpU"
+                    },
+                    {
+                        "title": "022   Challenge ORDER BY",
+                        "video_id": "fIReOOjbuOw"
+                    },
+                    {
+                        "title": "023   BETWEEN",
+                        "video_id": "9TXIYz80NNs"
+                    },
+                    {
+                        "title": "024   IN",
+                        "video_id": "CPEwZj6ZrY4"
+                    },
+                    {
+                        "title": "025   LIKE and ILIKE",
+                        "video_id": "C_pY64jXXL8"
+                    },
+                    {
+                        "title": "026   General Challenge 1",
+                        "video_id": "7yDd6XgD1RM"
+                    },
+                    {
+                        "title": "027   Introduction to GROUP BY",
+                        "video_id": "s2Q-4l_z2MQ"
+                    },
+                    {
+                        "title": "028   Aggregation Functions",
+                        "video_id": "e7TQDfyrpmk"
+                    },
+                    {
+                        "title": "029   GROUP BY   Part One",
+                        "video_id": "2Fv091niPI4"
+                    },
+                    {
+                        "title": "030   GROUP BY   Part Two",
+                        "video_id": "TEvihRPWZ28"
+                    },
+                    {
+                        "title": "031   GROUP BY   Challenge",
+                        "video_id": "zO8KuAddBsk"
+                    },
+                    {
+                        "title": "032   HAVING",
+                        "video_id": "fFAgnQIWI74"
+                    },
+                    {
+                        "title": "033   HAVING   Challenge Tasks",
+                        "video_id": "EGkdhcfP7yo"
+                    },
+                    {
+                        "title": "034   Overview of Assessment Test 1",
+                        "video_id": "xt4n5Q_VWnY"
+                    },
+                    {
+                        "title": "038   Introduction to JOINs",
+                        "video_id": "Q6Xd5v27z7M"
+                    },
+                    {
+                        "title": "039   AS Statement",
+                        "video_id": "3fQg5XQnluE"
+                    },
+                    {
+                        "title": "040   Inner Joins",
+                        "video_id": "mdnAD43vWBw"
+                    },
+                    {
+                        "title": "041   Full Outer Joins",
+                        "video_id": "ws18mcE2v0k"
+                    },
+                    {
+                        "title": "042   Left Outer Join",
+                        "video_id": "RTsj2gwGCHU"
+                    },
+                    {
+                        "title": "043   Right Joins",
+                        "video_id": "FWmEJthFkx8"
+                    },
+                    {
+                        "title": "044   UNION",
+                        "video_id": "7_7e8C5Cj7I"
+                    },
+                    {
+                        "title": "045   JOIN Challenge Tasks",
+                        "video_id": "OeKxZrNdyLU"
+                    },
+                    {
+                        "title": "046   Overview of Advanced SQL Commands",
+                        "video_id": "LHvb82Ah-NA"
+                    },
+                    {
+                        "title": "047   Timestamps and Extract   Part One",
+                        "video_id": "qufyCL9uYKI"
+                    },
+                    {
+                        "title": "048   Timestamps and Extract   Part Two",
+                        "video_id": "DE44dpVZRyY"
+                    },
+                    {
+                        "title": "050   Timestamps and Extract   Challenge Tasks",
+                        "video_id": "97qZ1JYw2y8"
+                    },
+                    {
+                        "title": "051   Mathematical Functions and Operators",
+                        "video_id": "07MeqoYhSb4"
+                    },
+                    {
+                        "title": "052   String Functions and Operators",
+                        "video_id": "E4P_STeUeBI"
+                    },
+                    {
+                        "title": "053   SubQuery",
+                        "video_id": "4bkMrJtW-94"
+                    },
+                    {
+                        "title": "054   Self Join",
+                        "video_id": "bpPvUjhcgUI"
+                    },
+                    {
+                        "title": "056   Setting up New Database for Assessment Exercises",
+                        "video_id": "zXgn1YFRJv8"
+                    },
+                    {
+                        "title": "058   Solutions to Assessment Test 2",
+                        "video_id": "t6uWDQGhQmw"
+                    },
+                    {
+                        "title": "059   Introduction to Section",
+                        "video_id": "SBn9GlB_20c"
+                    },
+                    {
+                        "title": "060   Data Types",
+                        "video_id": "89PF1_1fon8"
+                    },
+                    {
+                        "title": "061   Primary Keys and Foreign Keys",
+                        "video_id": "TH-9yRtjUhM"
+                    },
+                    {
+                        "title": "062   Constraints",
+                        "video_id": "CiBBjV0WVkE"
+                    },
+                    {
+                        "title": "063   CREATE Table",
+                        "video_id": "vdg8B8FZHeY"
+                    },
+                    {
+                        "title": "064   INSERT",
+                        "video_id": "cuNCqK0z0Rk"
+                    },
+                    {
+                        "title": "065   UPDATE",
+                        "video_id": "-zyuJHOknVU"
+                    },
+                    {
+                        "title": "066   DELETE",
+                        "video_id": "WheMintOl1E"
+                    },
+                    {
+                        "title": "067   ALTER Table",
+                        "video_id": "3qX6n6zft0g"
+                    },
+                    {
+                        "title": "068   DROP Table",
+                        "video_id": "7TBbdY6wMbU"
+                    },
+                    {
+                        "title": "069   CHECK Constraint",
+                        "video_id": "_Xthj4h3A8s"
+                    },
+                    {
+                        "title": "072   Conditional Expressions and Procedures Introduction",
+                        "video_id": "kNVZMd_rWv4"
+                    },
+                    {
+                        "title": "073   CASE",
+                        "video_id": "nAyYj1IHB8I"
+                    },
+                    {
+                        "title": "081   Psycopg2 Example Usage",
+                        "video_id": "AdXn0wxnb0Y"
+                    },
+                    {
+                        "title": "074   CASE   Challenge Task",
+                        "video_id": "AyNaDQZ3E8s"
+                    },
+                    {
+                        "title": "075   COALESCE",
+                        "video_id": "R4iGwsF0dmA"
+                    },
+                    {
+                        "title": "076   CAST",
+                        "video_id": "kOABu1Kbx-Q"
+                    },
+                    {
+                        "title": "077   NULLIF",
+                        "video_id": "Mvo6tpRsjOY"
+                    },
+                    {
+                        "title": "078   Views",
+                        "video_id": "msnfU5Q12MQ"
+                    },
+                    {
+                        "title": "079   Import and Export",
+                        "video_id": "ZV6XJrp6L0E"
+                    }
+                ]
+            }
+        }
+    },
     "Curso AWS": {
         "type": "static_collection",
         "modules": {
