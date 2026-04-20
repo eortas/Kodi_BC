@@ -268,6 +268,7 @@ def add_item(video_id, title, thumbnail=''):
         # Recurso externo (Drive, Web, etc)
         url = build_url({'mode': 'show_resource', 'url': video_id, 'title': title})
         li  = xbmcgui.ListItem(title)
+        li.setProperty('IsPlayable', 'false')
         li.setArt({'thumb': 'DefaultAddonsUpdates.png'})
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=False)
     else:
