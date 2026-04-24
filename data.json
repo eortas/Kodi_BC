@@ -3016,6 +3016,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "wY6SAt9oGO0",
+                        "title": "¡Salió GPT 5.5! El nuevo modelo de OpenAI.\nMejoras importantes en código, agentes y eficiencia.\n\nPer",
+                        "thumbnail": "https://i4.ytimg.com/vi/wY6SAt9oGO0/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "HFsGJ-rOWZo",
                         "title": "OpenCode es la alternativa gratuita a Claude Code\n\n✓ 100% código abierto\n✓ Modelos gratuitos disponi",
                         "thumbnail": "https://i1.ytimg.com/vi/HFsGJ-rOWZo/hqdefault.jpg"
@@ -3430,6 +3435,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "tmg2-4ozowI",
+                        "title": "¿Cuáles son los libros más importantes para programadores?",
+                        "thumbnail": "https://i1.ytimg.com/vi/tmg2-4ozowI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "_HEC-ioPY6I",
                         "title": "La IA va más rápido que la educación… y esto es un problema",
