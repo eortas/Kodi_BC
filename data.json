@@ -3016,6 +3016,26 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "cVUrXK7dcTs",
+                        "title": "SpaceX comprará Cursor AI",
+                        "thumbnail": "https://i4.ytimg.com/vi/cVUrXK7dcTs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "uQhcdS56WPQ",
+                        "title": "Esta es la mejor alternativa a Claude Code y similares.\nUn agente de IA para programadores.\n\nSe llam",
+                        "thumbnail": "https://i2.ytimg.com/vi/uQhcdS56WPQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "2gEG5msqkdM",
+                        "title": "Anthropic la acaba de liar…",
+                        "thumbnail": "https://i3.ytimg.com/vi/2gEG5msqkdM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "dtAeUI50OBw",
+                        "title": "Curso de OpenCode: Agente de IA de código abierto",
+                        "thumbnail": "https://i1.ytimg.com/vi/dtAeUI50OBw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "cWsDMB6LKfQ",
                         "title": "GitHub Copilot CAMBIÓ para siempre (y no es bueno)",
                         "thumbnail": "https://i4.ytimg.com/vi/cWsDMB6LKfQ/hqdefault.jpg"
@@ -3450,6 +3470,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "ECzFE19jUno",
+                        "title": "La IA subvencionada terminó y esto es lo que viene",
+                        "thumbnail": "https://i2.ytimg.com/vi/ECzFE19jUno/hqdefault.jpg"
+                    },
                     {
                         "video_id": "-be4dySYrWA",
                         "title": "¿Despidos por IA? Lo que no te cuentan",
