@@ -3016,6 +3016,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "58zBUQTcyuE",
+                        "title": "Comparando Mejores Asistentes de Código para Devs en 2026",
+                        "thumbnail": "https://i2.ytimg.com/vi/58zBUQTcyuE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "gA3JrC1sNBE",
                         "title": "Lo de Vercel es Brutal",
                         "thumbnail": "https://i4.ytimg.com/vi/gA3JrC1sNBE/hqdefault.jpg"
@@ -3480,6 +3485,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "cp3hPIc2zdY",
+                        "title": "La programación es el nuevo fútbol",
+                        "thumbnail": "https://i4.ytimg.com/vi/cp3hPIc2zdY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "nqzVrkhmNTg",
                         "title": "Taller de MCP desde cero: Conecta tu IA a cualquier dato",
