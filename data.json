@@ -3016,6 +3016,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "ZZq4TpNgnvg",
+                        "title": "Curso COMPLETO de OpenCode desde cero: Comandos, Agentes, Ahorrar tokens y más",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZZq4TpNgnvg/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "spQBIevBYS4",
+                        "title": "Extensión oficial de Microsoft para Visual Studio Code para trabajar con bases de datos PostgreSQL.",
+                        "thumbnail": "https://i4.ytimg.com/vi/spQBIevBYS4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "58zBUQTcyuE",
                         "title": "Comparando Mejores Asistentes de Código para Devs en 2026",
                         "thumbnail": "https://i2.ytimg.com/vi/58zBUQTcyuE/hqdefault.jpg"
@@ -3485,6 +3495,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "XYDDTLywjlQ",
+                        "title": "Nunca digas esto en una entrevista técnica",
+                        "thumbnail": "https://i1.ytimg.com/vi/XYDDTLywjlQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "cp3hPIc2zdY",
                         "title": "La programación es el nuevo fútbol",
