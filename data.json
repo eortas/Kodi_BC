@@ -3016,6 +3016,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "eJtcgVf72zs",
+                        "title": "La carrera de la IA: Estados Unidos vs China",
+                        "thumbnail": "https://i2.ytimg.com/vi/eJtcgVf72zs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "MRwo8kz6ilQ",
+                        "title": "7 extensiones que hacen tu editor mucho más cómodo (VSCode, Cursor y Windsurf):\n\n① Console Ninja\nVes",
+                        "thumbnail": "https://i2.ytimg.com/vi/MRwo8kz6ilQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "p2tltiHHQ0w",
+                        "title": "El estado actual de Github",
+                        "thumbnail": "https://i1.ytimg.com/vi/p2tltiHHQ0w/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "DuvGxd67cs8",
                         "title": "Linux tiene un problema serio",
                         "thumbnail": "https://i1.ytimg.com/vi/DuvGxd67cs8/hqdefault.jpg"
@@ -3515,6 +3530,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "nW6NhZMJgIY",
+                        "title": "¿Hasta cuándo vamos a creer a los CEOs sobre la IA?",
+                        "thumbnail": "https://i3.ytimg.com/vi/nW6NhZMJgIY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "XYDDTLywjlQ",
                         "title": "Nunca digas esto en una entrevista técnica",
