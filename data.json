@@ -3016,6 +3016,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "DzOm42V1_uc",
+                        "title": "El impuesto oculto de la IA",
+                        "thumbnail": "https://i1.ytimg.com/vi/DzOm42V1_uc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "bBzChsJM7kE",
+                        "title": "¡Microsoft ha lanzado un nuevo curso para aprender a crear Agentes de IA desde cero y en Español!\n\n✓",
+                        "thumbnail": "https://i3.ytimg.com/vi/bBzChsJM7kE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "eJtcgVf72zs",
                         "title": "La carrera de la IA: Estados Unidos vs China",
                         "thumbnail": "https://i2.ytimg.com/vi/eJtcgVf72zs/hqdefault.jpg"
@@ -3530,6 +3540,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "QObJyi7St8Y",
+                        "title": "Los CEO quieren asustar a los programadores",
+                        "thumbnail": "https://i2.ytimg.com/vi/QObJyi7St8Y/hqdefault.jpg"
+                    },
                     {
                         "video_id": "nW6NhZMJgIY",
                         "title": "¿Hasta cuándo vamos a creer a los CEOs sobre la IA?",
