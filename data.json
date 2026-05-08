@@ -3016,6 +3016,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "HhNs0YOlAbk",
+                        "title": "¡Google tiene una alternativa a Duolingo!\nSe llama Little Language Lessons y es 100% gratis.\n\n✓ Ingl",
+                        "thumbnail": "https://i1.ytimg.com/vi/HhNs0YOlAbk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "DzOm42V1_uc",
                         "title": "El impuesto oculto de la IA",
                         "thumbnail": "https://i1.ytimg.com/vi/DzOm42V1_uc/hqdefault.jpg"
@@ -3540,6 +3545,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "zPm31kb7NRs",
+                        "title": "Por qué no puedes resolver ejercicios de código (y cómo arreglarlo)",
+                        "thumbnail": "https://i3.ytimg.com/vi/zPm31kb7NRs/hqdefault.jpg"
+                    },
                     {
                         "video_id": "QObJyi7St8Y",
                         "title": "Los CEO quieren asustar a los programadores",
