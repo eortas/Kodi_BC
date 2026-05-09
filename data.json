@@ -3016,6 +3016,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "I6BZwm7ibWQ",
+                        "title": "Google Chrome quiere meter IA en JavaScript",
+                        "thumbnail": "https://i2.ytimg.com/vi/I6BZwm7ibWQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "HhNs0YOlAbk",
                         "title": "¡Google tiene una alternativa a Duolingo!\nSe llama Little Language Lessons y es 100% gratis.\n\n✓ Ingl",
                         "thumbnail": "https://i1.ytimg.com/vi/HhNs0YOlAbk/hqdefault.jpg"
@@ -3545,6 +3550,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "1pe39HCetNo",
+                        "title": "Nadie te enseña esto cuando aprendes a programar",
+                        "thumbnail": "https://i2.ytimg.com/vi/1pe39HCetNo/hqdefault.jpg"
+                    },
                     {
                         "video_id": "zPm31kb7NRs",
                         "title": "Por qué no puedes resolver ejercicios de código (y cómo arreglarlo)",
