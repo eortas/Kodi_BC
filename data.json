@@ -3016,6 +3016,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "LesPQbRmlAI",
+                        "title": "Crea su propio React en un fin de semana con IA",
+                        "thumbnail": "https://i1.ytimg.com/vi/LesPQbRmlAI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "WLKgUlVHLoo",
+                        "title": "Con esto detectas y arreglas errores en tu app de React.\nSe llama React Doctor y es de código abiert",
+                        "thumbnail": "https://i4.ytimg.com/vi/WLKgUlVHLoo/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "I6BZwm7ibWQ",
                         "title": "Google Chrome quiere meter IA en JavaScript",
                         "thumbnail": "https://i2.ytimg.com/vi/I6BZwm7ibWQ/hqdefault.jpg"
@@ -3550,6 +3560,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "YjrV9tcZZRY",
+                        "title": "Así es como los mejores estudiantes aprenden ahora",
+                        "thumbnail": "https://i2.ytimg.com/vi/YjrV9tcZZRY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "1pe39HCetNo",
                         "title": "Nadie te enseña esto cuando aprendes a programar",
