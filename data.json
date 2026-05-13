@@ -3016,6 +3016,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "NlatSFe_k1c",
+                        "title": "Deja de usar NPM",
+                        "thumbnail": "https://i3.ytimg.com/vi/NlatSFe_k1c/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "iABf9QnPMjI",
+                        "title": "¡He creado una extensión de Visual Studio Code!\n\nSe llama Better SVG y mejora la experiencia de desa",
+                        "thumbnail": "https://i2.ytimg.com/vi/iABf9QnPMjI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "wLKGXzlRE6M",
+                        "title": "Lo de Google Chrome es preocupante",
+                        "thumbnail": "https://i4.ytimg.com/vi/wLKGXzlRE6M/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "LesPQbRmlAI",
                         "title": "Crea su propio React en un fin de semana con IA",
                         "thumbnail": "https://i1.ytimg.com/vi/LesPQbRmlAI/hqdefault.jpg"
@@ -3560,6 +3575,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "4UZZYdZWeFE",
+                        "title": "Este palito sostiene Internet",
+                        "thumbnail": "https://i1.ytimg.com/vi/4UZZYdZWeFE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "JrSKJLSab-U",
+                        "title": "El juego de tronos de la IA ya es una realidad",
+                        "thumbnail": "https://i3.ytimg.com/vi/JrSKJLSab-U/hqdefault.jpg"
+                    },
                     {
                         "video_id": "YjrV9tcZZRY",
                         "title": "Así es como los mejores estudiantes aprenden ahora",
