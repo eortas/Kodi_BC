@@ -3016,6 +3016,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "_aIZxImbjmY",
+                        "title": "¿Quieres hacer que una imagen se desvanezca hasta volverse transparente?\n\nSe puede hacer solo con CS",
+                        "thumbnail": "https://i4.ytimg.com/vi/_aIZxImbjmY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "RLO9uLJVpWQ",
+                        "title": "Cloudflare acaba de despedir a 1100 empleados",
+                        "thumbnail": "https://i3.ytimg.com/vi/RLO9uLJVpWQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Yy7yTxByORM",
                         "title": "Resulta que Linux no era tan seguro",
                         "thumbnail": "https://i2.ytimg.com/vi/Yy7yTxByORM/hqdefault.jpg"
@@ -3605,6 +3615,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "ZJRUHCacbrw",
+                        "title": "¿Cuál es mejor?",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZJRUHCacbrw/hqdefault.jpg"
+                    },
                     {
                         "video_id": "LQqv4M_NtNc",
                         "title": "Taller de IA Local desde cero: sin nube, privada y gratis",
