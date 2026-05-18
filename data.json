@@ -3016,6 +3016,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "eL6Jeo9LhSU",
+                        "title": "Espectacular las animaciones que se pueden hacer con la biblioteca GSAP en pocas líneas de código.",
+                        "thumbnail": "https://i2.ytimg.com/vi/eL6Jeo9LhSU/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "fkAW_xBjpDY",
                         "title": "\"No cometas errores y push directo a producción\".\n\nEs broma pero si quieres no es broma. ¿Ya te ha p",
                         "thumbnail": "https://i3.ytimg.com/vi/fkAW_xBjpDY/hqdefault.jpg"
@@ -4155,6 +4160,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "aFDOzpTeg0s",
+                        "title": "The Essence of Linear Regression",
+                        "thumbnail": "https://i2.ytimg.com/vi/aFDOzpTeg0s/hqdefault.jpg"
+                    },
                     {
                         "video_id": "q-BiW5srMFQ",
                         "title": "How AI works in Super Simple Terms!!!",
