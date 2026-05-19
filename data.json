@@ -3016,6 +3016,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "7juuqkxxMCs",
+                        "title": "Infierno de vulnerabilidades, nuevo portátil de Google + Bun se pasa a Rust + OpenAI vende tus datos",
+                        "thumbnail": "https://i4.ytimg.com/vi/7juuqkxxMCs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Icnv1DDAQOg",
+                        "title": "GitHub Actions desde CERO: automatiza tus proyectos como un PRO",
+                        "thumbnail": "https://i2.ytimg.com/vi/Icnv1DDAQOg/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "bC3HO5FOzao",
+                        "title": "Google I/O 2026 EN VIVO: Gemini, Android, nuevo portátil y el futuro de la IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/bC3HO5FOzao/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "eL6Jeo9LhSU",
                         "title": "Espectacular las animaciones que se pueden hacer con la biblioteca GSAP en pocas líneas de código.",
                         "thumbnail": "https://i2.ytimg.com/vi/eL6Jeo9LhSU/hqdefault.jpg"
@@ -3625,6 +3640,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "Lj0PambXU9c",
+                        "title": "El truco oculto de Claude Code que nadie conoce",
+                        "thumbnail": "https://i1.ytimg.com/vi/Lj0PambXU9c/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ZJRUHCacbrw",
                         "title": "¿Cuál es mejor?",
