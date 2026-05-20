@@ -3016,6 +3016,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "AVwrvS5YnhM",
+                        "title": "Esta IA trabaja por mí: probando Manus",
+                        "thumbnail": "https://i2.ytimg.com/vi/AVwrvS5YnhM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "lc8sXRncexQ",
+                        "title": "Aprender Programación, Cloud o DevOps viendo vídeos está bien.\n\nPero llega un punto en el que necesi",
+                        "thumbnail": "https://i1.ytimg.com/vi/lc8sXRncexQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "fw40Xwrxp0k",
+                        "title": "Estas vulnerabilidades dan miedo: Next.js, Windows, macOS y NGINX",
+                        "thumbnail": "https://i3.ytimg.com/vi/fw40Xwrxp0k/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "7juuqkxxMCs",
                         "title": "Infierno de vulnerabilidades, nuevo portátil de Google + Bun se pasa a Rust + OpenAI vende tus datos",
                         "thumbnail": "https://i4.ytimg.com/vi/7juuqkxxMCs/hqdefault.jpg"
@@ -3640,6 +3655,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "SvNLRJejYeE",
+                        "title": "La silla que necesitaba para trabajar",
+                        "thumbnail": "https://i4.ytimg.com/vi/SvNLRJejYeE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "HxZ2xBL4aKI",
+                        "title": "La IA se está cargando GitHub y el Open Source",
+                        "thumbnail": "https://i1.ytimg.com/vi/HxZ2xBL4aKI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "Lj0PambXU9c",
                         "title": "El truco oculto de Claude Code que nadie conoce",
