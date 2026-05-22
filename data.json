@@ -2931,6 +2931,11 @@
                 "channel_id": "UCy5znSnfMsDwaLlROnZ7Qbg",
                 "videos": [
                     {
+                        "video_id": "5KFqIaREyPw",
+                        "title": "🛻 ¡Múdate a Gemini con su nueva funcionalidad!",
+                        "thumbnail": "https://i2.ytimg.com/vi/5KFqIaREyPw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "GOhMh__Z4xI",
                         "title": "¿Puede la IA Generar NUEVO CONOCIMIENTO CIENTÍFICO?",
                         "thumbnail": "https://i4.ytimg.com/vi/GOhMh__Z4xI/hqdefault.jpg"
@@ -3015,6 +3020,16 @@
             "MiduDev": {
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
+                    {
+                        "video_id": "iLjgOUsvcFc",
+                        "title": "La situación del malware en npm está empeorando",
+                        "thumbnail": "https://i2.ytimg.com/vi/iLjgOUsvcFc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "FxzDr8dgXmc",
+                        "title": "El apocalipsis de las suscripciones de IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/FxzDr8dgXmc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "jTzAfMgI0v0",
                         "title": "¡GitHub hackeado! A través de una extensión de Visual Studio Code.\n\nHan accedido a más de 3800 repos",
@@ -3666,6 +3681,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "VvW357ERyYk",
+                        "title": "DEJA de ver tutoriales de programación (y haz esto en su lugar)",
+                        "thumbnail": "https://i3.ytimg.com/vi/VvW357ERyYk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "SvNLRJejYeE",
                         "title": "La silla que necesitaba para trabajar",
                         "thumbnail": "https://i4.ytimg.com/vi/SvNLRJejYeE/hqdefault.jpg"
@@ -3950,6 +3970,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "ZHXt0-_gSj4",
+                        "title": "Tie random ends: How many loops?",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZHXt0-_gSj4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "QLu_ZsRc_G0",
                         "title": "Covering 10 points, a surprisingly tricky puzzle.",
