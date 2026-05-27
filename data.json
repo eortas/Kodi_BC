@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "KR4PDUnftOg",
+                        "title": "El drama de Antigravity 2.0 es Salvaje",
+                        "thumbnail": "https://i4.ytimg.com/vi/KR4PDUnftOg/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "ScLu47riJfY",
                         "title": "¡Microsoft abandona Claude Code!",
                         "thumbnail": "https://i4.ytimg.com/vi/ScLu47riJfY/hqdefault.jpg"
@@ -3715,6 +3720,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "2NOEbJEJM-E",
+                        "title": "Te están engañando sobre los despidos por IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/2NOEbJEJM-E/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ceQa4Z9YEKc",
+                        "title": "NVIDIA acaba de admitir que la IA es más cara que tú",
+                        "thumbnail": "https://i4.ytimg.com/vi/ceQa4Z9YEKc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "oBsUfVw9UA8",
                         "title": "Aprende a programar con Harvard",
