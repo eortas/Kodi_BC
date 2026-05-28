@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "tZIlsfPhBHU",
+                        "title": "Esta IA es 10 veces más barata que Claude y... (MiniMax 2.7)",
+                        "thumbnail": "https://i1.ytimg.com/vi/tZIlsfPhBHU/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "tCtw5l5X1XE",
+                        "title": "Es común que un junior ponga un bug en producción y termine con sudores fríos…\n\nEn cambio, un senior",
+                        "thumbnail": "https://i1.ytimg.com/vi/tCtw5l5X1XE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "814Y8j7ia6U",
+                        "title": "La GRAN mentira del programador 100X",
+                        "thumbnail": "https://i1.ytimg.com/vi/814Y8j7ia6U/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "KR4PDUnftOg",
                         "title": "El drama de Antigravity 2.0 es Salvaje",
                         "thumbnail": "https://i4.ytimg.com/vi/KR4PDUnftOg/hqdefault.jpg"
@@ -3720,6 +3735,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "16RnZKxhWuU",
+                        "title": "¿Por qué no avanzas programando?",
+                        "thumbnail": "https://i2.ytimg.com/vi/16RnZKxhWuU/hqdefault.jpg"
+                    },
                     {
                         "video_id": "2NOEbJEJM-E",
                         "title": "Te están engañando sobre los despidos por IA",
