@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "4rsJT1PZbCc",
+                        "title": "El ataque a PHP que nadie vio venir",
+                        "thumbnail": "https://i1.ytimg.com/vi/4rsJT1PZbCc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "yPHsu1tOV-s",
                         "title": "Herramientas para optimizar las imágenes de tu página web.\n\n¡No cometas este error de principiante c",
                         "thumbnail": "https://i2.ytimg.com/vi/yPHsu1tOV-s/hqdefault.jpg"
@@ -3740,6 +3745,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "uMcoBFcR2Vs",
+                        "title": "La mentira detrás de los despidos",
+                        "thumbnail": "https://i2.ytimg.com/vi/uMcoBFcR2Vs/hqdefault.jpg"
+                    },
                     {
                         "video_id": "t97f13NKcmQ",
                         "title": "La trampa de aprender sólo herramientas",
