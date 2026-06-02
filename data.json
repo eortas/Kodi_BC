@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "eqW2FjfOz-Q",
+                        "title": "Opus 4.8, Portátil Windows, NVIDIA saca chip, MiniMax M3, Linus Torvalds pelea con la IA, Flutter...",
+                        "thumbnail": "https://i2.ytimg.com/vi/eqW2FjfOz-Q/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "-OfTYVeVjTk",
+                        "title": "Microsoft acaba de presentar el Surface Laptop Ultra.\nSu primer gran competidor del MacBook Pro.\n\nUn",
+                        "thumbnail": "https://i2.ytimg.com/vi/-OfTYVeVjTk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "9oc0SrAFrMc",
+                        "title": "15 novedades de Chrome que los devs están ignorando (y no deberían)",
+                        "thumbnail": "https://i2.ytimg.com/vi/9oc0SrAFrMc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "4rsJT1PZbCc",
                         "title": "El ataque a PHP que nadie vio venir",
                         "thumbnail": "https://i1.ytimg.com/vi/4rsJT1PZbCc/hqdefault.jpg"
@@ -3745,6 +3760,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "I3jChdSYKDE",
+                        "title": "3 pasos para mejorar como programador",
+                        "thumbnail": "https://i2.ytimg.com/vi/I3jChdSYKDE/hqdefault.jpg"
+                    },
                     {
                         "video_id": "uMcoBFcR2Vs",
                         "title": "La mentira detrás de los despidos",
