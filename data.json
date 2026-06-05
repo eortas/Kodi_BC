@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "QdRmjx0ZdOU",
+                        "title": "40 mil estrellas en GitHub en menos de 24 horas.\n\nSe llama Odysseus y es una especie de ChatGPT/Clau",
+                        "thumbnail": "https://i2.ytimg.com/vi/QdRmjx0ZdOU/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "hEh9aGYw4aY",
                         "title": "Los cursos de Ingeniería de IA que yo haría en 2026",
                         "thumbnail": "https://i1.ytimg.com/vi/hEh9aGYw4aY/hqdefault.jpg"
@@ -3770,6 +3775,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "wxgwLTOh7wI",
+                        "title": "Taller de NotebookLM: La mejor forma de estudiar con IA",
+                        "thumbnail": "https://i4.ytimg.com/vi/wxgwLTOh7wI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "fHKBOoJJ06c",
+                        "title": "La alternativa a ChatGPT de PewDiePie",
+                        "thumbnail": "https://i3.ytimg.com/vi/fHKBOoJJ06c/hqdefault.jpg"
+                    },
                     {
                         "video_id": "hMNXIaKt-Zc",
                         "title": "4 señales de que ya eres un Senior",
