@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "G00GDafBdP8",
+                        "title": "Por Qué el Nuevo Sistema de Precios de GitHub Copilot No Tiene Sentido",
+                        "thumbnail": "https://i4.ytimg.com/vi/G00GDafBdP8/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "QdRmjx0ZdOU",
                         "title": "40 mil estrellas en GitHub en menos de 24 horas.\n\nSe llama Odysseus y es una especie de ChatGPT/Clau",
                         "thumbnail": "https://i2.ytimg.com/vi/QdRmjx0ZdOU/hqdefault.jpg"
@@ -3775,6 +3780,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "lE11BO_I5dg",
+                        "title": "10.000 becas de Google para IA y Ciberseguridad",
+                        "thumbnail": "https://i1.ytimg.com/vi/lE11BO_I5dg/hqdefault.jpg"
+                    },
                     {
                         "video_id": "wxgwLTOh7wI",
                         "title": "Taller de NotebookLM: La mejor forma de estudiar con IA",
