@@ -3791,6 +3791,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "UosNiUuoDgw",
+                        "title": "Los CEO tienen complejo de Dios",
+                        "thumbnail": "https://i2.ytimg.com/vi/UosNiUuoDgw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "LqgFkrH7Gi0",
                         "title": "Nos quedan 6 meses...",
                         "thumbnail": "https://i1.ytimg.com/vi/LqgFkrH7Gi0/hqdefault.jpg"
@@ -4145,6 +4150,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "l6DKRf-fAAM",
+                        "title": "Reinventing Entropy | Compression & Intelligence Part 1",
+                        "thumbnail": "https://i1.ytimg.com/vi/l6DKRf-fAAM/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ZHXt0-_gSj4",
                         "title": "Tie random ends: How many loops?",
