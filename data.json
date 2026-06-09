@@ -3791,6 +3791,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "w5TubRFLAX4",
+                        "title": "El nuevo rol del programador: Agentes y contexto",
+                        "thumbnail": "https://i4.ytimg.com/vi/w5TubRFLAX4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "UosNiUuoDgw",
                         "title": "Los CEO tienen complejo de Dios",
                         "thumbnail": "https://i2.ytimg.com/vi/UosNiUuoDgw/hqdefault.jpg"
@@ -4425,6 +4430,16 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "mIlw5j3WyVk",
+                        "title": "StatQuest: Random Forests Part 2: Missing data and clustering",
+                        "thumbnail": "https://i2.ytimg.com/vi/mIlw5j3WyVk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "L3nlGfSyHV0",
+                        "title": "False Discovery Rates, FDR, clearly explained",
+                        "thumbnail": "https://i1.ytimg.com/vi/L3nlGfSyHV0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "aFDOzpTeg0s",
                         "title": "The Essence of Linear Regression",
