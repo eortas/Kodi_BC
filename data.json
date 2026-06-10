@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "ZdwrGg14rPI",
+                        "title": "Probé Claude Fable 5 (mi opinión)",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZdwrGg14rPI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "5WrUyabw2fo",
+                        "title": "Claude Fable 5, el nuevo modelo de IA de Anthropic",
+                        "thumbnail": "https://i2.ytimg.com/vi/5WrUyabw2fo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "QEILMf9MMDA",
+                        "title": "Gracias, Claude Code\n\n#programacion #software #programadores #informatica #humor",
+                        "thumbnail": "https://i2.ytimg.com/vi/QEILMf9MMDA/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "dDp0DAOvNkQ",
                         "title": "¿La IA ya es rentable?",
                         "thumbnail": "https://i1.ytimg.com/vi/dDp0DAOvNkQ/hqdefault.jpg"
@@ -3790,6 +3805,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "0YH3rJifa-8",
+                        "title": "Se acabó el programar como en 2022",
+                        "thumbnail": "https://i1.ytimg.com/vi/0YH3rJifa-8/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "fK5WwFMFwdE",
+                        "title": "¿Dejar de programar? Google dice que ni se te ocurra",
+                        "thumbnail": "https://i3.ytimg.com/vi/fK5WwFMFwdE/hqdefault.jpg"
+                    },
                     {
                         "video_id": "w5TubRFLAX4",
                         "title": "El nuevo rol del programador: Agentes y contexto",
