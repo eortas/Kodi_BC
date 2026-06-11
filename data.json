@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "alwbT-S6tVI",
+                        "title": "¡Probando Claude Fable 5 en directo con tus proyectos!",
+                        "thumbnail": "https://i2.ytimg.com/vi/alwbT-S6tVI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "N98jfnjEhqE",
+                        "title": "Todas las novedades de Microsoft para Windows en la #msbuild",
+                        "thumbnail": "https://i3.ytimg.com/vi/N98jfnjEhqE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "ZdwrGg14rPI",
                         "title": "Probé Claude Fable 5 (mi opinión)",
                         "thumbnail": "https://i3.ytimg.com/vi/ZdwrGg14rPI/hqdefault.jpg"
@@ -3806,6 +3816,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "adrWwWqfqqM",
+                        "title": "Claude Code desde cero en 60 segundos",
+                        "thumbnail": "https://i2.ytimg.com/vi/adrWwWqfqqM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "0YH3rJifa-8",
                         "title": "Se acabó el programar como en 2022",
                         "thumbnail": "https://i1.ytimg.com/vi/0YH3rJifa-8/hqdefault.jpg"
@@ -4180,6 +4195,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "7L_eTem1SQ4",
+                        "title": "What's the perfect encoding? How do you know?",
+                        "thumbnail": "https://i4.ytimg.com/vi/7L_eTem1SQ4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "l6DKRf-fAAM",
                         "title": "Reinventing Entropy | Compression & Intelligence Part 1",
