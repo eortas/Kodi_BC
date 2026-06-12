@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "OvTo9zjWYpo",
+                        "title": "No se puede aprender todo en programación y menos todo lo nuevo que sale.\n\nNo te agobies. Al princip",
+                        "thumbnail": "https://i4.ytimg.com/vi/OvTo9zjWYpo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "f8YrTEW8Qco",
+                        "title": "\"Los devs siguen siendo necesarios\" - Demis Hassabis",
+                        "thumbnail": "https://i3.ytimg.com/vi/f8YrTEW8Qco/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "alwbT-S6tVI",
                         "title": "¡Probando Claude Fable 5 en directo con tus proyectos!",
                         "thumbnail": "https://i2.ytimg.com/vi/alwbT-S6tVI/hqdefault.jpg"
@@ -3815,6 +3825,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "RYjlZSrMfBg",
+                        "title": "5 comandos de Claude Code que te ahorran horas",
+                        "thumbnail": "https://i3.ytimg.com/vi/RYjlZSrMfBg/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "pZ8dIzvYKV0",
+                        "title": "¿Programas pero no terminas nada? Mira esto",
+                        "thumbnail": "https://i1.ytimg.com/vi/pZ8dIzvYKV0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "adrWwWqfqqM",
                         "title": "Claude Code desde cero en 60 segundos",
