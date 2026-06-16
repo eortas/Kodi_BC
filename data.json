@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "13FzSFrznZs",
+                        "title": "¡Bloquean Claude Fable 5!",
+                        "thumbnail": "https://i2.ytimg.com/vi/13FzSFrznZs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "nH1YwODAzB0",
+                        "title": "¡Bloquean Claude Fable 5! + Angular 22 + Ojo npm + rumores GPT 5.6 + ¡brutal novedad de CSS y grid!",
+                        "thumbnail": "https://i3.ytimg.com/vi/nH1YwODAzB0/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "_Ga3HXeZQ0g",
                         "title": "¿Te cuesta elegir la fuente para tu web? ¡Este recurso es perfecto para diseñadores y programadores!",
                         "thumbnail": "https://i4.ytimg.com/vi/_Ga3HXeZQ0g/hqdefault.jpg"
@@ -3840,6 +3850,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "FsMEyKe08HE",
+                        "title": "Deja de usar Claude Opus para todo",
+                        "thumbnail": "https://i3.ytimg.com/vi/FsMEyKe08HE/hqdefault.jpg"
+                    },
                     {
                         "video_id": "_L7k7_YayKY",
                         "title": "Sam Altman admite que se equivocó",
