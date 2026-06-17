@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "VM0blXKXikE",
+                        "title": "El problema de usar demasiado la IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/VM0blXKXikE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "aA_x2rwmWaI",
+                        "title": "Automaticé GitHub con IA local",
+                        "thumbnail": "https://i2.ytimg.com/vi/aA_x2rwmWaI/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "13FzSFrznZs",
                         "title": "¡Bloquean Claude Fable 5!",
                         "thumbnail": "https://i2.ytimg.com/vi/13FzSFrznZs/hqdefault.jpg"
@@ -3851,6 +3861,16 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "j3xgc-sP-oY",
+                        "title": "KPMG retira un informe por culpa de la IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/j3xgc-sP-oY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "YRr8s1kJ780",
+                        "title": "El día que un gobierno apagó la mejor IA del mundo",
+                        "thumbnail": "https://i2.ytimg.com/vi/YRr8s1kJ780/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "FsMEyKe08HE",
                         "title": "Deja de usar Claude Opus para todo",
                         "thumbnail": "https://i3.ytimg.com/vi/FsMEyKe08HE/hqdefault.jpg"
@@ -4250,6 +4270,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "wGffBCfrAsE",
+                        "title": "100 random chords, how many intersections?",
+                        "thumbnail": "https://i4.ytimg.com/vi/wGffBCfrAsE/hqdefault.jpg"
+                    },
                     {
                         "video_id": "-7etvZSBxlk",
                         "title": "Measuring the entropy of English",
