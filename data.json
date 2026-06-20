@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "hpxP_55RU_k",
+                        "title": "¡Acaba de salir la mejor biblioteca de React de 2026!\nEs un componente de notificaciones para tu web",
+                        "thumbnail": "https://i1.ytimg.com/vi/hpxP_55RU_k/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "XaqDsOC88gQ",
+                        "title": "El mini PC de AMD para IA local",
+                        "thumbnail": "https://i1.ytimg.com/vi/XaqDsOC88gQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "jCcflYonha8",
                         "title": "Los Modelos de IA Chinos son Salvajes",
                         "thumbnail": "https://i3.ytimg.com/vi/jCcflYonha8/hqdefault.jpg"
@@ -4515,6 +4525,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "DA2E8szXjoA",
+                        "title": "There has been a situation in AI",
+                        "thumbnail": "https://i1.ytimg.com/vi/DA2E8szXjoA/hqdefault.jpg"
+                    },
                     {
                         "video_id": "FGnAeUXRZ4E",
                         "title": "Training a Unitree G1 to Walk w/ Reinforcement Learning",
