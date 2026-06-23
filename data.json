@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "5t4xgmYdmpc",
+                        "title": "Esta extensión convierte cualquier web en un diseño editable en Figma.\n\nSe llama HTML to Design y te",
+                        "thumbnail": "https://i2.ytimg.com/vi/5t4xgmYdmpc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "FsufCydbfJ4",
                         "title": "Claude Code puede hacer una demo que parezca un clon de Airbnb.\n\nPero una demo no es un producto.\n\nE",
                         "thumbnail": "https://i3.ytimg.com/vi/FsufCydbfJ4/hqdefault.jpg"
@@ -3895,6 +3900,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "ulZlg_TntYI",
+                        "title": "Fatiga por IA: estamos quemados y no lo sabemos",
+                        "thumbnail": "https://i2.ytimg.com/vi/ulZlg_TntYI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "VWhZDx6EGds",
                         "title": "1200 días esperando el fin de los programadores",
