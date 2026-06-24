@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "M2r1UVIZ2Oo",
+                        "title": "El futuro de Cursor es...",
+                        "thumbnail": "https://i2.ytimg.com/vi/M2r1UVIZ2Oo/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "5t4xgmYdmpc",
                         "title": "Esta extensión convierte cualquier web en un diseño editable en Figma.\n\nSe llama HTML to Design y te",
                         "thumbnail": "https://i2.ytimg.com/vi/5t4xgmYdmpc/hqdefault.jpg"
@@ -3900,6 +3905,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "GarWqdHzwac",
+                        "title": "Curso de Desarrollo con IA - Día 1 - De prompts sueltos a programar con criterio",
+                        "thumbnail": "https://i4.ytimg.com/vi/GarWqdHzwac/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ulZlg_TntYI",
                         "title": "Fatiga por IA: estamos quemados y no lo sabemos",
