@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "YKiqDmw0xlc",
+                        "title": "¡Ahorra tokens y acelera tu agente de IA!\n\n¿Cómo? Este MCP indexa todo tu proyecto como un grafo de",
+                        "thumbnail": "https://i2.ytimg.com/vi/YKiqDmw0xlc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "wseyhlSZf3Y",
                         "title": "MiniMax M3: Pongo a prueba la alternativa barata de Claude",
                         "thumbnail": "https://i4.ytimg.com/vi/wseyhlSZf3Y/hqdefault.jpg"
@@ -3935,6 +3940,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "4_Q29FX4SkU",
+                        "title": "¿La diriges o dejas que te dirija?",
+                        "thumbnail": "https://i1.ytimg.com/vi/4_Q29FX4SkU/hqdefault.jpg"
+                    },
                     {
                         "video_id": "kcSKbwVYXCg",
                         "title": "Curso de Desarrollo con IA - Día 3 - Usa multiagentes para desarrollar mejor",
