@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "wZnddhLrmiM",
+                        "title": "Curso de Docker desde cero hasta despliegue a producción",
+                        "thumbnail": "https://i4.ytimg.com/vi/wZnddhLrmiM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "AllgkVDf9gk",
+                        "title": "¡ChatGPT 5.6 está aquí! (Sol, Terra y Luna)",
+                        "thumbnail": "https://i2.ytimg.com/vi/AllgkVDf9gk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "YKiqDmw0xlc",
                         "title": "¡Ahorra tokens y acelera tu agente de IA!\n\n¿Cómo? Este MCP indexa todo tu proyecto como un grafo de",
                         "thumbnail": "https://i2.ytimg.com/vi/YKiqDmw0xlc/hqdefault.jpg"
@@ -3941,6 +3951,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "ZcYptaxYQHc",
+                        "title": "¿Vales menos que la IA?",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZcYptaxYQHc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "4_Q29FX4SkU",
                         "title": "¿La diriges o dejas que te dirija?",
                         "thumbnail": "https://i1.ytimg.com/vi/4_Q29FX4SkU/hqdefault.jpg"
@@ -4600,6 +4615,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "AgpeggCsRH4",
+                        "title": "Could Open Source AI be Banned?",
+                        "thumbnail": "https://i2.ytimg.com/vi/AgpeggCsRH4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "DA2E8szXjoA",
                         "title": "There has been a situation in AI",
