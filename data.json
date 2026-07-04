@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "5nJUsgYWINE",
+                        "title": "Claude Code en producción. ¿Esto es el futuro?",
+                        "thumbnail": "https://i2.ytimg.com/vi/5nJUsgYWINE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "ijvoD4h2BPI",
                         "title": "La IA china acaba de romper el negocio de Claude y ChatGPT",
                         "thumbnail": "https://i2.ytimg.com/vi/ijvoD4h2BPI/hqdefault.jpg"
@@ -3960,6 +3965,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "k6JlJ7AdSKc",
+                        "title": "Tarea no es propósito",
+                        "thumbnail": "https://i4.ytimg.com/vi/k6JlJ7AdSKc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "riAMtWzWaBI",
                         "title": "¿Por que tú no produces el doble?",
