@@ -4746,6 +4746,11 @@
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
                     {
+                        "video_id": "h5o1n1QMcmM",
+                        "title": "Optimization with Linear Programming (and the Simplex Algorithm), Main Ideas!!!",
+                        "thumbnail": "https://i1.ytimg.com/vi/h5o1n1QMcmM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "mIlw5j3WyVk",
                         "title": "StatQuest: Random Forests Part 2: Missing data and clustering",
                         "thumbnail": "https://i2.ytimg.com/vi/mIlw5j3WyVk/hqdefault.jpg"
