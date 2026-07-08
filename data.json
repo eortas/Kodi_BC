@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "jmuakx9E7G4",
+                        "title": "¿Crees que aprender programación es difícil?\nPiensa cómo aprendieron los que vinieron antes.\n\nSin Ch",
+                        "thumbnail": "https://i3.ytimg.com/vi/jmuakx9E7G4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "tBaZNNnIgBg",
                         "title": "¡Me he comprado una Nvidia RTX 5090!\nLa mejor tarjeta gráfica que existe ahora mismo.\n\n¿Para jugar?",
                         "thumbnail": "https://i1.ytimg.com/vi/tBaZNNnIgBg/hqdefault.jpg"
@@ -3980,6 +3985,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "S2IrPlp8FEs",
+                        "title": "¿Un Tamagotchi para Claude Code?",
+                        "thumbnail": "https://i4.ytimg.com/vi/S2IrPlp8FEs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "v6_fPLAczrs",
+                        "title": "Zuckerberg admite que se equivocó al despedir a 8.000 trabajadores",
+                        "thumbnail": "https://i3.ytimg.com/vi/v6_fPLAczrs/hqdefault.jpg"
+                    },
                     {
                         "video_id": "k6JlJ7AdSKc",
                         "title": "Tarea no es propósito",
