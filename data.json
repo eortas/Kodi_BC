@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "005TjLbaaO4",
+                        "title": "He creado una web imposible de tumbar. O eso creo.",
+                        "thumbnail": "https://i1.ytimg.com/vi/005TjLbaaO4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "jmuakx9E7G4",
                         "title": "¿Crees que aprender programación es difícil?\nPiensa cómo aprendieron los que vinieron antes.\n\nSin Ch",
                         "thumbnail": "https://i3.ytimg.com/vi/jmuakx9E7G4/hqdefault.jpg"
@@ -3985,6 +3990,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "bLiFd_wmvmo",
+                        "title": "Los peores programadores de la historia",
+                        "thumbnail": "https://i3.ytimg.com/vi/bLiFd_wmvmo/hqdefault.jpg"
+                    },
                     {
                         "video_id": "S2IrPlp8FEs",
                         "title": "¿Un Tamagotchi para Claude Code?",
