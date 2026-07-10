@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "oiAUI6HfC4M",
+                        "title": "¿La IA es rentable? Parece que todavía no.",
+                        "thumbnail": "https://i4.ytimg.com/vi/oiAUI6HfC4M/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "fkVHf7vCtHQ",
+                        "title": "Apple sube precios",
+                        "thumbnail": "https://i3.ytimg.com/vi/fkVHf7vCtHQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "005TjLbaaO4",
                         "title": "He creado una web imposible de tumbar. O eso creo.",
                         "thumbnail": "https://i1.ytimg.com/vi/005TjLbaaO4/hqdefault.jpg"
@@ -3991,6 +4001,16 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "mgFlNP9JQTc",
+                        "title": "¿Ya no hace falta aprender a programar?",
+                        "thumbnail": "https://i2.ytimg.com/vi/mgFlNP9JQTc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "H3gH_Fe6xvs",
+                        "title": "Aprende Agentes de IA GRATIS con OpenCode, Claude y Cursor (Desde cero + Certificado)",
+                        "thumbnail": "https://i1.ytimg.com/vi/H3gH_Fe6xvs/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "bLiFd_wmvmo",
                         "title": "Los peores programadores de la historia",
                         "thumbnail": "https://i3.ytimg.com/vi/bLiFd_wmvmo/hqdefault.jpg"
@@ -4690,6 +4710,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "31MvP7yHzxM",
+                        "title": "In search of frontier AI at home",
+                        "thumbnail": "https://i4.ytimg.com/vi/31MvP7yHzxM/hqdefault.jpg"
+                    },
                     {
                         "video_id": "AgpeggCsRH4",
                         "title": "Could Open Source AI be Banned?",
