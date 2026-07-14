@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "hxg1u8cqpzc",
+                        "title": "Apple demanda a OpenAI",
+                        "thumbnail": "https://i1.ytimg.com/vi/hxg1u8cqpzc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "4yaqMCVPBBs",
+                        "title": "¡Busco 2 Programadores para la web de SPIDER-MAN: Brand New Day!\n\n✓ 1500€ por 2 semanas a 4 horas\n✓",
+                        "thumbnail": "https://i1.ytimg.com/vi/4yaqMCVPBBs/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "oiAUI6HfC4M",
                         "title": "¿La IA es rentable? Parece que todavía no.",
                         "thumbnail": "https://i4.ytimg.com/vi/oiAUI6HfC4M/hqdefault.jpg"
@@ -4000,6 +4010,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "IzCW8L3YjX0",
+                        "title": "¿Programar con IA sin entender el código?",
+                        "thumbnail": "https://i2.ytimg.com/vi/IzCW8L3YjX0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "_vplq-8DtY0",
                         "title": "¿Meta se equivocó con sus empleados?",
