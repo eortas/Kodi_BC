@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "PUX3Zcq-0mQ",
+                        "title": "Grok AI está clonando TODO tu repositorio",
+                        "thumbnail": "https://i1.ytimg.com/vi/PUX3Zcq-0mQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "r-bw23UFbbw",
+                        "title": "¡CSS acaba de solucionar un problema que llevamos años resolviendo con JavaScript!\n\nLa nueva propied",
+                        "thumbnail": "https://i3.ytimg.com/vi/r-bw23UFbbw/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "TYm1VLA-P6A",
+                        "title": "Le Pedí a una IA que Buscara Trabajo por Mí… y Funcionó",
+                        "thumbnail": "https://i1.ytimg.com/vi/TYm1VLA-P6A/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "hxg1u8cqpzc",
                         "title": "Apple demanda a OpenAI",
                         "thumbnail": "https://i1.ytimg.com/vi/hxg1u8cqpzc/hqdefault.jpg"
@@ -4010,6 +4025,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "TsIPnBzhy_c",
+                        "title": "Esto es lo que haría si tuviera que volver a estudiar programación",
+                        "thumbnail": "https://i1.ytimg.com/vi/TsIPnBzhy_c/hqdefault.jpg"
+                    },
                     {
                         "video_id": "IzCW8L3YjX0",
                         "title": "¿Programar con IA sin entender el código?",
