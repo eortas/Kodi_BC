@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "rhmoIIzP3Us",
+                        "title": "¿China va a cerrar sus modelos de IA?",
+                        "thumbnail": "https://i3.ytimg.com/vi/rhmoIIzP3Us/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "o4vF6NUu-7Q",
                         "title": "¿Quieres que tu sesión de Claude Code, Cursor y Codex dure más? Haz que hable como un cavernícola.",
                         "thumbnail": "https://i4.ytimg.com/vi/o4vF6NUu-7Q/hqdefault.jpg"
@@ -4036,6 +4041,16 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "af1KAQCD7mk",
+                        "title": "Taller de Codex desde cero + GPT 5.6: Todo lo que necesitas para empezar",
+                        "thumbnail": "https://i2.ytimg.com/vi/af1KAQCD7mk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "0Z1bO7SD8x4",
+                        "title": "¿Haciendo trampa con la IA? Prueba esto mejor",
+                        "thumbnail": "https://i1.ytimg.com/vi/0Z1bO7SD8x4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "SJuFAMRZX4Q",
                         "title": "IA vs. Fiebre del Oro: ¿Estamos repitiendo la historia?",
                         "thumbnail": "https://i4.ytimg.com/vi/SJuFAMRZX4Q/hqdefault.jpg"
@@ -4555,6 +4570,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "GlYgs6v2YfU",
+                        "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
+                        "thumbnail": "https://i4.ytimg.com/vi/GlYgs6v2YfU/hqdefault.jpg"
+                    },
                     {
                         "video_id": "wGffBCfrAsE",
                         "title": "100 random chords, how many intersections?",
