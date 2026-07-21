@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "95yhFK5avFo",
+                        "title": "OpenAI quiere prohibir la IA china + Locura con Kimi K3 + Guillermo Rauch me funa + Cuarto Francia",
+                        "thumbnail": "https://i2.ytimg.com/vi/95yhFK5avFo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ZlOhst4woGI",
+                        "title": "Probé TODOS los modelos de GPT-5.6 (SOL, TERRA, LUNA)",
+                        "thumbnail": "https://i3.ytimg.com/vi/ZlOhst4woGI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "S8Y6Vty43dw",
+                        "title": "Un proyecto para tener IA gratuita sin tarjeta de crédito.\n\nOmniRoute agrupa en un solo endpoint tod",
+                        "thumbnail": "https://i4.ytimg.com/vi/S8Y6Vty43dw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "b0oiR_UOvVg",
                         "title": "El nuevo método HTTP es...",
                         "thumbnail": "https://i3.ytimg.com/vi/b0oiR_UOvVg/hqdefault.jpg"
@@ -4051,6 +4066,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "1N_y0DQKdTQ",
+                        "title": "No abandones la programación por culpa de un error",
+                        "thumbnail": "https://i2.ytimg.com/vi/1N_y0DQKdTQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "T_opV0FyL_g",
                         "title": "La ventaja de los nuevos programadores",
                         "thumbnail": "https://i1.ytimg.com/vi/T_opV0FyL_g/hqdefault.jpg"
@@ -4800,6 +4820,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "GkClGdrGViQ",
+                        "title": "You Can Just Download More Tokens/Sec",
+                        "thumbnail": "https://i4.ytimg.com/vi/GkClGdrGViQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "31MvP7yHzxM",
                         "title": "In search of frontier AI at home",
