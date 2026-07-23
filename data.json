@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "JbRsteNxYsc",
+                        "title": "El CEO de Vercel me funó",
+                        "thumbnail": "https://i3.ytimg.com/vi/JbRsteNxYsc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "AOJ8Ceto3-I",
+                        "title": "🚨 Una inteligencia artificial de OpenAI consiguió romper el entorno aislado donde la estaban proban",
+                        "thumbnail": "https://i2.ytimg.com/vi/AOJ8Ceto3-I/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Zy75oZIY5tk",
                         "title": "OpenAI quiere prohibir los modelos chinos",
                         "thumbnail": "https://i3.ytimg.com/vi/Zy75oZIY5tk/hqdefault.jpg"
@@ -4081,6 +4091,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "ivqbOrnBwGg",
+                        "title": "Anthropic ya no sabe ni qué vende",
+                        "thumbnail": "https://i2.ytimg.com/vi/ivqbOrnBwGg/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "kjwuUjmj7A8",
                         "title": "China regala lo que Silicon Valley te cobra",
                         "thumbnail": "https://i4.ytimg.com/vi/kjwuUjmj7A8/hqdefault.jpg"
@@ -4840,6 +4855,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "IY3b4HTxpgU",
+                        "title": "OpenAI hacked HuggingFace",
+                        "thumbnail": "https://i2.ytimg.com/vi/IY3b4HTxpgU/hqdefault.jpg"
+                    },
                     {
                         "video_id": "GkClGdrGViQ",
                         "title": "You Can Just Download More Tokens/Sec",
