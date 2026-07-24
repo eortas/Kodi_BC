@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "EhWWsu1pm2c",
+                        "title": "He construido una colección de recursos gratuitos para programadores que suelo utilizar.\n\nModelos de",
+                        "thumbnail": "https://i2.ytimg.com/vi/EhWWsu1pm2c/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "JbRsteNxYsc",
                         "title": "El CEO de Vercel me funó",
                         "thumbnail": "https://i3.ytimg.com/vi/JbRsteNxYsc/hqdefault.jpg"
@@ -4090,6 +4095,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "KDxBEksTKBI",
+                        "title": "Lo que haría hoy si tuviera que aprender a programar otra vez",
+                        "thumbnail": "https://i4.ytimg.com/vi/KDxBEksTKBI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ivqbOrnBwGg",
                         "title": "Anthropic ya no sabe ni qué vende",
