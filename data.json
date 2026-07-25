@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "Fs5rltCIlfk",
+                        "title": "¡Anthropic lanza Claude Opus 5!\n\n✓ Al nivel de Fable 5 a mitad de precio\n✓ Mismo coste que Opus 4.8",
+                        "thumbnail": "https://i3.ytimg.com/vi/Fs5rltCIlfk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "EhWWsu1pm2c",
                         "title": "He construido una colección de recursos gratuitos para programadores que suelo utilizar.\n\nModelos de",
                         "thumbnail": "https://i2.ytimg.com/vi/EhWWsu1pm2c/hqdefault.jpg"
@@ -4096,6 +4101,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "VW8FhHVbbek",
+                        "title": "Estudia mientras haces otras cosas: el truco definitivo",
+                        "thumbnail": "https://i3.ytimg.com/vi/VW8FhHVbbek/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "KDxBEksTKBI",
                         "title": "Lo que haría hoy si tuviera que aprender a programar otra vez",
                         "thumbnail": "https://i4.ytimg.com/vi/KDxBEksTKBI/hqdefault.jpg"
@@ -4650,6 +4660,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "6XPlmCDNLNc",
+                        "title": "The 64 sugar cubes puzzle",
+                        "thumbnail": "https://i3.ytimg.com/vi/6XPlmCDNLNc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "GlYgs6v2YfU",
                         "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
