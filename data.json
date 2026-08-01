@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "_Ak-ubGVnKA",
+                        "title": "\"No reviso el código de la IA\" - Uncle bob",
+                        "thumbnail": "https://i4.ytimg.com/vi/_Ak-ubGVnKA/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "YzAW8Fy0mo8",
+                        "title": "¿Dependes de la IA para programar? ¿Ya no sabes programar a mano?\n\nNo eres el único. Y es una pena..",
+                        "thumbnail": "https://i2.ytimg.com/vi/YzAW8Fy0mo8/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "b67lZa65rqg",
                         "title": "¡Curso oficial con certificado final de Claude Code!\n15 lecciones y 1 hora de vídeo. Desde cero.\n\nUn",
                         "thumbnail": "https://i3.ytimg.com/vi/b67lZa65rqg/hqdefault.jpg"
@@ -4140,6 +4150,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "hL9iPdFbBlg",
+                        "title": "Adiós a Claude Code: La alternativa 100% GRATIS y Open Source",
+                        "thumbnail": "https://i1.ytimg.com/vi/hL9iPdFbBlg/hqdefault.jpg"
+                    },
                     {
                         "video_id": "-YAO3iFbuy0",
                         "title": "Cursor desde cero: Curso completo para principiantes",
