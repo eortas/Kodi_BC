@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "Yj2ocdXFK8g",
+                        "title": "Menuda historia. Opus 5 borró una base de datos completa. Después de 10 minutos trabajando.\n\nLo mejo",
+                        "thumbnail": "https://i2.ytimg.com/vi/Yj2ocdXFK8g/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Zpb4-q89Ns4",
+                        "title": "Probé Claude Opus 5",
+                        "thumbnail": "https://i3.ytimg.com/vi/Zpb4-q89Ns4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "i0y7irVPAUQ",
                         "title": "¡CISCO tiene 2 cursos de Python en Español y gratis!\n\nCon certificado final, 70 horas de contenido y",
                         "thumbnail": "https://i2.ytimg.com/vi/i0y7irVPAUQ/hqdefault.jpg"
@@ -4155,6 +4165,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "PvO9hnFRncA",
+                        "title": "Trucos para dejar de perder tiempo en la terminal",
+                        "thumbnail": "https://i1.ytimg.com/vi/PvO9hnFRncA/hqdefault.jpg"
+                    },
                     {
                         "video_id": "R0VhU585ofQ",
                         "title": "¿Conoces estos trucos para VS Code?",
