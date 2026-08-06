@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "IAi6qEFc1bU",
+                        "title": "¡No sufras maquetando emails nunca más! Deja de usar tablas gracias a React Email.\n\nUn catálogo de c",
+                        "thumbnail": "https://i2.ytimg.com/vi/IAi6qEFc1bU/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Bj1bOQqSJHk",
                         "title": "Anthropic quiere controlar la IA (y no es por seguridad)",
                         "thumbnail": "https://i3.ytimg.com/vi/Bj1bOQqSJHk/hqdefault.jpg"
@@ -4170,6 +4175,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "Ip6UafpRBLE",
+                        "title": "No hagas \"npm install\" sin ver esto primero",
+                        "thumbnail": "https://i2.ytimg.com/vi/Ip6UafpRBLE/hqdefault.jpg"
+                    },
                     {
                         "video_id": "_buQwUbbTJo",
                         "title": "¿Estamos ante el fin de la IA abierta? Anthropic, OpenAI y la gran polémica",
