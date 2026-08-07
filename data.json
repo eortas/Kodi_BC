@@ -4176,6 +4176,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "JzI04oGNcVw",
+                        "title": "Lo que la IA está haciendo al cerebro de los programadores junior",
+                        "thumbnail": "https://i3.ytimg.com/vi/JzI04oGNcVw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Ip6UafpRBLE",
                         "title": "No hagas \"npm install\" sin ver esto primero",
                         "thumbnail": "https://i2.ytimg.com/vi/Ip6UafpRBLE/hqdefault.jpg"
