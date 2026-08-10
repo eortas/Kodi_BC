@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "OrgA10XNWpQ",
+                        "title": "¡Guía para entrevistas técnicas de programación!\n\n✓ Patrones de diseño\n✓ Arquitectura de software\n✓",
+                        "thumbnail": "https://i4.ytimg.com/vi/OrgA10XNWpQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "mgIeN0iLmng",
+                        "title": "Puedes crear vídeos con HTML, CSS y JS.\n¡No es ninguna broma! Para eso puedes usar Hyperframes.\n\nY n",
+                        "thumbnail": "https://i2.ytimg.com/vi/mgIeN0iLmng/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "IAi6qEFc1bU",
                         "title": "¡No sufras maquetando emails nunca más! Deja de usar tablas gracias a React Email.\n\nUn catálogo de c",
                         "thumbnail": "https://i2.ytimg.com/vi/IAi6qEFc1bU/hqdefault.jpg"
@@ -4176,6 +4186,16 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "wHw4RYXvyI4",
+                        "title": "Esto no te va a hacer programador",
+                        "thumbnail": "https://i4.ytimg.com/vi/wHw4RYXvyI4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "24XY9i9qal4",
+                        "title": "¿Eres capaz de detectar este fallo en Python?",
+                        "thumbnail": "https://i3.ytimg.com/vi/24XY9i9qal4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "JzI04oGNcVw",
                         "title": "Lo que la IA está haciendo al cerebro de los programadores junior",
                         "thumbnail": "https://i3.ytimg.com/vi/JzI04oGNcVw/hqdefault.jpg"
@@ -5015,6 +5035,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "H50xoAzNfB0",
+                        "title": "The Right Harness is All You Need - For local Frontier AI",
+                        "thumbnail": "https://i1.ytimg.com/vi/H50xoAzNfB0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "IY3b4HTxpgU",
                         "title": "OpenAI hacked HuggingFace",
