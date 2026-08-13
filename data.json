@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "98JUAepSk0Y",
+                        "title": "Espectacular las animaciones que se pueden hacer con la biblioteca GSAP en pocas líneas de código.",
+                        "thumbnail": "https://i2.ytimg.com/vi/98JUAepSk0Y/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "mXpWhmJXV0o",
+                        "title": "Aprende Desarrollo Full-Stack desde Cero - Tutorial para Novatos a Avanzado",
+                        "thumbnail": "https://i2.ytimg.com/vi/mXpWhmJXV0o/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "mLmFND5CggY",
                         "title": "Su fondo de IA cayó un 67%… durante su boda",
                         "thumbnail": "https://i2.ytimg.com/vi/mLmFND5CggY/hqdefault.jpg"
@@ -4210,6 +4220,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "zlKjE0jzfTw",
+                        "title": "Animaciones increíbles en tus iconos SVG",
+                        "thumbnail": "https://i3.ytimg.com/vi/zlKjE0jzfTw/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "TCq7eZ9Lhc8",
+                        "title": "Curso completo de Claude Code desde cero",
+                        "thumbnail": "https://i1.ytimg.com/vi/TCq7eZ9Lhc8/hqdefault.jpg"
+                    },
                     {
                         "video_id": "rBp3kn6pP00",
                         "title": "El fin del código IA: ¿Por qué Linux, Java y Rust han dicho basta?",
