@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "NlF9ecG3k6k",
+                        "title": "La Universidad de Harvard ha publicado CS50x doblado al ESPAÑOL.\n\nUno de los mejores cursos de Intro",
+                        "thumbnail": "https://i3.ytimg.com/vi/NlF9ecG3k6k/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "v_0c33XPskU",
                         "title": "28 horas de contenido para ser Full Stack.\nMi contenido más ambicioso.\n\n✓ HTML, CSS, JavaScript, Typ",
                         "thumbnail": "https://i3.ytimg.com/vi/v_0c33XPskU/hqdefault.jpg"
@@ -4225,6 +4230,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "7eVoYER1bg4",
+                        "title": "¿Qué le pasa a este código?",
+                        "thumbnail": "https://i4.ytimg.com/vi/7eVoYER1bg4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "zlKjE0jzfTw",
                         "title": "Animaciones increíbles en tus iconos SVG",
