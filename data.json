@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "PqtusJNI2bc",
+                        "title": "Dejé que INTERNET programara mi web (con IA)",
+                        "thumbnail": "https://i1.ytimg.com/vi/PqtusJNI2bc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "zPFMdNbbg58",
+                        "title": "AMD acaba de comprar el futuro de la IA",
+                        "thumbnail": "https://i3.ytimg.com/vi/zPFMdNbbg58/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Msi1EgEx-WE",
                         "title": "Qwen 3.8: La IA local se acaba de poner SERIA",
                         "thumbnail": "https://i2.ytimg.com/vi/Msi1EgEx-WE/hqdefault.jpg"
@@ -4270,6 +4280,21 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "3TC2M-y4Woo",
+                        "title": "GitHub cayó 8 horas... y su rival nació el mismo día",
+                        "thumbnail": "https://i4.ytimg.com/vi/3TC2M-y4Woo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "-jJMjdy7Bzs",
+                        "title": "El truco secreto para modificar webs",
+                        "thumbnail": "https://i2.ytimg.com/vi/-jJMjdy7Bzs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "qd_JGl72614",
+                        "title": "Mi ranking de lenguajes de programación",
+                        "thumbnail": "https://i2.ytimg.com/vi/qd_JGl72614/hqdefault.jpg"
+                    },
                     {
                         "video_id": "qiWVsnH1QfI",
                         "title": "¿Python + Dragon Ball?",
