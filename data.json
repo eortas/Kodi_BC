@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "3dlrGwXeyB8",
+                        "title": "Así controlo todos mis agentes",
+                        "thumbnail": "https://i4.ytimg.com/vi/3dlrGwXeyB8/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "PqtusJNI2bc",
                         "title": "Dejé que INTERNET programara mi web (con IA)",
                         "thumbnail": "https://i1.ytimg.com/vi/PqtusJNI2bc/hqdefault.jpg"
@@ -4280,6 +4285,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "5HaOxAAA5qI",
+                        "title": "El peligro del Vibe Coding: Construye software real con SDD desde cero",
+                        "thumbnail": "https://i2.ytimg.com/vi/5HaOxAAA5qI/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "i81iMvn55Vo",
+                        "title": "Claude Code explicado desde cero #ia #inteligenciaartificial #claudecode",
+                        "thumbnail": "https://i2.ytimg.com/vi/i81iMvn55Vo/hqdefault.jpg"
+                    },
                     {
                         "video_id": "3TC2M-y4Woo",
                         "title": "GitHub cayó 8 horas... y su rival nació el mismo día",
