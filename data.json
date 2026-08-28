@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "YND2KQd6T3Y",
+                        "title": "Estas ofertas me ponen de muy mala leche...\n\nPorque se aprovechan del mercado y la situación.\n\nMient",
+                        "thumbnail": "https://i2.ytimg.com/vi/YND2KQd6T3Y/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "3dlrGwXeyB8",
                         "title": "Así controlo todos mis agentes",
                         "thumbnail": "https://i4.ytimg.com/vi/3dlrGwXeyB8/hqdefault.jpg"
@@ -4285,6 +4290,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "HlLK3rzlCHM",
+                        "title": "Practica lógica de programación con Star Wars #python",
+                        "thumbnail": "https://i1.ytimg.com/vi/HlLK3rzlCHM/hqdefault.jpg"
+                    },
                     {
                         "video_id": "5HaOxAAA5qI",
                         "title": "El peligro del Vibe Coding: Construye software real con SDD desde cero",
