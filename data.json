@@ -4291,6 +4291,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "_aYsCmoi-iM",
+                        "title": "El código secreto de Python",
+                        "thumbnail": "https://i4.ytimg.com/vi/_aYsCmoi-iM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "ISC-hrXoCZk",
                         "title": "5 errores que cometen el 99% de los programadores",
                         "thumbnail": "https://i2.ytimg.com/vi/ISC-hrXoCZk/hqdefault.jpg"
