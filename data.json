@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "pOCxSPVFP7Y",
+                        "title": "Apple, ¿Pero qué haces?",
+                        "thumbnail": "https://i1.ytimg.com/vi/pOCxSPVFP7Y/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "1VAH6U0LLBQ",
                         "title": "¿Por qué OpenAI ABANDONA Cursor AI?",
                         "thumbnail": "https://i2.ytimg.com/vi/1VAH6U0LLBQ/hqdefault.jpg"
@@ -4305,6 +4310,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "3CslWIaQWLQ",
+                        "title": "Harvard enseña a programar en español (gratis)",
+                        "thumbnail": "https://i4.ytimg.com/vi/3CslWIaQWLQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "TkFYv1PV5EI",
                         "title": "El fracaso de la IA: OpenAI y Meta admiten sus errores",
