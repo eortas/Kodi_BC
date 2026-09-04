@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "ewvyUENcYD4",
+                        "title": "Claude Code no tiene ni dos años. ¡Salió en febrero de 2025!\n\nEsto significa que si alguien volviese",
+                        "thumbnail": "https://i2.ytimg.com/vi/ewvyUENcYD4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "qrSd-cGI73A",
+                        "title": "OpenAI mete miedo",
+                        "thumbnail": "https://i2.ytimg.com/vi/qrSd-cGI73A/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "pOCxSPVFP7Y",
                         "title": "Apple, ¿Pero qué haces?",
                         "thumbnail": "https://i1.ytimg.com/vi/pOCxSPVFP7Y/hqdefault.jpg"
@@ -4311,6 +4321,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "CauENcmaL80",
+                        "title": "El fin de la burbuja: ¿Por qué la IA no reemplaza programadores?",
+                        "thumbnail": "https://i4.ytimg.com/vi/CauENcmaL80/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "3CslWIaQWLQ",
                         "title": "Harvard enseña a programar en español (gratis)",
                         "thumbnail": "https://i4.ytimg.com/vi/3CslWIaQWLQ/hqdefault.jpg"
@@ -5380,6 +5395,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "UwbASFlIS7A",
+                        "title": "Another three (3) more lessons from my Pop!",
+                        "thumbnail": "https://i2.ytimg.com/vi/UwbASFlIS7A/hqdefault.jpg"
+                    },
                     {
                         "video_id": "Yx-ZkLftybY",
                         "title": "TRIPLE BAM!!! With Josh, Luis and special guest Brandon Rohrer",
