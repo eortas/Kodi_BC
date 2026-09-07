@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "2a4vaB4QtCU",
+                        "title": "GPT-6 \"es AGI\" + NVIDIA rompe el mercado + Chrome  te espía + Cuidado con esta oferta de trabajo",
+                        "thumbnail": "https://i3.ytimg.com/vi/2a4vaB4QtCU/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "f4gfkFLLh0A",
+                        "title": "GPT-6 \"es AGI\" + NVIDIA rompe el mercado +Chrome  te espía + Cuidado con esta oferta de trabajo",
+                        "thumbnail": "https://i3.ytimg.com/vi/f4gfkFLLh0A/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "IK2DFHljdWc",
                         "title": "Probé Ox Alpha y es...",
                         "thumbnail": "https://i2.ytimg.com/vi/IK2DFHljdWc/hqdefault.jpg"
@@ -4325,6 +4335,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "8DM7GrCjpUI",
+                        "title": "Claude Code vs. Cursor: Mi TOP de agentes de IA para programar",
+                        "thumbnail": "https://i1.ytimg.com/vi/8DM7GrCjpUI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "kLRpqNzyG_s",
                         "title": "El error más común al copiar listas en Python",
