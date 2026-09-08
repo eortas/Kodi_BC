@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "BxpI2TOsFG0",
+                        "title": "Se filtro todo",
+                        "thumbnail": "https://i3.ytimg.com/vi/BxpI2TOsFG0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "04dMXQ_VXZk",
+                        "title": "¡Esto es genial! Convierte tu proyecto en un diagrama de arquitectura que da gusto enseñar.\n\nUn HTML",
+                        "thumbnail": "https://i1.ytimg.com/vi/04dMXQ_VXZk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "2a4vaB4QtCU",
                         "title": "GPT-6 \"es AGI\" + NVIDIA rompe el mercado + Chrome  te espía + Cuidado con esta oferta de trabajo",
                         "thumbnail": "https://i3.ytimg.com/vi/2a4vaB4QtCU/hqdefault.jpg"
@@ -4336,6 +4346,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "6KCsnduYjCQ",
+                        "title": "Crea un servidor web local con Python en segundos",
+                        "thumbnail": "https://i3.ytimg.com/vi/6KCsnduYjCQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "8DM7GrCjpUI",
                         "title": "Claude Code vs. Cursor: Mi TOP de agentes de IA para programar",
                         "thumbnail": "https://i1.ytimg.com/vi/8DM7GrCjpUI/hqdefault.jpg"
@@ -5425,6 +5440,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "2FaI2Fen1mQ",
+                        "title": "The GELU, SiLU and SwiGLU activation functions, clearly explained!!!",
+                        "thumbnail": "https://i3.ytimg.com/vi/2FaI2Fen1mQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "UwbASFlIS7A",
                         "title": "Another three (3) more lessons from my Pop!",
