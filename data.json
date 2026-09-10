@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "Soxm8gIHDEs",
+                        "title": "La fatiga de los modelos de IA",
+                        "thumbnail": "https://i4.ytimg.com/vi/Soxm8gIHDEs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "LPuUFOs9UUc",
+                        "title": "Cuidado con esta oferta de trabajo",
+                        "thumbnail": "https://i1.ytimg.com/vi/LPuUFOs9UUc/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "C_5r10hJfi4",
                         "title": "¡Colección de APIs gratuitas de modelos de IA!\nSin pagos, con límites claros y mucha variedad.\n\n✓ +1",
                         "thumbnail": "https://i4.ytimg.com/vi/C_5r10hJfi4/hqdefault.jpg"
@@ -4355,6 +4365,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "4vusNIQ9Gy0",
+                        "title": "El secreto para programar mejor con IA: context-mode",
+                        "thumbnail": "https://i1.ytimg.com/vi/4vusNIQ9Gy0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "6KCsnduYjCQ",
                         "title": "Crea un servidor web local con Python en segundos",
