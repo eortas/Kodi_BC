@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "gVhqWWmlxmE",
+                        "title": "Los backend no lo entenderán. ¿O si?\n\n#css #programacion #iphoneduo #software #frontend",
+                        "thumbnail": "https://i4.ytimg.com/vi/gVhqWWmlxmE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "6pDzTda4eVE",
+                        "title": "No era lo que nos habían contado",
+                        "thumbnail": "https://i3.ytimg.com/vi/6pDzTda4eVE/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "yod4yAnJWso",
+                        "title": "Google Chrome está jugando sucio",
+                        "thumbnail": "https://i2.ytimg.com/vi/yod4yAnJWso/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "Soxm8gIHDEs",
                         "title": "La fatiga de los modelos de IA",
                         "thumbnail": "https://i4.ytimg.com/vi/Soxm8gIHDEs/hqdefault.jpg"
@@ -4365,6 +4380,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "UGh6q6rKVM4",
+                        "title": "Taller de Skills para Agentes de IA desde cero: Claude Code, OpenCode, Codex, Cursor, VS Code...",
+                        "thumbnail": "https://i2.ytimg.com/vi/UGh6q6rKVM4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "4vusNIQ9Gy0",
                         "title": "El secreto para programar mejor con IA: context-mode",
