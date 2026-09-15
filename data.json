@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "u8Z7Ixo0Z5E",
+                        "title": "¡Paremos la IA! + Adiós React Native + trampas OpenAI + Fails iPhone Duo + Microsoft se pasa a Rust",
+                        "thumbnail": "https://i2.ytimg.com/vi/u8Z7Ixo0Z5E/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "B9ilMWUPcR0",
                         "title": "Ni 24 horas y alguien ha desarrollado el efecto del nuevo iPhone Duo para cualquier MacBook.\n\nEncima",
                         "thumbnail": "https://i3.ytimg.com/vi/B9ilMWUPcR0/hqdefault.jpg"
@@ -5390,6 +5395,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "OIw6zY_AQOg",
+                        "title": "Everything is LLM - Vibe coding a robot task",
+                        "thumbnail": "https://i4.ytimg.com/vi/OIw6zY_AQOg/hqdefault.jpg"
+                    },
                     {
                         "video_id": "KSXm_KCMR60",
                         "title": "Effective Doomerism",
