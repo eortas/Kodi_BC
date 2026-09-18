@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "uZrggvSk6wY",
+                        "title": "El robo del siglo",
+                        "thumbnail": "https://i2.ytimg.com/vi/uZrggvSk6wY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "lk1c0b9xnqM",
+                        "title": "¡Son 2 cursos de Python en Español!\nDesde cero y con certificado al terminar.\n\nSon de Cisco y ofrece",
+                        "thumbnail": "https://i1.ytimg.com/vi/lk1c0b9xnqM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "muN6vRUsoPA",
                         "title": "Abandonan React Native... ¿Por qué?",
                         "thumbnail": "https://i2.ytimg.com/vi/muN6vRUsoPA/hqdefault.jpg"
@@ -4410,6 +4420,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "achddXItYwY",
+                        "title": "¿La mejor alternativa a Claude Code? 5 comandos para empezar",
+                        "thumbnail": "https://i2.ytimg.com/vi/achddXItYwY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "9TIXgOokdAk",
+                        "title": "¿Por qué los reclutadores rechazan tu CV hecho con IA?",
+                        "thumbnail": "https://i2.ytimg.com/vi/9TIXgOokdAk/hqdefault.jpg"
+                    },
                     {
                         "video_id": "_GE-xjP7TEM",
                         "title": "7 conceptos clave para programar con IA",
