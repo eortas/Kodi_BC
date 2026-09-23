@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "0Ql-4idLPy0",
+                        "title": "¡Este nuevo modelo de IA es noticia! Se llama Jev y funciona muy diferente a cómo estamos acostumbra",
+                        "thumbnail": "https://i1.ytimg.com/vi/0Ql-4idLPy0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "P6Mr5c0T1DQ",
+                        "title": "Monté mi propia nube con este pequeño servidor",
+                        "thumbnail": "https://i1.ytimg.com/vi/P6Mr5c0T1DQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "KvpQ16XlUv0",
+                        "title": "Lo de Jev es Salvaje",
+                        "thumbnail": "https://i4.ytimg.com/vi/KvpQ16XlUv0/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "UD13i3WlGEM",
                         "title": "Comparte fácilmente tu proyecto en localhost con cualquiera con este servicio gratuito de Cloudflare",
                         "thumbnail": "https://i2.ytimg.com/vi/UD13i3WlGEM/hqdefault.jpg"
@@ -4435,6 +4450,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "ziR2MRS4gWA",
+                        "title": "No programes con IA sin saber esto primero",
+                        "thumbnail": "https://i3.ytimg.com/vi/ziR2MRS4gWA/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "LKkJRM-ue0o",
+                        "title": "¿Peligro real o mentira? Lo que pasó en 8 días con la IA",
+                        "thumbnail": "https://i1.ytimg.com/vi/LKkJRM-ue0o/hqdefault.jpg"
+                    },
                     {
                         "video_id": "wWjeEP2ZMYs",
                         "title": "El secreto de una IA eficiente: 3 archivos",
