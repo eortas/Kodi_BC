@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "8uAL3szNLqE",
+                        "title": "Un modelo de IA chino roba tu código",
+                        "thumbnail": "https://i1.ytimg.com/vi/8uAL3szNLqE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "DQ1MyiYtCo8",
                         "title": "Hackean OpenAI con una imagen y Opus 5",
                         "thumbnail": "https://i1.ytimg.com/vi/DQ1MyiYtCo8/hqdefault.jpg"
@@ -4455,6 +4460,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "OWFtwwVlMYQ",
+                        "title": "¿Está cambiando del desarrollo de software?: Preguntas y respuestas",
+                        "thumbnail": "https://i4.ytimg.com/vi/OWFtwwVlMYQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "ziR2MRS4gWA",
                         "title": "No programes con IA sin saber esto primero",
