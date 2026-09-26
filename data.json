@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "FNxAM5qLzbg",
+                        "title": "La IA de Google que mejora sola",
+                        "thumbnail": "https://i3.ytimg.com/vi/FNxAM5qLzbg/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "8uAL3szNLqE",
                         "title": "Un modelo de IA chino roba tu código",
                         "thumbnail": "https://i1.ytimg.com/vi/8uAL3szNLqE/hqdefault.jpg"
@@ -4461,6 +4466,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "oyWfPG2URFI",
+                        "title": "El stack real de IA",
+                        "thumbnail": "https://i4.ytimg.com/vi/oyWfPG2URFI/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "OWFtwwVlMYQ",
                         "title": "¿Está cambiando del desarrollo de software?: Preguntas y respuestas",
                         "thumbnail": "https://i4.ytimg.com/vi/OWFtwwVlMYQ/hqdefault.jpg"
@@ -5285,6 +5295,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "ausLKMojXaY",
+                        "title": "The Phone Number puzzle",
+                        "thumbnail": "https://i2.ytimg.com/vi/ausLKMojXaY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "bRQEWPA832A",
                         "title": "The last IMO problem AI could not solve",
