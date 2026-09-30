@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "IbJW8xIwf3E",
+                        "title": "GPT-6 es absurdamente barato (lo siento, Deepseek)",
+                        "thumbnail": "https://i2.ytimg.com/vi/IbJW8xIwf3E/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "FrNMcmMarUQ",
+                        "title": "Claude Opus 5.5 es...",
+                        "thumbnail": "https://i3.ytimg.com/vi/FrNMcmMarUQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "defv7baV-tg",
                         "title": "Anthropic acaba de publicar una guía en Español de cómo sacar el máximo partido a Opus 5.5\n\n① effort",
                         "thumbnail": "https://i1.ytimg.com/vi/defv7baV-tg/hqdefault.jpg"
@@ -4481,6 +4491,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "qHYi92zRn-s",
+                        "title": "Curso de Desarrollo con IA: el Nuevo Programador – Día 1 – De la idea a la instrucción perfecta",
+                        "thumbnail": "https://i2.ytimg.com/vi/qHYi92zRn-s/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "gsKyUXYHH-s",
                         "title": "¿Bat-man no funciona en Python?",
                         "thumbnail": "https://i4.ytimg.com/vi/gsKyUXYHH-s/hqdefault.jpg"
@@ -5695,6 +5710,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "u_9OA3WRHgo",
+                        "title": "Naive Bayes: Concepts and Code",
+                        "thumbnail": "https://i2.ytimg.com/vi/u_9OA3WRHgo/hqdefault.jpg"
+                    },
                     {
                         "video_id": "2FaI2Fen1mQ",
                         "title": "The GELU, SiLU and SwiGLU activation functions, clearly explained!!!",
