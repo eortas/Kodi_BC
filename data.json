@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "7RnSFRdPgFQ",
+                        "title": "Margaret Hamilton ha muerto. Una de las figuras más importantes de la historia de la programación.",
+                        "thumbnail": "https://i4.ytimg.com/vi/7RnSFRdPgFQ/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "ItAe6Nbjn54",
+                        "title": "Recortes en OpenAI, nuevo GPT 6.1 Sol y la demo que salió mal",
+                        "thumbnail": "https://i2.ytimg.com/vi/ItAe6Nbjn54/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "W9NkGakJzcs",
                         "title": "Hackean la PS5 gracias a JavaScript",
                         "thumbnail": "https://i4.ytimg.com/vi/W9NkGakJzcs/hqdefault.jpg"
@@ -4551,6 +4561,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "B4N9XjGRVOU",
+                        "title": "El impacto real de la IA en las Empresas",
+                        "thumbnail": "https://i3.ytimg.com/vi/B4N9XjGRVOU/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "IXXebeTjxbg",
                         "title": "Resuelve tus dudas del Máster de Desarrollo con IA",
                         "thumbnail": "https://i2.ytimg.com/vi/IXXebeTjxbg/hqdefault.jpg"
@@ -5650,6 +5665,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "dGkJe3aIWT4",
+                        "title": "Robot Chonk Cleans the Floor",
+                        "thumbnail": "https://i1.ytimg.com/vi/dGkJe3aIWT4/hqdefault.jpg"
+                    },
                     {
                         "video_id": "HO_1Tof1-qk",
                         "title": "Decision Models, DSV4.1 Flash & New Benchmarks",
