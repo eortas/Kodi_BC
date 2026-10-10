@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "IHs3rhATACU",
+                        "title": "Espionaje en la era de la IA",
+                        "thumbnail": "https://i2.ytimg.com/vi/IHs3rhATACU/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "eBuDUwesVzc",
+                        "title": "¡GTA VI en PC sin que lo saque Rockstar!\n\nParece imposible pero la ingeniería inversa está de moda.",
+                        "thumbnail": "https://i2.ytimg.com/vi/eBuDUwesVzc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "A4QYEDQCnaQ",
+                        "title": "Crea una Landing ESPECTACULAR con Claude Code",
+                        "thumbnail": "https://i2.ytimg.com/vi/A4QYEDQCnaQ/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "7RnSFRdPgFQ",
                         "title": "Margaret Hamilton ha muerto. Una de las figuras más importantes de la historia de la programación.",
                         "thumbnail": "https://i4.ytimg.com/vi/7RnSFRdPgFQ/hqdefault.jpg"
@@ -4560,6 +4575,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "WV8qIFgQdtA",
+                        "title": "Python y Star Wars: ¿Cuál es el resultado?",
+                        "thumbnail": "https://i4.ytimg.com/vi/WV8qIFgQdtA/hqdefault.jpg"
+                    },
                     {
                         "video_id": "B4N9XjGRVOU",
                         "title": "El impacto real de la IA en las Empresas",
