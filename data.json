@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "P0ihjzAKpEM",
+                        "title": "Juega PS5 en PC con ingeniería inversa + crean Photoshop gratis con Rust + Adiós Deno + RIP Margaret",
+                        "thumbnail": "https://i1.ytimg.com/vi/P0ihjzAKpEM/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "HBTDaAUj8iY",
                         "title": "Basado en una historia real:\nEl nacimiento de un vibecoder.\n\nEnvíaselo a tu amigo o amiga que le pas",
                         "thumbnail": "https://i1.ytimg.com/vi/HBTDaAUj8iY/hqdefault.jpg"
@@ -4580,6 +4585,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "enKItUmOPr0",
+                        "title": "Portfolio perfecto: menos es más",
+                        "thumbnail": "https://i2.ytimg.com/vi/enKItUmOPr0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "WV8qIFgQdtA",
                         "title": "Python y Star Wars: ¿Cuál es el resultado?",
