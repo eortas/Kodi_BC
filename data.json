@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "3j5LC1dbuvk",
+                        "title": "La ingeniería inversa se volvió demasiado fácil",
+                        "thumbnail": "https://i4.ytimg.com/vi/3j5LC1dbuvk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "gLcIX97vUec",
+                        "title": "¡Caída masiva de Google Cloud!! La región de Londres lleva horas sufriendo problemas.\n\nSi eres clien",
+                        "thumbnail": "https://i4.ytimg.com/vi/gLcIX97vUec/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "mqTuHg4-Cvk",
+                        "title": "Anthropic crea su propio Git",
+                        "thumbnail": "https://i2.ytimg.com/vi/mqTuHg4-Cvk/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "WASwR-H_xwM",
                         "title": "¡Hackean OpenCode! + Espían a OpenAI + Linus Torvalds apoya la IA + nuevo DeepSeek + trabajar ahora",
                         "thumbnail": "https://i4.ytimg.com/vi/WASwR-H_xwM/hqdefault.jpg"
@@ -4636,6 +4651,11 @@
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
                     {
+                        "video_id": "M6tly_RD-1Y",
+                        "title": "¿La IA nos iba a liberar? El CEO de Vercel confiesa lo contrario",
+                        "thumbnail": "https://i2.ytimg.com/vi/M6tly_RD-1Y/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "jEYcQTHEJJ0",
                         "title": "¿Está detectando SPAM en Python?",
                         "thumbnail": "https://i3.ytimg.com/vi/jEYcQTHEJJ0/hqdefault.jpg"
@@ -5925,6 +5945,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "AgypoO13DJ0",
+                        "title": "Triple BAM! Live with Jon Krohn, Josh Starmer, and Luis Serrano!",
+                        "thumbnail": "https://i2.ytimg.com/vi/AgypoO13DJ0/hqdefault.jpg"
+                    },
                     {
                         "video_id": "u_9OA3WRHgo",
                         "title": "Naive Bayes: Concepts and Code",
