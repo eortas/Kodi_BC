@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "CuvRrItIdKs",
+                        "title": "¡Han hackeado PHP!",
+                        "thumbnail": "https://i4.ytimg.com/vi/CuvRrItIdKs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "06wI12Za4i4",
+                        "title": "¡Vulnerabilidad crítica histórica de PHP! Actualiza tus servidores YA.\n\nLo peor: afecta a versiones",
+                        "thumbnail": "https://i1.ytimg.com/vi/06wI12Za4i4/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "j3ZIM9UaXlE",
+                        "title": "La IA debería hacernos trabajar menos (NO MÁS)",
+                        "thumbnail": "https://i3.ytimg.com/vi/j3ZIM9UaXlE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "3j5LC1dbuvk",
                         "title": "La ingeniería inversa se volvió demasiado fácil",
                         "thumbnail": "https://i4.ytimg.com/vi/3j5LC1dbuvk/hqdefault.jpg"
@@ -4650,6 +4665,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "KyO589PC0Qw",
+                        "title": "¿El fin de los frameworks web?",
+                        "thumbnail": "https://i4.ytimg.com/vi/KyO589PC0Qw/hqdefault.jpg"
+                    },
                     {
                         "video_id": "M6tly_RD-1Y",
                         "title": "¿La IA nos iba a liberar? El CEO de Vercel confiesa lo contrario",
