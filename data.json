@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "15Vg1EaqtfM",
+                        "title": "¡Semana complicada para la seguridad de lenguajes de programación! No solo PHP ha tenido problemas.",
+                        "thumbnail": "https://i2.ytimg.com/vi/15Vg1EaqtfM/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Z5iNYBYIZVo",
+                        "title": "Linus Torvalds defiende la IA en Linux",
+                        "thumbnail": "https://i3.ytimg.com/vi/Z5iNYBYIZVo/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "CuvRrItIdKs",
                         "title": "¡Han hackeado PHP!",
                         "thumbnail": "https://i4.ytimg.com/vi/CuvRrItIdKs/hqdefault.jpg"
@@ -4665,6 +4675,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "2G4aeaCTsHc",
+                        "title": "Estás usando la IA mal (y por eso programas peor)",
+                        "thumbnail": "https://i3.ytimg.com/vi/2G4aeaCTsHc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "KyO589PC0Qw",
                         "title": "¿El fin de los frameworks web?",
