@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "yuV06p1Fxhs",
+                        "title": "¡Hackean OpenCode!",
+                        "thumbnail": "https://i2.ytimg.com/vi/yuV06p1Fxhs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "pl4HphKwpYg",
+                        "title": "¡Espionaje en OpenAI!",
+                        "thumbnail": "https://i1.ytimg.com/vi/pl4HphKwpYg/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "15Vg1EaqtfM",
                         "title": "¡Semana complicada para la seguridad de lenguajes de programación! No solo PHP ha tenido problemas.",
                         "thumbnail": "https://i2.ytimg.com/vi/15Vg1EaqtfM/hqdefault.jpg"
@@ -4675,6 +4685,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "GimaaBFijrg",
+                        "title": "¿Estamos preparando a los programadores para el futuro?",
+                        "thumbnail": "https://i4.ytimg.com/vi/GimaaBFijrg/hqdefault.jpg"
+                    },
                     {
                         "video_id": "2G4aeaCTsHc",
                         "title": "Estás usando la IA mal (y por eso programas peor)",
