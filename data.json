@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "Fum3K7jb9Jk",
+                        "title": "Esto ya no es emulación",
+                        "thumbnail": "https://i3.ytimg.com/vi/Fum3K7jb9Jk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "kUCSBVopZHs",
+                        "title": "Un manager de Anthropic dice que las entrevistas de código están muertas y las han dejado de usar en",
+                        "thumbnail": "https://i4.ytimg.com/vi/kUCSBVopZHs/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "tM5oWl0_B8g",
+                        "title": "TypeScript 7.1 cambia las reglas del tipado automático",
+                        "thumbnail": "https://i1.ytimg.com/vi/tM5oWl0_B8g/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "UMSbyrWyeOU",
                         "title": "Kimi K3.1 Pro, el modelo abierto... ¿al nivel de Opus?",
                         "thumbnail": "https://i2.ytimg.com/vi/UMSbyrWyeOU/hqdefault.jpg"
@@ -4715,6 +4730,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "wbQWrrW_RI0",
+                        "title": "El nuevo programador: Aprende a programar con IA desde cero en 2026",
+                        "thumbnail": "https://i4.ytimg.com/vi/wbQWrrW_RI0/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "JhMpk0M1GHY",
+                        "title": "El secreto para conseguir empleo en tecnología",
+                        "thumbnail": "https://i3.ytimg.com/vi/JhMpk0M1GHY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "-uU2P1MU-I0",
                         "title": "El problema del vibe coding en las empresas",
