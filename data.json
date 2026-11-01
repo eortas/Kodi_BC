@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "GFbDZKU5Frg",
+                        "title": "He desarrollado un juego desde cero.\n\nEs de terror, gratuito y funciona desde tu navegador.\n\nY sí, h",
+                        "thumbnail": "https://i4.ytimg.com/vi/GFbDZKU5Frg/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "NQe5cqiK4gQ",
                         "title": "¡El mayor robo de criptomonedas de la historia!\n\nLe acaban de robar más de 6.000 millones de dólares",
                         "thumbnail": "https://i3.ytimg.com/vi/NQe5cqiK4gQ/hqdefault.jpg"
@@ -4745,6 +4750,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "1VbSqPpyvM8",
+                        "title": "¿Qué proyectos debo desarrollar como Junior?",
+                        "thumbnail": "https://i2.ytimg.com/vi/1VbSqPpyvM8/hqdefault.jpg"
+                    },
                     {
                         "video_id": "wbQWrrW_RI0",
                         "title": "El nuevo programador: Aprende a programar con IA desde cero en 2026",
