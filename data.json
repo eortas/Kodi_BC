@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "RnEsFcPCMMc",
+                        "title": "Lo de Binance es Salvaje",
+                        "thumbnail": "https://i3.ytimg.com/vi/RnEsFcPCMMc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "Cy_Sh7vy-Sw",
+                        "title": "Las pruebas técnicas de programación son...",
+                        "thumbnail": "https://i4.ytimg.com/vi/Cy_Sh7vy-Sw/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "HA7l236TUh4",
                         "title": "Mi IA caza las PEORES ofertas de trabajo para programadores",
                         "thumbnail": "https://i1.ytimg.com/vi/HA7l236TUh4/hqdefault.jpg"
@@ -4765,6 +4775,16 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "Ie82Pq3YtqY",
+                        "title": "¿Por qué los programadores nos obsesionamos con las modas?: Preguntas y respuestas",
+                        "thumbnail": "https://i2.ytimg.com/vi/Ie82Pq3YtqY/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "9mtL6pvmWsc",
+                        "title": "GitHub y el fin de la programación tradicional: ¿Qué está pasando?",
+                        "thumbnail": "https://i2.ytimg.com/vi/9mtL6pvmWsc/hqdefault.jpg"
+                    },
                     {
                         "video_id": "1VbSqPpyvM8",
                         "title": "¿Qué proyectos debo desarrollar como Junior?",
