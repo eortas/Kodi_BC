@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "rPlKCWzaP00",
+                        "title": "¿Quieres aprender Rust? He creado un curso en Español, gratuito y con certificado.\n\nTiene ejercicios",
+                        "thumbnail": "https://i3.ytimg.com/vi/rPlKCWzaP00/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "gOMSUuIwLGw",
                         "title": "¡Claude Code está filtrando tu email!\n\nAl visitar ciertas webs, el agente envia tu correo personal e",
                         "thumbnail": "https://i4.ytimg.com/vi/gOMSUuIwLGw/hqdefault.jpg"
