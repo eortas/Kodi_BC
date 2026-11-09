@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "pfs_wKecI9c",
+                        "title": "¡NVIDIA en problemas por infidelidad! + Claude filtra tu email + ¡buenos datos empleo Dev! + salseos",
+                        "thumbnail": "https://i1.ytimg.com/vi/pfs_wKecI9c/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "V7AFhZDi7B8",
+                        "title": "¡POR FIN! Animaciones por Scroll en CSS disponible en todos los navegadores modernos.\n\nChrome, Edge,",
+                        "thumbnail": "https://i3.ytimg.com/vi/V7AFhZDi7B8/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "rPlKCWzaP00",
                         "title": "¿Quieres aprender Rust? He creado un curso en Español, gratuito y con certificado.\n\nTiene ejercicios",
                         "thumbnail": "https://i3.ytimg.com/vi/rPlKCWzaP00/hqdefault.jpg"
@@ -6160,6 +6170,16 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "v7PUWJPqXWo",
+                        "title": "Linear Discriminant Analysis (LDA): Concepts and Code",
+                        "thumbnail": "https://i3.ytimg.com/vi/v7PUWJPqXWo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "euwIxfkAJMU",
+                        "title": "Principle Component Analysis (PCA): Concepts and Code",
+                        "thumbnail": "https://i2.ytimg.com/vi/euwIxfkAJMU/hqdefault.jpg"
+                    },
                     {
                         "video_id": "Xl-yulnYZmI",
                         "title": "Support Vector Machines (SVM): Concepts and Code",
