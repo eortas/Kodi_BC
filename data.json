@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "I2K_VeNi1Nk",
+                        "title": "¡NVIDIA en problemas por infidelidad!",
+                        "thumbnail": "https://i2.ytimg.com/vi/I2K_VeNi1Nk/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "eYMDqdTsuNs",
+                        "title": "Cloudflare tiene de código abierto su Skill para encontrar vulnerabilidades en tu proyecto.\n\nLo que",
+                        "thumbnail": "https://i2.ytimg.com/vi/eYMDqdTsuNs/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "pfs_wKecI9c",
                         "title": "¡NVIDIA en problemas por infidelidad! + Claude filtra tu email + ¡buenos datos empleo Dev! + salseos",
                         "thumbnail": "https://i1.ytimg.com/vi/pfs_wKecI9c/hqdefault.jpg"
@@ -4815,6 +4825,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "9k1QvIEMgts",
+                        "title": "Aprende a venderte como programador",
+                        "thumbnail": "https://i2.ytimg.com/vi/9k1QvIEMgts/hqdefault.jpg"
+                    },
                     {
                         "video_id": "mc0rNKuCWHQ",
                         "title": "Extraño programar sin IA",
