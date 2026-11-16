@@ -3021,6 +3021,16 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "-f6Y42Chosw",
+                        "title": "¡Jensen deja NVIDIA! + Anthropic a bolsa + caída mundial Microsoft + drama Open Source + UI SDK",
+                        "thumbnail": "https://i2.ytimg.com/vi/-f6Y42Chosw/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "8T1OT6cN3gI",
+                        "title": "En Claude Code tengo estas dos opciones activadas y son la clave. Te permite tener respuestas más co",
+                        "thumbnail": "https://i1.ytimg.com/vi/8T1OT6cN3gI/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "1tO4QmpzQ1E",
                         "title": "¡AWS ha sacado un emulador oficial 100% local!\n\nNo tiene coste y todo se queda en tu máquina.\n\nPerfe",
                         "thumbnail": "https://i2.ytimg.com/vi/1tO4QmpzQ1E/hqdefault.jpg"
@@ -6071,6 +6081,11 @@
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
                     {
+                        "video_id": "9v4-zTODZWE",
+                        "title": "The End of an Era: Jensen Huang",
+                        "thumbnail": "https://i2.ytimg.com/vi/9v4-zTODZWE/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "jmRM7YN0T8c",
                         "title": "The Best Local Model is DeepSeek v4.1F 1017 - Frontier at Home",
                         "thumbnail": "https://i3.ytimg.com/vi/jmRM7YN0T8c/hqdefault.jpg"
@@ -6230,6 +6245,11 @@
             "StatQuest": {
                 "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
                 "videos": [
+                    {
+                        "video_id": "4XqexiQSx_Y",
+                        "title": "Reinforcement Learning with GRPO, Clearly Explained!!!",
+                        "thumbnail": "https://i1.ytimg.com/vi/4XqexiQSx_Y/hqdefault.jpg"
+                    },
                     {
                         "video_id": "v7PUWJPqXWo",
                         "title": "Linear Discriminant Analysis (LDA): Concepts and Code",
