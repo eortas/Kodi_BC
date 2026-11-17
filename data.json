@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "P9BRQiebTjo",
+                        "title": "NVIDIA en crisis: ¿Qué está pasando con Jensen Huang?",
+                        "thumbnail": "https://i1.ytimg.com/vi/P9BRQiebTjo/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "B7c77nfPxys",
+                        "title": "¿Qué está pasando con el empleo de los programadores?",
+                        "thumbnail": "https://i3.ytimg.com/vi/B7c77nfPxys/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "rDnvvxRKGjY",
+                        "title": "Tu IA puede escribir código frontend obsoleto. Google ha sacado algo para arreglarlo.\n\nEs una skill",
+                        "thumbnail": "https://i3.ytimg.com/vi/rDnvvxRKGjY/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "-f6Y42Chosw",
                         "title": "¡Jensen deja NVIDIA! + Anthropic a bolsa + caída mundial Microsoft + drama Open Source + UI SDK",
                         "thumbnail": "https://i2.ytimg.com/vi/-f6Y42Chosw/hqdefault.jpg"
@@ -4865,6 +4880,11 @@
             "MoureDev": {
                 "channel_id": "UCxPD7bsocoAMq8Dj18kmGyQ",
                 "videos": [
+                    {
+                        "video_id": "HlIHFZk5pVY",
+                        "title": "GTA VI: ¿El último gran juego hecho a mano?",
+                        "thumbnail": "https://i1.ytimg.com/vi/HlIHFZk5pVY/hqdefault.jpg"
+                    },
                     {
                         "video_id": "oKvosCBaWp0",
                         "title": "Especial Aniversario mouredev pro: Regalos, novedades y mucho más!",
