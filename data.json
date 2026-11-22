@@ -3021,6 +3021,11 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "wlZmDO7GWK4",
+                        "title": "Ir a la universidad te ayuda a adquirir conocimientos, pero no te garantiza nada.\n\nHay gente que no",
+                        "thumbnail": "https://i4.ytimg.com/vi/wlZmDO7GWK4/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "-q7bhrBvUU8",
                         "title": "Ahora con Claude Code puedes jugar a GTA VI mientras arreglas ese bug que te está incordiando.\n\nHemo",
                         "thumbnail": "https://i2.ytimg.com/vi/-q7bhrBvUU8/hqdefault.jpg"
@@ -5890,6 +5895,11 @@
             "3Blue1Brown": {
                 "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
                 "videos": [
+                    {
+                        "video_id": "zqzk43bSdDI",
+                        "title": "Since last year, we asked: “What if AI solved the Riemann Hypothesis?”",
+                        "thumbnail": "https://i3.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg"
+                    },
                     {
                         "video_id": "qbsb9DpdZ6s",
                         "title": "How to compress text to 1 bit per character | Information theory, part 3",
