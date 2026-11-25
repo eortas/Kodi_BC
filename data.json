@@ -3021,6 +3021,21 @@
                 "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
                 "videos": [
                     {
+                        "video_id": "Ae1exTpIDFc",
+                        "title": "Tenemos que hablar de Chema Alonso",
+                        "thumbnail": "https://i2.ytimg.com/vi/Ae1exTpIDFc/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "pjykUR1tE-E",
+                        "title": "PHP ignoró HTTPS durante 20 años y nadie lo notó",
+                        "thumbnail": "https://i1.ytimg.com/vi/pjykUR1tE-E/hqdefault.jpg"
+                    },
+                    {
+                        "video_id": "RbzUtjdXECo",
+                        "title": "Hemos automatizado el código pero todavía falta que le pongas criterio.\n\n#software #claudecode #info",
+                        "thumbnail": "https://i3.ytimg.com/vi/RbzUtjdXECo/hqdefault.jpg"
+                    },
+                    {
                         "video_id": "_Jx-O4WEl3I",
                         "title": "¡Jensen Huang vuelve a Nvidia!",
                         "thumbnail": "https://i4.ytimg.com/vi/_Jx-O4WEl3I/hqdefault.jpg"
@@ -6180,6 +6195,11 @@
             "Sentdex": {
                 "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
                 "videos": [
+                    {
+                        "video_id": "DIernxr0JQQ",
+                        "title": "Cleaning the house with LLMs (llm2real)",
+                        "thumbnail": "https://i1.ytimg.com/vi/DIernxr0JQQ/hqdefault.jpg"
+                    },
                     {
                         "video_id": "9v4-zTODZWE",
                         "title": "The End of an Era: Jensen Huang",
